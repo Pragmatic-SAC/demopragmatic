@@ -1,0 +1,9 @@
+<odoo>
+    <data>
+        <template id="assets_backend_pragmatic" inherit_id="web.assets_backend">
+            <xpath expr="." position="inside">
+                <script type="text/javascript" src="/l10n_pe_purchase_sale_ledgers/static/src/js/action_manager.js"/>
+            </xpath>
+        </template>
+    </data>
+</odoo>

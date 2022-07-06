@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="pg_exchange_sbs" model="ir.config_parameter">
+            <field name="key">exchange.sbs.url</field>
+            <field name="value">
+                https://www.sbs.gob.pe/app/pp/SISTIP_PORTAL/Paginas/Publicacion/TipoCambioPromedio.aspx
+            </field>
+        </record>
+        <record id="pg_exchange_sunat" model="ir.config_parameter">
+            <field name="key">exchange.sunat.url</field>
+            <field name="value">https://www.sunat.gob.pe/a/txt/tipoCambio.txt</field>
+        </record>
+
+    </data>
+</odoo>

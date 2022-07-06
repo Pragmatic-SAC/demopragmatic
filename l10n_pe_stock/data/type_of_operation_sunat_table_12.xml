@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="pragmatic_12_01" model="pragmatic.type.operation.table.12">
+            <field name="code">01</field>
+            <field name="name">VENTA NACIONAL</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_12_02" model="pragmatic.type.operation.table.12">
+            <field name="code">02</field>
+            <field name="name">COMPRA NACIONAL</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_12_03" model="pragmatic.type.operation.table.12">
+            <field name="code">03</field>
+            <field name="name">CONSIGNACIÓN RECIBIDA</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_12_04" model="pragmatic.type.operation.table.12">
+            <field name="code">04</field>
+            <field name="name">CONSIGNACIÓN ENTREGADA</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_12_05" model="pragmatic.type.operation.table.12">
+            <field name="code">05</field>
+            <field name="name">DEVOLUCIÓN RECIBIDA</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_12_06" model="pragmatic.type.operation.table.12">
+            <field name="code">06</field>
+            <field name="name">DEVOLUCIÓN ENTREGADA</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_12_07" model="pragmatic.type.operation.table.12">
+            <field name="code">07</field>
+            <field name="name">BONIFICACIÓN</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_12_08" model="pragmatic.type.operation.table.12">
+            <field name="code">08</field>
+            <field name="name">PREMIO</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_12_09" model="pragmatic.type.operation.table.12">
+            <field name="code">09</field>
+            <field name="name">DONACIÓN</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_12_10" model="pragmatic.type.operation.table.12">
+            <field name="code">10</field>
+            <field name="name">SALIDA A PRODUCCIÓN</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_12_11" model="pragmatic.type.operation.table.12">
+            <field name="code">11</field>
+            <field name="name">SALIDA POR TRANSFERENCIA ENTRE ALMACENES</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_12_12" model="pragmatic.type.operation.table.12">
+            <field name="code">12</field>
+            <field name="name">RETIRO</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_12_13" model="pragmatic.type.operation.table.12">
+            <field name="code">13</field>
+            <field name="name">MERMAS</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_12_14" model="pragmatic.type.operation.table.12">
+            <field name="code">14</field>
+            <field name="name">DESMEDROS</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_12_15" model="pragmatic.type.operation.table.12">
+            <field name="code">15</field>
+            <field name="name">DESTRUCCIÓN</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_12_16" model="pragmatic.type.operation.table.12">
+            <field name="code">16</field>
+            <field name="name">SALDO INICIAL</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_12_17" model="pragmatic.type.operation.table.12">
+            <field name="code">17</field>
+            <field name="name">EXPORTACIÓN</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_12_18" model="pragmatic.type.operation.table.12">
+            <field name="code">18</field>
+            <field name="name">IMPORTACIÓN</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_12_19" model="pragmatic.type.operation.table.12">
+            <field name="code">19</field>
+            <field name="name">ENTRADA DE PRODUCCIÓN</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_12_20" model="pragmatic.type.operation.table.12">
+            <field name="code">20</field>
+            <field name="name">ENTRADA POR DEVOLUCIÓN DE PRODUCCIÓN</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_12_21" model="pragmatic.type.operation.table.12">
+            <field name="code">21</field>
+            <field name="name">ENTRADA POR TRANSFERENCIA ENTRE ALMACENES</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_12_22" model="pragmatic.type.operation.table.12">
+            <field name="code">22</field>
+            <field name="name">ENTRADA POR IDENTIFICACIÓN ERRONEA</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_12_23" model="pragmatic.type.operation.table.12">
+            <field name="code">23</field>
+            <field name="name">SALIDA POR IDENTIFICACIÓN ERRONEA</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_12_24" model="pragmatic.type.operation.table.12">
+            <field name="code">24</field>
+            <field name="name">ENTRADA POR DEVOLUCIÓN DEL CLIENTE</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_12_25" model="pragmatic.type.operation.table.12">
+            <field name="code">25</field>
+            <field name="name">SALIDA POR DEVOLUCIÓN AL PROVEEDOR</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_12_26" model="pragmatic.type.operation.table.12">
+            <field name="code">26</field>
+            <field name="name">ENTRADA PARA SERVICIO DE PRODUCCIÓN</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_12_27" model="pragmatic.type.operation.table.12">
+            <field name="code">27</field>
+            <field name="name">SALIDA POR SERVICIO DE PRODUCCIÓN</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_12_28" model="pragmatic.type.operation.table.12">
+            <field name="code">28</field>
+            <field name="name">AJUSTE POR DIFERENCIA DE INVENTARIO</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_12_29" model="pragmatic.type.operation.table.12">
+            <field name="code">29</field>
+            <field name="name">ENTRADA DE BIENES EN PRÉSTAMO</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_12_30" model="pragmatic.type.operation.table.12">
+            <field name="code">30</field>
+            <field name="name">SALIDA DE BIENES EN PRÉSTAMO</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_12_31" model="pragmatic.type.operation.table.12">
+            <field name="code">31</field>
+            <field name="name">ENTRADA DE BIENES EN CUSTODIA</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_12_32" model="pragmatic.type.operation.table.12">
+            <field name="code">32</field>
+            <field name="name">SALIDA DE BIENES EN CUSTODIA</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_12_33" model="pragmatic.type.operation.table.12">
+            <field name="code">33</field>
+            <field name="name">MUESTRAS MÉDICAS</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_12_34" model="pragmatic.type.operation.table.12">
+            <field name="code">34</field>
+            <field name="name">PUBLICIDAD</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_12_35" model="pragmatic.type.operation.table.12">
+            <field name="code">35</field>
+            <field name="name">GASTOS DE REPRESENTACIÓN</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_12_36" model="pragmatic.type.operation.table.12">
+            <field name="code">36</field>
+            <field name="name">RETIRO PARA ENTREGA A TRABAJADORES</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_12_37" model="pragmatic.type.operation.table.12">
+            <field name="code">37</field>
+            <field name="name">RETIRO POR CONVENIO COLECTIVO</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_12_38" model="pragmatic.type.operation.table.12">
+            <field name="code">38</field>
+            <field name="name">RETIRO POR SUSTITUCIÓN DE BIEN SINIESTRADO</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_12_91" model="pragmatic.type.operation.table.12">
+            <field name="code">91</field>
+            <field name="name">OTROS 1</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_12_92" model="pragmatic.type.operation.table.12">
+            <field name="code">92</field>
+            <field name="name">OTROS 2</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_12_93" model="pragmatic.type.operation.table.12">
+            <field name="code">93</field>
+            <field name="name">OTROS 3</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_12_94" model="pragmatic.type.operation.table.12">
+            <field name="code">94</field>
+            <field name="name">OTROS 4</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_12_95" model="pragmatic.type.operation.table.12">
+            <field name="code">95</field>
+            <field name="name">OTROS 5</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_12_96" model="pragmatic.type.operation.table.12">
+            <field name="code">96</field>
+            <field name="name">OTROS 6</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_12_97" model="pragmatic.type.operation.table.12">
+            <field name="code">97</field>
+            <field name="name">OTROS 7</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_12_98" model="pragmatic.type.operation.table.12">
+            <field name="code">98</field>
+            <field name="name">OTROS 8</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_12_99" model="pragmatic.type.operation.table.12">
+            <field name="code">99</field>
+            <field name="name">OTROS</field>
+            <field name="active" eval="True"/>
+        </record>
+    </data>
+</odoo>

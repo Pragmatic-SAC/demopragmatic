@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="pg_invoice_detraction_product" model="ir.ui.view">
+        <field name="name">product.product.detraction</field>
+        <field name="model">product.product</field>
+        <field name="inherit_id" ref="product.product_normal_form_view"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='uom_po_id']" position="after">
+                <field name="is_detraction" widget="boolean_toggle"/>
+                <field name="detraction_type"
+                       options="{'no_create': True, 'no_create_edit':True,'no_open': True}"
+                       attrs="{'invisible': [('is_detraction','=',False)],'required': [('is_detraction','=',True)]}"/>
+                <field name="detraction_percent"
+                       attrs="{'invisible': [('is_detraction','=',False)]}"/>
+                <field name="l10n_pe_withhold_code"  attrs="{'invisible': [('is_detraction','=',False)]}"/>
+                <field name="l10n_pe_withhold_percentage"
+                        attrs="{'invisible': [('is_detraction','=',False)]}"/>
+            </xpath>
+        </field>
+    </record>
+</odoo>

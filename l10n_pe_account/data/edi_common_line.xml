@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<odoo>
+    <data>
+        <template id="pg_pe_ubl_2_1_common_line" inherit_id="l10n_pe_edi.pe_ubl_2_1_common_line">
+            <xpath expr="//*[name()='cbc:LineExtensionAmount']" position="replace">
+                <t xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+                   xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
+                    <t t-set="tax_name" t-value="0"/>
+                    <t t-foreach="line_vals['tax_details']['taxes']" t-as="tax_res">
+                        <t t-set="tax_name" t-value="tax_res['l10n_pe_edi_group_code']"/>
+                    </t>
+                    <t t-if="tax_name == 'GRA'">
+                        <cbc:LineExtensionAmount
+                                t-att-currencyID="line.currency_id.name"
+                                t-esc="format_float(line.price_unit_free * line.quantity)"/>
+                    </t>
+                    <t t-else="">
+                        <cbc:LineExtensionAmount
+                                t-att-currencyID="line.currency_id.name"
+                                t-esc="format_float(line.price_subtotal)"/>
+                    </t>
+                </t>
+            </xpath>
+            <xpath expr="//*[name()='cac:Price']/*[name()='cbc:PriceAmount']" position="attributes">
+                <attribute name="t-esc">format_float(line_vals['tax_details']['unit_total_excluded'],10)</attribute>
+            </xpath>
+        </template>
+    </data>
+</odoo>

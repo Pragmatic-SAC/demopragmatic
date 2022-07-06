@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="ilrs_tabla6_4A" model="pragmatic.unit.measurement.table.6">
+            <field name="code">4A</field>
+            <field name="name">BOBINAS</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="ilrs_tabla6_BJ" model="pragmatic.unit.measurement.table.6">
+            <field name="code">BJ</field>
+            <field name="name">BALDE</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="ilrs_tabla6_BLL" model="pragmatic.unit.measurement.table.6">
+            <field name="code">BLL</field>
+            <field name="name">BARRILES</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="ilrs_tabla6_BG" model="pragmatic.unit.measurement.table.6">
+            <field name="code">BG</field>
+            <field name="name">BOLSA</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="ilrs_tabla6_BO" model="pragmatic.unit.measurement.table.6">
+            <field name="code">BO</field>
+            <field name="name">BOTELLAS</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="ilrs_tabla6_BX" model="pragmatic.unit.measurement.table.6">
+            <field name="code">BX</field>
+            <field name="name">CAJA</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="ilrs_tabla6_CT" model="pragmatic.unit.measurement.table.6">
+            <field name="code">CT</field>
+            <field name="name">CARTONES</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="ilrs_tabla6_CMK" model="pragmatic.unit.measurement.table.6">
+            <field name="code">CMK</field>
+            <field name="name">CENTIMETRO CUADRADO</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="ilrs_tabla6_CMQ" model="pragmatic.unit.measurement.table.6">
+            <field name="code">CMQ</field>
+            <field name="name">CENTIMETRO CUBICO</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="ilrs_tabla6_CMT" model="pragmatic.unit.measurement.table.6">
+            <field name="code">CMT</field>
+            <field name="name">CENTIMETRO LINEAL</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="ilrs_tabla6_CEN" model="pragmatic.unit.measurement.table.6">
+            <field name="code">CEN</field>
+            <field name="name">CIENTO DE UNIDADES</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="ilrs_tabla6_CY" model="pragmatic.unit.measurement.table.6">
+            <field name="code">CY</field>
+            <field name="name">CILINDRO</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="ilrs_tabla6_CJ" model="pragmatic.unit.measurement.table.6">
+            <field name="code">CJ</field>
+            <field name="name">CONOS</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="ilrs_tabla6_DZN" model="pragmatic.unit.measurement.table.6">
+            <field name="code">DZN</field>
+            <field name="name">DOCENA</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="ilrs_tabla6_DZP" model="pragmatic.unit.measurement.table.6">
+            <field name="code">DZP</field>
+            <field name="name">DOCENA POR 10**6</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="ilrs_tabla6_BE" model="pragmatic.unit.measurement.table.6">
+            <field name="code">BE</field>
+            <field name="name">FARDO</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="ilrs_tabla6_GLI" model="pragmatic.unit.measurement.table.6">
+            <field name="code">GLI</field>
+            <field name="name">GALON INGLES (4,545956L)</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="ilrs_tabla6_GRM" model="pragmatic.unit.measurement.table.6">
+            <field name="code">GRM</field>
+            <field name="name">GRAMO</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="ilrs_tabla6_GRO" model="pragmatic.unit.measurement.table.6">
+            <field name="code">GRO</field>
+            <field name="name">GRUESA</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="ilrs_tabla6_HLT" model="pragmatic.unit.measurement.table.6">
+            <field name="code">HLT</field>
+            <field name="name">HECTOLITRO</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="ilrs_tabla6_LEF" model="pragmatic.unit.measurement.table.6">
+            <field name="code">LEF</field>
+            <field name="name">HOJA</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="ilrs_tabla6_SET" model="pragmatic.unit.measurement.table.6">
+            <field name="code">SET</field>
+            <field name="name">JUEGO</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="ilrs_tabla6_KGM" model="pragmatic.unit.measurement.table.6">
+            <field name="code">KGM</field>
+            <field name="name">KILOGRAMO</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="ilrs_tabla6_KTM" model="pragmatic.unit.measurement.table.6">
+            <field name="code">KTM</field>
+            <field name="name">KILOMETRO</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="ilrs_tabla6_KWH" model="pragmatic.unit.measurement.table.6">
+            <field name="code">KWH</field>
+            <field name="name">KILOVATIO HORA</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="ilrs_tabla6_KT" model="pragmatic.unit.measurement.table.6">
+            <field name="code">KT</field>
+            <field name="name">KIT</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="ilrs_tabla6_CA" model="pragmatic.unit.measurement.table.6">
+            <field name="code">CA</field>
+            <field name="name">LATAS</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="ilrs_tabla6_LBR" model="pragmatic.unit.measurement.table.6">
+            <field name="code">LBR</field>
+            <field name="name">LIBRAS</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="ilrs_tabla6_LTR" model="pragmatic.unit.measurement.table.6">
+            <field name="code">LTR</field>
+            <field name="name">LITRO</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="ilrs_tabla6_MWH" model="pragmatic.unit.measurement.table.6">
+            <field name="code">MWH</field>
+            <field name="name">MEGAWATT HORA</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="ilrs_tabla6_MTR" model="pragmatic.unit.measurement.table.6">
+            <field name="code">MTR</field>
+            <field name="name">METRO</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="ilrs_tabla6_MTK" model="pragmatic.unit.measurement.table.6">
+            <field name="code">MTK</field>
+            <field name="name">METRO CUADRADO</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="ilrs_tabla6_MTQ" model="pragmatic.unit.measurement.table.6">
+            <field name="code">MTQ</field>
+            <field name="name">METRO CUBICO</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="ilrs_tabla6_MGM" model="pragmatic.unit.measurement.table.6">
+            <field name="code">MGM</field>
+            <field name="name">MILIGRAMOS</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="ilrs_tabla6_MLT" model="pragmatic.unit.measurement.table.6">
+            <field name="code">MLT</field>
+            <field name="name">MILILITRO</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="ilrs_tabla6_MMT" model="pragmatic.unit.measurement.table.6">
+            <field name="code">MMT</field>
+            <field name="name">MILIMETRO</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="ilrs_tabla6_MMK" model="pragmatic.unit.measurement.table.6">
+            <field name="code">MMK</field>
+            <field name="name">MILIMETRO CUADRADO</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="ilrs_tabla6_MMQ" model="pragmatic.unit.measurement.table.6">
+            <field name="code">MMQ</field>
+            <field name="name">MILIMETRO CUBICO</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="ilrs_tabla6_MLL" model="pragmatic.unit.measurement.table.6">
+            <field name="code">MLL</field>
+            <field name="name">MILLARES</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="ilrs_tabla6_UM" model="pragmatic.unit.measurement.table.6">
+            <field name="code">UM</field>
+            <field name="name">MILLON DE UNIDADES</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="ilrs_tabla6_ONZ" model="pragmatic.unit.measurement.table.6">
+            <field name="code">ONZ</field>
+            <field name="name">ONZAS</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="ilrs_tabla6_PF" model="pragmatic.unit.measurement.table.6">
+            <field name="code">PF</field>
+            <field name="name">PALETAS</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="ilrs_tabla6_PK" model="pragmatic.unit.measurement.table.6">
+            <field name="code">PK</field>
+            <field name="name">PAQUETE</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="ilrs_tabla6_PR" model="pragmatic.unit.measurement.table.6">
+            <field name="code">PR</field>
+            <field name="name">PAR</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="ilrs_tabla6_FOT" model="pragmatic.unit.measurement.table.6">
+            <field name="code">FOT</field>
+            <field name="name">PIES</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="ilrs_tabla6_FTK" model="pragmatic.unit.measurement.table.6">
+            <field name="code">FTK</field>
+            <field name="name">PIES CUADRADOS</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="ilrs_tabla6_FTQ" model="pragmatic.unit.measurement.table.6">
+            <field name="code">FTQ</field>
+            <field name="name">PIES CUBICOS</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="ilrs_tabla6_C62" model="pragmatic.unit.measurement.table.6">
+            <field name="code">C62</field>
+            <field name="name">PIEZAS</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="ilrs_tabla6_PG" model="pragmatic.unit.measurement.table.6">
+            <field name="code">PG</field>
+            <field name="name">PLACAS</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="ilrs_tabla6_ST" model="pragmatic.unit.measurement.table.6">
+            <field name="code">ST</field>
+            <field name="name">PLIEGO</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="ilrs_tabla6_INH" model="pragmatic.unit.measurement.table.6">
+            <field name="code">INH</field>
+            <field name="name">PULGADAS</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="ilrs_tabla6_RM" model="pragmatic.unit.measurement.table.6">
+            <field name="code">RM</field>
+            <field name="name">RESMA</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="ilrs_tabla6_DR" model="pragmatic.unit.measurement.table.6">
+            <field name="code">DR</field>
+            <field name="name">TAMBOR</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="ilrs_tabla6_STN" model="pragmatic.unit.measurement.table.6">
+            <field name="code">STN</field>
+            <field name="name">TONELADA CORTA</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="ilrs_tabla6_LTN" model="pragmatic.unit.measurement.table.6">
+            <field name="code">LTN</field>
+            <field name="name">TONELADA LARGA</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="ilrs_tabla6_TNE" model="pragmatic.unit.measurement.table.6">
+            <field name="code">TNE</field>
+            <field name="name">TONELADAS</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="ilrs_tabla6_TU" model="pragmatic.unit.measurement.table.6">
+            <field name="code">TU</field>
+            <field name="name">TUBOS</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="ilrs_tabla6_NIU" model="pragmatic.unit.measurement.table.6">
+            <field name="code">NIU</field>
+            <field name="name">UNIDAD (BIENES)</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="ilrs_tabla6_ZZ" model="pragmatic.unit.measurement.table.6">
+            <field name="code">ZZ</field>
+            <field name="name">UNIDAD (SERVICIOS)</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="ilrs_tabla6_GLL" model="pragmatic.unit.measurement.table.6">
+            <field name="code">GLL</field>
+            <field name="name">US GALON (3,7843 L)</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="ilrs_tabla6_YRD" model="pragmatic.unit.measurement.table.6">
+            <field name="code">YRD</field>
+            <field name="name">YARDA</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="ilrs_tabla6_YDK" model="pragmatic.unit.measurement.table.6">
+            <field name="code">YDK</field>
+            <field name="name">YARDA CUADRADA</field>
+            <field name="active" eval="True"/>
+        </record>
+    </data>
+</odoo>

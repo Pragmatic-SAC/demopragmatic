@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="it_kardex_inv_tree" model="ir.ui.view">
+            <field name="name">Kardex</field>
+            <field name="model">kardex.inventory.mov</field>
+            <field name="arch" type="xml">
+                <tree string="Kardex" editable="bottom">
+                    <field name="name"/>
+                    <field name="type_kardex"/>
+                    <field name="establishment"/>
+                    <field name="company_id"/>
+                    <field name="date_from"/>
+                    <field name="date_to"/>
+                    <button class="oe_stat_button" type="object" string="Export (XLSX)"  name="export_excel" icon="fa-file-excel-o" />
+                    <button class="oe_stat_button" type="object" string="Export (TXT)"  name="export_txt" icon="fa-file" />
+                    <field name="state_ids" widget="many2many_tags" options="{'color_field': 'color'}" readonly="1"/>
+                </tree>
+            </field>
+        </record>
+        <record id="it_kardex_inv_action" model="ir.actions.act_window">
+            <field name="name">Kardex</field>
+            <field name="res_model">kardex.inventory.mov</field>
+            <field name="view_mode">tree</field>
+        </record>
+        <!--        STATES IN KARDEX -->
+<!--        <record id="it_state_kardex_tree" model="ir.ui.view">-->
+<!--            <field name="name">States kardex</field>-->
+<!--            <field name="model">kardex.states</field>-->
+<!--            <field name="arch" type="xml">-->
+<!--                <tree string="Care Type">-->
+<!--                    <field name="name"/>-->
+<!--                    <field name="color" widget="color"/>-->
+<!--                </tree>-->
+<!--            </field>-->
+<!--        </record>-->
+<!--        <record id="it_state_kardex_form" model="ir.ui.view">-->
+<!--            <field name="name">States kardex</field>-->
+<!--            <field name="model">kardex.states</field>-->
+<!--            <field name="arch" type="xml">-->
+<!--                <form string="Care Type">-->
+<!--                    <sheet>-->
+<!--                        <group>-->
+<!--                            <group>-->
+<!--                                <field name="name"/>-->
+<!--                                <field name="color" />-->
+<!--                            </group>-->
+<!--                        </group>-->
+<!--                    </sheet>-->
+<!--                </form>-->
+<!--            </field>-->
+<!--        </record>-->
+<!--        <record id="it_kardex_states_action" model="ir.actions.act_window">-->
+<!--            <field name="name">States kardex</field>-->
+<!--            <field name="res_model">kardex.states</field>-->
+<!--            <field name="view_mode">tree,form</field>-->
+<!--        </record>-->
+        <menuitem name="Kardex Inventory" id="menu_kardex_inventory_mov"
+                  parent="stock.menu_stock_root" sequence="99"/>
+<!--        <menuitem name="Configurations"-->
+<!--                  id="menu_Kardex_configurations" parent="menu_kardex_inventory_mov" sequence="99"/>-->
+<!--        <menuitem id="it_report_kardex_states" name="States kardex"-->
+<!--                  action="it_kardex_states_action" parent="menu_Kardex_configurations"/>-->
+        <menuitem name="Reports"
+                  id="menu_Kardex_reports" parent="menu_kardex_inventory_mov" sequence="100"/>
+        <menuitem id="it_report_kardex_report" name="Kardex"
+                  action="it_kardex_inv_action" parent="menu_Kardex_reports"/>
+    </data>
+</odoo>

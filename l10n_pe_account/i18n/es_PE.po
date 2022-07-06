@@ -1,0 +1,933 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* l10n_pe_account
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-06-04 01:32+0000\n"
+"PO-Revision-Date: 2022-06-04 01:32+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: l10n_pe_account
+#: model:ir.actions.report,print_report_name:l10n_pe_account.invoice_receipt_ticket_report
+msgid "(object.get_name_report_fe())"
+msgstr ""
+
+#. module: l10n_pe_account
+#: model_terms:ir.ui.view,arch_db:l10n_pe_account.template_account_invoice_document_fe
+msgid "<b>Are:</b>"
+msgstr "<b>Son:</b>"
+
+#. module: l10n_pe_account
+#: model_terms:ir.ui.view,arch_db:l10n_pe_account.template_account_invoice_document_fe
+msgid "<b>Type Operation:</b>"
+msgstr "<b>Tipo de Operacion:</b>"
+
+#. module: l10n_pe_account
+#: model_terms:ir.ui.view,arch_db:l10n_pe_account.template_account_invoice_document_fe_ticket
+msgid "<br/>ITEM NAME"
+msgstr "<br/>DESCR."
+
+#. module: l10n_pe_account
+#: model_terms:ir.ui.view,arch_db:l10n_pe_account.template_account_invoice_document_fe_ticket
+msgid "<br/>P. UNIT"
+msgstr "<br/>PRECIO U."
+
+#. module: l10n_pe_account
+#: model_terms:ir.ui.view,arch_db:l10n_pe_account.template_account_invoice_document_fe_ticket
+msgid "<br/>QTY"
+msgstr "<br/>CANT."
+
+#. module: l10n_pe_account
+#: model_terms:ir.ui.view,arch_db:l10n_pe_account.template_account_invoice_document_fe_ticket
+msgid "<br/>TOTAL"
+msgstr ""
+
+#. module: l10n_pe_account
+#: model_terms:ir.ui.view,arch_db:l10n_pe_account.template_account_invoice_document_fe_ticket
+msgid "<br/>UOM"
+msgstr "<br/>MEDIDA"
+
+#. module: l10n_pe_account
+#: model_terms:ir.ui.view,arch_db:l10n_pe_account.pg_res_config_settings_tax_free
+msgid "<span class=\"o_form_label\">Account For Free Tax Reverse</span>"
+msgstr ""
+"<span class=\"o_form_label\">Asiento contable para impuesto libre "
+"(Reverso)</span>"
+
+#. module: l10n_pe_account
+#: model_terms:ir.ui.view,arch_db:l10n_pe_account.pg_res_config_settings_tax_free
+msgid "<span class=\"o_form_label\">Journal For Free Tax</span>"
+msgstr "<span class=\"o_form_label\">Diario para gratuitas</span>"
+
+#. module: l10n_pe_account
+#: model_terms:ir.ui.view,arch_db:l10n_pe_account.template_account_invoice_document_fe
+msgid ""
+"<span groups=\"account.group_show_line_subtotals_tax_excluded\">Amount</span>\n"
+"                                    <span groups=\"account.group_show_line_subtotals_tax_included\">Total Price</span>"
+msgstr ""
+"<span groups=\"account.group_show_line_subtotals_tax_excluded\">Monto</span>\n"
+"                                    <span groups=\"account.group_show_line_subtotals_tax_included\">Precio Total</span>"
+
+#. module: l10n_pe_account
+#: model_terms:ir.ui.view,arch_db:l10n_pe_account.template_account_invoice_document_fe_ticket
+msgid "<span style=\"font-size:12pt\">Cash</span>"
+msgstr "<span style=\"font-size:12pt\">Contado</span>"
+
+#. module: l10n_pe_account
+#: model_terms:ir.ui.view,arch_db:l10n_pe_account.template_account_invoice_document_fe_ticket
+msgid ""
+"<span style=\"font-size:12pt\">check this document in</span>\n"
+"                        <br/>\n"
+"                        <strong style=\"font-size:12pt\">\n"
+"                            https://ww1.sunat.gob.pe/ol-ti-itconsvalicpe/ConsValiCpe.htm\n"
+"                        </strong>"
+msgstr ""
+"<span>Consulta este documento en:</span>\n"
+"                        <br/>\n"
+"                        <strong class=\"text-primary\">\n"
+"                            https://ww1.sunat.gob.pe/ol-ti-itconsvalicpe/ConsValiCpe.htm\n"
+"                        </strong>"
+
+#. module: l10n_pe_account
+#: model_terms:ir.ui.view,arch_db:l10n_pe_account.template_account_invoice_document_fe_ticket
+msgid ""
+"<span>%</span>\n"
+"                                <span>&amp;nbsp;</span>\n"
+"                                <span>discount</span>"
+msgstr ""
+"<span>%</span>\n"
+"                                <span>&amp;nbsp;</span>\n"
+"                                <span>Disc.</span>"
+
+#. module: l10n_pe_account
+#: model_terms:ir.ui.view,arch_db:l10n_pe_account.template_account_invoice_document_fe_ticket
+msgid "<span>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;</span>"
+msgstr ""
+
+#. module: l10n_pe_account
+#: model_terms:ir.ui.view,arch_db:l10n_pe_account.template_account_invoice_document_fe
+msgid "<span>Description</span>"
+msgstr "<span>Descripción</span>"
+
+#. module: l10n_pe_account
+#: model_terms:ir.ui.view,arch_db:l10n_pe_account.template_account_invoice_document_fe
+msgid "<span>Disc.%</span>"
+msgstr "<span>Desc.%</span>"
+
+#. module: l10n_pe_account
+#: model_terms:ir.ui.view,arch_db:l10n_pe_account.template_account_invoice_document_fe
+msgid "<span>Free Taxes Operations</span>"
+msgstr "<span>OP. Gratuitas</span>"
+
+#. module: l10n_pe_account
+#: model_terms:ir.ui.view,arch_db:l10n_pe_account.template_account_invoice_document_fe
+msgid "<span>Quantity</span>"
+msgstr "<span>Cantidad</span>"
+
+#. module: l10n_pe_account
+#: model_terms:ir.ui.view,arch_db:l10n_pe_account.template_account_invoice_document_fe
+msgid "<span>Taxed Operations</span>"
+msgstr "<span>OP. Gravadas</span>"
+
+#. module: l10n_pe_account
+#: model_terms:ir.ui.view,arch_db:l10n_pe_account.template_account_invoice_document_fe
+msgid "<span>Taxes</span>"
+msgstr "<span>Impuesto</span>"
+
+#. module: l10n_pe_account
+#: model_terms:ir.ui.view,arch_db:l10n_pe_account.template_account_invoice_document_fe
+msgid "<span>Unit Price</span>"
+msgstr "<span>P. Unitario</span>"
+
+#. module: l10n_pe_account
+#: model_terms:ir.ui.view,arch_db:l10n_pe_account.template_account_invoice_document_fe
+msgid ""
+"<span>check this document in:\n"
+"                            <strong class=\"text-primary\">https://ww1.sunat.gob.pe/ol-ti-itconsvalicpe/ConsValiCpe.htm\n"
+"                            </strong>\n"
+"                        </span>"
+msgstr ""
+"<span>Consulta este documento en:\n"
+"                            <strong class=\"text-primary\">https://ww1.sunat.gob.pe/ol-ti-itconsvalicpe/ConsValiCpe.htm\n"
+"                            </strong>\n"
+"                        </span>"
+
+#. module: l10n_pe_account
+#: model_terms:ir.ui.view,arch_db:l10n_pe_account.template_account_invoice_document_fe_ticket
+msgid "<span>with a</span>"
+msgstr "<span>Con</span>"
+
+#. module: l10n_pe_account
+#: model_terms:ir.ui.view,arch_db:l10n_pe_account.template_account_invoice_document_fe
+msgid "<strong class=\"mr16\">Subtotal</strong>"
+msgstr ""
+
+#. module: l10n_pe_account
+#: model_terms:ir.ui.view,arch_db:l10n_pe_account.template_account_invoice_document_fe
+msgid ""
+"<strong style=\"font-weight:bold; text-align: justify;\">Terms and Conditions\n"
+"                        </strong>"
+msgstr ""
+"<strong style=\"font-weight:bold; text-align: justify;\">Terminos y Condiciones\n"
+"                        </strong>"
+
+#. module: l10n_pe_account
+#: model_terms:ir.ui.view,arch_db:l10n_pe_account.template_account_invoice_document_fe_ticket
+msgid ""
+"<strong style=\"font-weight:bold; text-align: justify;font-size:12pt\">Payment Terms\n"
+"                        </strong>"
+msgstr ""
+"<strong style=\"font-weight:bold; text-align: justify;\">Condición de Pago\n"
+"                        </strong>"
+
+#. module: l10n_pe_account
+#: model_terms:ir.ui.view,arch_db:l10n_pe_account.template_account_invoice_document_fe_ticket
+msgid ""
+"<strong style=\"font-weight:bold; text-align: justify;font-size:12pt\">Terms and Conditions\n"
+"                        </strong>"
+msgstr ""
+"<strong style=\"font-weight:bold; text-align: justify;\">Terminos y Condiciones\n"
+"                        </strong>"
+
+#. module: l10n_pe_account
+#: model_terms:ir.ui.view,arch_db:l10n_pe_account.template_account_invoice_document_fe
+msgid "<strong>Address</strong>"
+msgstr "<strong>Dirección</strong>"
+
+#. module: l10n_pe_account
+#: model_terms:ir.ui.view,arch_db:l10n_pe_account.template_account_invoice_document_fe
+msgid "<strong>Amount Due</strong>"
+msgstr "<strong>Monto Deuda</strong>"
+
+#. module: l10n_pe_account
+#: model_terms:ir.ui.view,arch_db:l10n_pe_account.template_account_invoice_document_fe
+msgid "<strong>Currency</strong>"
+msgstr "<strong>Moneda</strong>"
+
+#. module: l10n_pe_account
+#: model_terms:ir.ui.view,arch_db:l10n_pe_account.template_account_invoice_document_fe
+msgid "<strong>Date Due</strong>"
+msgstr "<strong>F. Vencimiento</strong>"
+
+#. module: l10n_pe_account
+#: model_terms:ir.ui.view,arch_db:l10n_pe_account.template_account_invoice_document_fe
+msgid "<strong>Date Invoice</strong>"
+msgstr "<strong>F. Facturacion</strong>"
+
+#. module: l10n_pe_account
+#: model_terms:ir.ui.view,arch_db:l10n_pe_account.template_account_invoice_document_fe
+msgid "<strong>Guide Number</strong>"
+msgstr "<strong>Nro. Guia</strong>"
+
+#. module: l10n_pe_account
+#: model_terms:ir.ui.view,arch_db:l10n_pe_account.template_account_invoice_document_fe
+msgid "<strong>Mr (Ms)</strong>"
+msgstr "<strong>Señor (a)</strong>"
+
+#. module: l10n_pe_account
+#: model_terms:ir.ui.view,arch_db:l10n_pe_account.template_account_invoice_document_fe
+msgid "<strong>Payment Condition</strong>"
+msgstr "<strong>Condicion de Pago</strong>"
+
+#. module: l10n_pe_account
+#: model_terms:ir.ui.view,arch_db:l10n_pe_account.template_account_invoice_document_fe
+msgid "<strong>Purchase Order</strong>"
+msgstr "<strong>Nro. Oden</strong>"
+
+#. module: l10n_pe_account
+#: model_terms:ir.ui.view,arch_db:l10n_pe_account.template_account_invoice_document_fe
+msgid "<strong>Subtotal</strong>"
+msgstr ""
+
+#. module: l10n_pe_account
+#: model_terms:ir.ui.view,arch_db:l10n_pe_account.template_account_invoice_document_fe
+msgid "<strong>Total</strong>"
+msgstr ""
+
+#. module: l10n_pe_account
+#: model:ir.model.fields,field_description:l10n_pe_account.field_account_setup_bank_manual_config__abbreviation
+#: model:ir.model.fields,field_description:l10n_pe_account.field_res_partner_bank__abbreviation
+msgid "Abbreviation"
+msgstr "Abreviatura"
+
+#. module: l10n_pe_account
+#: model:ir.ui.menu,name:l10n_pe_account.pragmatic_account_conf
+msgid "Account"
+msgstr "Cuenta"
+
+#. module: l10n_pe_account
+#: model_terms:ir.ui.view,arch_db:l10n_pe_account.pg_view_move_form
+msgid "Account Entry Free Tax"
+msgstr "Asiento contable libre"
+
+#. module: l10n_pe_account
+#: model:ir.model.fields,field_description:l10n_pe_account.field_res_company__account_free_reverse
+#: model:ir.model.fields,field_description:l10n_pe_account.field_res_config_settings__account_free_reverse
+msgid "Account Free Tax"
+msgstr "Asiento contable libre"
+
+#. module: l10n_pe_account
+#: model:ir.model.fields,field_description:l10n_pe_account.field_account_bank_statement_line__line_free_ids
+#: model:ir.model.fields,field_description:l10n_pe_account.field_account_move__line_free_ids
+#: model:ir.model.fields,field_description:l10n_pe_account.field_account_payment__line_free_ids
+msgid "Account Lines Free"
+msgstr "Lineas de movimiento libres"
+
+#. module: l10n_pe_account
+#: model:ir.model.fields,field_description:l10n_pe_account.field_account_bank_statement_line__move_account_tax_free
+#: model:ir.model.fields,field_description:l10n_pe_account.field_account_move__move_account_tax_free
+#: model:ir.model.fields,field_description:l10n_pe_account.field_account_payment__move_account_tax_free
+msgid "Account Move Free Tax"
+msgstr "Asiento contable para impuesto libre"
+
+#. module: l10n_pe_account
+#: model:ir.model.fields,field_description:l10n_pe_account.field_pragmatic_type_income_table_31__active
+#: model:ir.model.fields,field_description:l10n_pe_account.field_pragmatic_type_operation_catalog_51__active
+#: model_terms:ir.ui.view,arch_db:l10n_pe_account.pragmatic_type_income_table_31_search
+#: model_terms:ir.ui.view,arch_db:l10n_pe_account.pragmatic_type_operation_catalog_51_search
+msgid "Active"
+msgstr "Activo"
+
+#. module: l10n_pe_account
+#: model_terms:ir.ui.view,arch_db:l10n_pe_account.template_account_invoice_document_fe_ticket
+msgid "Address"
+msgstr "Direccion"
+
+#. module: l10n_pe_account
+#: code:addons/l10n_pe_account/models/account_edi_format.py:0
+#, python-format
+msgid ""
+"An error occurred while querying the CDR, the server did not respond, please"
+" check in a few seconds.."
+msgstr ""
+"Ocurrio un error mientras se consultaba el CDR,  El servidor de SUNAT no "
+"responde, por favor, revisa el estado mas tarde."
+
+#. module: l10n_pe_account
+#: model_terms:ir.ui.view,arch_db:l10n_pe_account.pragmatic_type_income_table_31_search
+#: model_terms:ir.ui.view,arch_db:l10n_pe_account.pragmatic_type_operation_catalog_51_search
+msgid "Archived"
+msgstr "Archivado"
+
+#. module: l10n_pe_account
+#: model_terms:ir.ui.view,arch_db:l10n_pe_account.template_account_invoice_document_fe_ticket
+msgid "Are"
+msgstr "Son:"
+
+#. module: l10n_pe_account
+#: model:ir.model,name:l10n_pe_account.model_res_partner_bank
+msgid "Bank Accounts"
+msgstr "Cuentas bancarias"
+
+#. module: l10n_pe_account
+#: model:ir.model.fields,field_description:l10n_pe_account.field_pragmatic_type_income_table_31__code
+#: model:ir.model.fields,field_description:l10n_pe_account.field_pragmatic_type_operation_catalog_51__code
+msgid "Code"
+msgstr "Codigo"
+
+#. module: l10n_pe_account
+#: model:ir.model.fields,field_description:l10n_pe_account.field_pragmatic_type_income_table_31__code_ocde
+msgid "Code OCDE"
+msgstr "Codigo OCDE"
+
+#. module: l10n_pe_account
+#: model:ir.model.fields,field_description:l10n_pe_account.field_account_bank_statement_line__type_document_code
+#: model:ir.model.fields,field_description:l10n_pe_account.field_account_move__type_document_code
+#: model:ir.model.fields,field_description:l10n_pe_account.field_account_payment__type_document_code
+msgid "Code type document"
+msgstr "Codigo Tipo de documento"
+
+#. module: l10n_pe_account
+#: model:ir.model.fields,help:l10n_pe_account.field_account_bank_statement_line__type_document_code
+#: model:ir.model.fields,help:l10n_pe_account.field_account_move__type_document_code
+#: model:ir.model.fields,help:l10n_pe_account.field_account_payment__type_document_code
+msgid "Code used by different localizations"
+msgstr "Código utilizado por diferentes localizaciones"
+
+#. module: l10n_pe_account
+#: model:ir.model,name:l10n_pe_account.model_res_company
+msgid "Companies"
+msgstr "Compañias"
+
+#. module: l10n_pe_account
+#: model:ir.model,name:l10n_pe_account.model_res_config_settings
+msgid "Config Settings"
+msgstr "Opciones de configuración"
+
+#. module: l10n_pe_account
+#: model:ir.model,name:l10n_pe_account.model_res_partner
+msgid "Contact"
+msgstr "Contacto"
+
+#. module: l10n_pe_account
+#: model:ir.model.fields,field_description:l10n_pe_account.field_account_bank_statement_line__correlative
+#: model:ir.model.fields,field_description:l10n_pe_account.field_account_move__correlative
+#: model:ir.model.fields,field_description:l10n_pe_account.field_account_payment__correlative
+msgid "Correlative"
+msgstr "Correlativo"
+
+#. module: l10n_pe_account
+#: code:addons/l10n_pe_account/models/account_move.py:0
+#, python-format
+msgid "Correlative no have the correct length."
+msgstr "El correlativo no tiene la longitud correcta"
+
+#. module: l10n_pe_account
+#: model:ir.model.fields,field_description:l10n_pe_account.field_pragmatic_type_income_table_31__create_uid
+#: model:ir.model.fields,field_description:l10n_pe_account.field_pragmatic_type_operation_catalog_51__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: l10n_pe_account
+#: model:ir.model.fields,field_description:l10n_pe_account.field_pragmatic_type_income_table_31__create_date
+#: model:ir.model.fields,field_description:l10n_pe_account.field_pragmatic_type_operation_catalog_51__create_date
+msgid "Created on"
+msgstr "Creado en"
+
+#. module: l10n_pe_account
+#: model:ir.model,name:l10n_pe_account.model_res_currency_rate
+msgid "Currency Rate"
+msgstr "Tasa monetaria"
+
+#. module: l10n_pe_account
+#: model_terms:ir.ui.view,arch_db:l10n_pe_account.template_account_invoice_document_fe_ticket
+msgid "Customer"
+msgstr "Cliente"
+
+#. module: l10n_pe_account
+#: model_terms:ir.ui.view,arch_db:l10n_pe_account.template_account_invoice_document_fe
+msgid "Código Hash:"
+msgstr ""
+
+#. module: l10n_pe_account
+#: model:ir.model.fields,field_description:l10n_pe_account.field_account_bank_statement_line__datetime_emision
+#: model:ir.model.fields,field_description:l10n_pe_account.field_account_move__datetime_emision
+#: model:ir.model.fields,field_description:l10n_pe_account.field_account_payment__datetime_emision
+#: model_terms:ir.ui.view,arch_db:l10n_pe_account.template_account_invoice_document_fe_ticket
+msgid "Date Emission"
+msgstr "Fecha de Emision"
+
+#. module: l10n_pe_account
+#: model_terms:ir.actions.act_window,help:l10n_pe_account.pg_l10n_latam_document_type_action_window
+msgid "Description"
+msgstr "Descripcion"
+
+#. module: l10n_pe_account
+#: model:ir.model.fields,field_description:l10n_pe_account.field_account_payment__detraction_date
+#: model:ir.model.fields,field_description:l10n_pe_account.field_account_payment_register__detraction_date
+msgid "Detraction Date Payment"
+msgstr "Pago de la fecha de detracción"
+
+#. module: l10n_pe_account
+#: model:ir.model.fields,field_description:l10n_pe_account.field_account_payment__detraction_number
+#: model:ir.model.fields,field_description:l10n_pe_account.field_account_payment_register__detraction_number
+msgid "Detraction Number Payment"
+msgstr "Pago del número de detracción"
+
+#. module: l10n_pe_account
+#: model:ir.model.fields,field_description:l10n_pe_account.field_account_edi_format__display_name
+#: model:ir.model.fields,field_description:l10n_pe_account.field_account_move__display_name
+#: model:ir.model.fields,field_description:l10n_pe_account.field_account_move_line__display_name
+#: model:ir.model.fields,field_description:l10n_pe_account.field_account_payment__display_name
+#: model:ir.model.fields,field_description:l10n_pe_account.field_account_payment_register__display_name
+#: model:ir.model.fields,field_description:l10n_pe_account.field_account_tax__display_name
+#: model:ir.model.fields,field_description:l10n_pe_account.field_l10n_latam_document_type__display_name
+#: model:ir.model.fields,field_description:l10n_pe_account.field_l10n_latam_identification_type__display_name
+#: model:ir.model.fields,field_description:l10n_pe_account.field_pragmatic_serie_sequence__display_name
+#: model:ir.model.fields,field_description:l10n_pe_account.field_pragmatic_type_income_table_31__display_name
+#: model:ir.model.fields,field_description:l10n_pe_account.field_pragmatic_type_operation_catalog_51__display_name
+#: model:ir.model.fields,field_description:l10n_pe_account.field_res_company__display_name
+#: model:ir.model.fields,field_description:l10n_pe_account.field_res_config_settings__display_name
+#: model:ir.model.fields,field_description:l10n_pe_account.field_res_currency_rate__display_name
+#: model:ir.model.fields,field_description:l10n_pe_account.field_res_partner__display_name
+#: model:ir.model.fields,field_description:l10n_pe_account.field_res_partner_bank__display_name
+msgid "Display Name"
+msgstr "Nombre mostrado"
+
+#. module: l10n_pe_account
+#: model:ir.model.fields,field_description:l10n_pe_account.field_account_bank_statement_line__document_type_filter
+#: model:ir.model.fields,field_description:l10n_pe_account.field_account_move__document_type_filter
+#: model:ir.model.fields,field_description:l10n_pe_account.field_account_payment__document_type_filter
+msgid "Document Type Filter"
+msgstr "Filtro de tipo de documento"
+
+#. module: l10n_pe_account
+#: model_terms:ir.ui.view,arch_db:l10n_pe_account.template_account_invoice_document_fe_ticket
+msgid "Due Date"
+msgstr "Fecha de Vencimiento"
+
+#. module: l10n_pe_account
+#: model:ir.model,name:l10n_pe_account.model_account_edi_format
+msgid "EDI format"
+msgstr "Formato EDI"
+
+#. module: l10n_pe_account
+#: model:ir.model.fields,field_description:l10n_pe_account.field_account_bank_statement_line__can_edit_correlative
+#: model:ir.model.fields,field_description:l10n_pe_account.field_account_bank_statement_line__edit_correlative
+#: model:ir.model.fields,field_description:l10n_pe_account.field_account_move__can_edit_correlative
+#: model:ir.model.fields,field_description:l10n_pe_account.field_account_move__edit_correlative
+#: model:ir.model.fields,field_description:l10n_pe_account.field_account_payment__can_edit_correlative
+#: model:ir.model.fields,field_description:l10n_pe_account.field_account_payment__edit_correlative
+msgid "Edit Correlative"
+msgstr "Editar correlativo"
+
+#. module: l10n_pe_account
+#: model:ir.model.fields,field_description:l10n_pe_account.field_account_bank_statement_line__edit_serie_code
+#: model:ir.model.fields,field_description:l10n_pe_account.field_account_move__edit_serie_code
+#: model:ir.model.fields,field_description:l10n_pe_account.field_account_payment__edit_serie_code
+msgid "Edit Serie Code"
+msgstr "Editar código de serie"
+
+#. module: l10n_pe_account
+#: model:res.groups,name:l10n_pe_account.pragmatic_edit_correlative
+msgid "Edit correlative"
+msgstr "Editar Correlativo"
+
+#. module: l10n_pe_account
+#: model:ir.model.fields.selection,name:l10n_pe_account.selection__account_move__can_edit_correlative__editable
+#: model:ir.model.fields.selection,name:l10n_pe_account.selection__account_move__edit_serie_code__editable
+msgid "Editable"
+msgstr ""
+
+#. module: l10n_pe_account
+#: model:ir.actions.report,name:l10n_pe_account.invoice_receipt_ticket_report
+msgid "Electronic Receipt Ticket"
+msgstr "Factura Ticket"
+
+#. module: l10n_pe_account
+#: model:ir.model.fields,field_description:l10n_pe_account.field_account_bank_statement_line__establish_filter
+#: model:ir.model.fields,field_description:l10n_pe_account.field_account_move__establish_filter
+#: model:ir.model.fields,field_description:l10n_pe_account.field_account_payment__establish_filter
+msgid "Establish Filter"
+msgstr "Filtro de Establecimiento"
+
+#. module: l10n_pe_account
+#: model:ir.model.fields,field_description:l10n_pe_account.field_account_bank_statement_line__establishment
+#: model:ir.model.fields,field_description:l10n_pe_account.field_account_move__establishment
+#: model:ir.model.fields,field_description:l10n_pe_account.field_account_payment__establishment
+#: model:ir.model.fields,field_description:l10n_pe_account.field_pragmatic_serie_sequence__establishment
+msgid "Establishment"
+msgstr "Establecimiento"
+
+#. module: l10n_pe_account
+#: model:ir.model.fields.selection,name:l10n_pe_account.selection__account_tax__tax_type_purchase__excento
+msgid "Excento"
+msgstr ""
+
+#. module: l10n_pe_account
+#: model:ir.model.fields,field_description:l10n_pe_account.field_account_bank_statement_line__exchange_rate
+#: model:ir.model.fields,field_description:l10n_pe_account.field_account_move__exchange_rate
+#: model:ir.model.fields,field_description:l10n_pe_account.field_account_payment__exchange_rate
+msgid "Exchange Rate"
+msgstr "Tipo de cambio"
+
+#. module: l10n_pe_account
+#: model_terms:ir.ui.view,arch_db:l10n_pe_account.template_account_invoice_document_fe_ticket
+msgid "Free Taxes Operations"
+msgstr "OP. Gratuitas"
+
+#. module: l10n_pe_account
+#: model_terms:ir.ui.view,arch_db:l10n_pe_account.pg_view_move_form
+msgid "GENERAR ASIENTO TAX FREE"
+msgstr ""
+
+#. module: l10n_pe_account
+#: model:ir.model.fields.selection,name:l10n_pe_account.selection__account_tax__tax_type_purchase__grav
+msgid "Gravada"
+msgstr ""
+
+#. module: l10n_pe_account
+#: model:ir.model.fields.selection,name:l10n_pe_account.selection__account_tax__tax_type_purchase__grav_no_grav
+msgid "Gravada y No Gravada"
+msgstr ""
+
+#. module: l10n_pe_account
+#: model:ir.model.fields,field_description:l10n_pe_account.field_account_bank_statement_line__guide_number
+#: model:ir.model.fields,field_description:l10n_pe_account.field_account_move__guide_number
+#: model:ir.model.fields,field_description:l10n_pe_account.field_account_payment__guide_number
+msgid "Guide Number"
+msgstr "Nro. Guia"
+
+#. module: l10n_pe_account
+#: model_terms:ir.ui.view,arch_db:l10n_pe_account.template_account_invoice_document_fe_ticket
+msgid "Hash Code:"
+msgstr "Codigo Hash:"
+
+#. module: l10n_pe_account
+#: model:ir.model.fields,field_description:l10n_pe_account.field_account_edi_format__id
+#: model:ir.model.fields,field_description:l10n_pe_account.field_account_move__id
+#: model:ir.model.fields,field_description:l10n_pe_account.field_account_move_line__id
+#: model:ir.model.fields,field_description:l10n_pe_account.field_account_payment__id
+#: model:ir.model.fields,field_description:l10n_pe_account.field_account_payment_register__id
+#: model:ir.model.fields,field_description:l10n_pe_account.field_account_tax__id
+#: model:ir.model.fields,field_description:l10n_pe_account.field_l10n_latam_document_type__id
+#: model:ir.model.fields,field_description:l10n_pe_account.field_l10n_latam_identification_type__id
+#: model:ir.model.fields,field_description:l10n_pe_account.field_pragmatic_serie_sequence__id
+#: model:ir.model.fields,field_description:l10n_pe_account.field_pragmatic_type_income_table_31__id
+#: model:ir.model.fields,field_description:l10n_pe_account.field_pragmatic_type_operation_catalog_51__id
+#: model:ir.model.fields,field_description:l10n_pe_account.field_res_company__id
+#: model:ir.model.fields,field_description:l10n_pe_account.field_res_config_settings__id
+#: model:ir.model.fields,field_description:l10n_pe_account.field_res_currency_rate__id
+#: model:ir.model.fields,field_description:l10n_pe_account.field_res_partner__id
+#: model:ir.model.fields,field_description:l10n_pe_account.field_res_partner_bank__id
+msgid "ID"
+msgstr "ID (identificación)"
+
+#. module: l10n_pe_account
+#: model:ir.model,name:l10n_pe_account.model_l10n_latam_identification_type
+msgid "Identification Types"
+msgstr "Tipos de Identificación"
+
+#. module: l10n_pe_account
+#: model:ir.model.fields,field_description:l10n_pe_account.field_account_bank_statement_line__initial_charge
+#: model:ir.model.fields,field_description:l10n_pe_account.field_account_move__initial_charge
+#: model:ir.model.fields,field_description:l10n_pe_account.field_account_payment__initial_charge
+msgid "Initial Charge"
+msgstr "Carga inicial"
+
+#. module: l10n_pe_account
+#: model:ir.model.fields,field_description:l10n_pe_account.field_account_payment__detraction
+#: model:ir.model.fields,field_description:l10n_pe_account.field_account_payment_register__detraction
+msgid "Is Detraction Payment"
+msgstr "¿Es pago de detracción?"
+
+#. module: l10n_pe_account
+#: model:ir.model,name:l10n_pe_account.model_account_move
+msgid "Journal Entry"
+msgstr "Asiento contable"
+
+#. module: l10n_pe_account
+#: model:ir.model.fields,field_description:l10n_pe_account.field_res_company__journal_free
+#: model:ir.model.fields,field_description:l10n_pe_account.field_res_config_settings__journal_free
+msgid "Journal Free Tax"
+msgstr "Diario para gratuitas"
+
+#. module: l10n_pe_account
+#: model:ir.model,name:l10n_pe_account.model_account_move_line
+msgid "Journal Item"
+msgstr "Apunte contable"
+
+#. module: l10n_pe_account
+#: model:ir.model.fields,field_description:l10n_pe_account.field_account_edi_format____last_update
+#: model:ir.model.fields,field_description:l10n_pe_account.field_account_move____last_update
+#: model:ir.model.fields,field_description:l10n_pe_account.field_account_move_line____last_update
+#: model:ir.model.fields,field_description:l10n_pe_account.field_account_payment____last_update
+#: model:ir.model.fields,field_description:l10n_pe_account.field_account_payment_register____last_update
+#: model:ir.model.fields,field_description:l10n_pe_account.field_account_tax____last_update
+#: model:ir.model.fields,field_description:l10n_pe_account.field_l10n_latam_document_type____last_update
+#: model:ir.model.fields,field_description:l10n_pe_account.field_l10n_latam_identification_type____last_update
+#: model:ir.model.fields,field_description:l10n_pe_account.field_pragmatic_serie_sequence____last_update
+#: model:ir.model.fields,field_description:l10n_pe_account.field_pragmatic_type_income_table_31____last_update
+#: model:ir.model.fields,field_description:l10n_pe_account.field_pragmatic_type_operation_catalog_51____last_update
+#: model:ir.model.fields,field_description:l10n_pe_account.field_res_company____last_update
+#: model:ir.model.fields,field_description:l10n_pe_account.field_res_config_settings____last_update
+#: model:ir.model.fields,field_description:l10n_pe_account.field_res_currency_rate____last_update
+#: model:ir.model.fields,field_description:l10n_pe_account.field_res_partner____last_update
+#: model:ir.model.fields,field_description:l10n_pe_account.field_res_partner_bank____last_update
+msgid "Last Modified on"
+msgstr "Última modificación el"
+
+#. module: l10n_pe_account
+#: model:ir.model.fields,field_description:l10n_pe_account.field_pragmatic_type_income_table_31__write_uid
+#: model:ir.model.fields,field_description:l10n_pe_account.field_pragmatic_type_operation_catalog_51__write_uid
+msgid "Last Updated by"
+msgstr "Actualizado por última vez por"
+
+#. module: l10n_pe_account
+#: model:ir.model.fields,field_description:l10n_pe_account.field_pragmatic_type_income_table_31__write_date
+#: model:ir.model.fields,field_description:l10n_pe_account.field_pragmatic_type_operation_catalog_51__write_date
+msgid "Last Updated on"
+msgstr "Ultima actualización en"
+
+#. module: l10n_pe_account
+#: model:ir.model,name:l10n_pe_account.model_l10n_latam_document_type
+msgid "Latam Document Type"
+msgstr "Tipo de Documento Latam"
+
+#. module: l10n_pe_account
+#: model:ir.model.fields,field_description:l10n_pe_account.field_l10n_latam_document_type__length
+msgid "Length required in correlative for document"
+msgstr "Tamaño requerido para el correlativo"
+
+#. module: l10n_pe_account
+#: model_terms:ir.ui.view,arch_db:l10n_pe_account.template_account_invoice_document_fe
+msgid "Logo"
+msgstr ""
+
+#. module: l10n_pe_account
+#: model:ir.model.fields,field_description:l10n_pe_account.field_pragmatic_type_operation_catalog_51__message_report
+msgid "Message To Report"
+msgstr "Mensaje para Reporte"
+
+#. module: l10n_pe_account
+#: model:ir.model.fields,field_description:l10n_pe_account.field_pragmatic_type_income_table_31__name
+#: model:ir.model.fields,field_description:l10n_pe_account.field_pragmatic_type_operation_catalog_51__name
+msgid "Name"
+msgstr "Nombre"
+
+#. module: l10n_pe_account
+#: model:ir.model.fields.selection,name:l10n_pe_account.selection__account_tax__tax_type_purchase__no_grav
+msgid "No Gravada"
+msgstr ""
+
+#. module: l10n_pe_account
+#: model_terms:ir.ui.view,arch_db:l10n_pe_account.small_external_layout_ticket
+msgid ""
+"Page:\n"
+"                    <span class=\"page\"/>\n"
+"                    of\n"
+"                    <span class=\"topage\"/>"
+msgstr ""
+"Pagina:\n"
+"                    <span class=\"page\"/>\n"
+"                    de\n"
+"                    <span class=\"topage\"/>"
+
+#. module: l10n_pe_account
+#: model_terms:ir.ui.view,arch_db:l10n_pe_account.template_account_invoice_document_fe
+msgid "Paid on"
+msgstr "Pagado en"
+
+#. module: l10n_pe_account
+#: model:ir.model,name:l10n_pe_account.model_account_payment
+msgid "Payments"
+msgstr "Pagos"
+
+#. module: l10n_pe_account
+#: code:addons/l10n_pe_account/models/account_move.py:0
+#, python-format
+msgid "Please enter a reference price."
+msgstr "Por favor, ingresa el precio de referencia"
+
+#. module: l10n_pe_account
+#: model_terms:ir.ui.view,arch_db:l10n_pe_account.template_account_invoice_document_fe
+msgid "Printed Representation of the"
+msgstr "Representación impresa de la "
+
+#. module: l10n_pe_account
+#: model:ir.model.fields,field_description:l10n_pe_account.field_res_currency_rate__rate
+msgid "Rate"
+msgstr "Tasa"
+
+#. module: l10n_pe_account
+#: model:ir.model.fields.selection,name:l10n_pe_account.selection__account_move__can_edit_correlative__readonly
+#: model:ir.model.fields.selection,name:l10n_pe_account.selection__account_move__edit_serie_code__readonly
+msgid "Readonly"
+msgstr "Solo lectura"
+
+#. module: l10n_pe_account
+#: model:ir.model.fields,field_description:l10n_pe_account.field_account_bank_statement_line__nc_nd_correlative
+#: model:ir.model.fields,field_description:l10n_pe_account.field_account_move__nc_nd_correlative
+#: model:ir.model.fields,field_description:l10n_pe_account.field_account_payment__nc_nd_correlative
+msgid "Ref. Correlative"
+msgstr "Ref. Correlativo"
+
+#. module: l10n_pe_account
+#: model:ir.model.fields,field_description:l10n_pe_account.field_account_bank_statement_line__nc_nd_date_emision
+#: model:ir.model.fields,field_description:l10n_pe_account.field_account_move__nc_nd_date_emision
+#: model:ir.model.fields,field_description:l10n_pe_account.field_account_payment__nc_nd_date_emision
+msgid "Ref. Date"
+msgstr "Ref. Fecha"
+
+#. module: l10n_pe_account
+#: model:ir.model.fields,field_description:l10n_pe_account.field_account_bank_statement_line__nc_nd_latam_document_type_id
+#: model:ir.model.fields,field_description:l10n_pe_account.field_account_move__nc_nd_latam_document_type_id
+#: model:ir.model.fields,field_description:l10n_pe_account.field_account_payment__nc_nd_latam_document_type_id
+msgid "Ref. Document Type"
+msgstr "Ref. Tipo de documento"
+
+#. module: l10n_pe_account
+#: model:ir.model.fields,field_description:l10n_pe_account.field_account_bank_statement_line__nc_nd_serie_code
+#: model:ir.model.fields,field_description:l10n_pe_account.field_account_move__nc_nd_serie_code
+#: model:ir.model.fields,field_description:l10n_pe_account.field_account_payment__nc_nd_serie_code
+msgid "Ref. Serie"
+msgstr ""
+
+#. module: l10n_pe_account
+#: model_terms:ir.ui.view,arch_db:l10n_pe_account.pragmatic_account_move_form
+msgid "Reference Document"
+msgstr "Documento de referencia"
+
+#. module: l10n_pe_account
+#: model:ir.model.fields,field_description:l10n_pe_account.field_account_move_line__price_unit_free
+msgid "Reference Price Free"
+msgstr "Precio de Referencia"
+
+#. module: l10n_pe_account
+#: model:ir.model,name:l10n_pe_account.model_account_payment_register
+msgid "Register Payment"
+msgstr "Registrar pago"
+
+#. module: l10n_pe_account
+#: model:ir.model.fields,field_description:l10n_pe_account.field_account_bank_statement_line__serie_code
+#: model:ir.model.fields,field_description:l10n_pe_account.field_account_move__serie_code
+#: model:ir.model.fields,field_description:l10n_pe_account.field_account_payment__serie_code
+msgid "Serie"
+msgstr ""
+
+#. module: l10n_pe_account
+#: model:ir.model.fields,field_description:l10n_pe_account.field_account_bank_statement_line__serie_filter
+#: model:ir.model.fields,field_description:l10n_pe_account.field_account_move__serie_filter
+#: model:ir.model.fields,field_description:l10n_pe_account.field_account_payment__serie_filter
+msgid "Serie Filter"
+msgstr "Filtro de serie"
+
+#. module: l10n_pe_account
+#: model:ir.model,name:l10n_pe_account.model_pragmatic_serie_sequence
+#: model:ir.ui.menu,name:l10n_pe_account.pragmatic_serie_sequence_account
+msgid "Serie Sequence"
+msgstr "Secuencia de serie"
+
+#. module: l10n_pe_account
+#: model_terms:ir.ui.view,arch_db:l10n_pe_account.pragmatic_type_income_table_31_search
+#: model_terms:ir.ui.view,arch_db:l10n_pe_account.pragmatic_type_operation_catalog_51_search
+msgid "Show active"
+msgstr "Mostrar Activo"
+
+#. module: l10n_pe_account
+#: model_terms:ir.ui.view,arch_db:l10n_pe_account.pragmatic_type_income_table_31_search
+#: model_terms:ir.ui.view,arch_db:l10n_pe_account.pragmatic_type_operation_catalog_51_search
+msgid "Show archived"
+msgstr "Mostrar Arvhivado"
+
+#. module: l10n_pe_account
+#: model:ir.model.fields,field_description:l10n_pe_account.field_account_setup_bank_manual_config__show_in_invoice
+#: model:ir.model.fields,field_description:l10n_pe_account.field_res_partner_bank__show_in_invoice
+msgid "Show in Invoice"
+msgstr "Mostrar en Factura"
+
+#. module: l10n_pe_account
+#: model:ir.model.fields,field_description:l10n_pe_account.field_l10n_latam_identification_type__placeholder
+msgid "Size of Length"
+msgstr "Tamaño permitido"
+
+#. module: l10n_pe_account
+#: model_terms:ir.ui.view,arch_db:l10n_pe_account.template_account_invoice_document_fe_ticket
+msgid "Subtotal"
+msgstr ""
+
+#. module: l10n_pe_account
+#: model_terms:ir.ui.view,arch_db:l10n_pe_account.pg_l10n_latam_document_type_view
+msgid "Sunat - Type Document"
+msgstr "Sunat - Tipo de documento"
+
+#. module: l10n_pe_account
+#: model:ir.model,name:l10n_pe_account.model_pragmatic_type_operation_catalog_51
+msgid "Sunat Catalog 51 - Type Of Operation"
+msgstr "Sunat Catalogo 51 - Type de Operacion"
+
+#. module: l10n_pe_account
+#: model:ir.actions.act_window,name:l10n_pe_account.pragmatic_type_operation_catalog_51_action
+#: model_terms:ir.ui.view,arch_db:l10n_pe_account.pragmatic_type_operation_catalog_51_form
+#: model_terms:ir.ui.view,arch_db:l10n_pe_account.pragmatic_type_operation_catalog_51_tree
+msgid "Sunat Catalog 51 - Type Operation"
+msgstr "Sunat Catalogo 51 - Tipo de Operacion"
+
+#. module: l10n_pe_account
+#: model_terms:ir.ui.view,arch_db:l10n_pe_account.pragmatic_type_income_table_31_form
+#: model_terms:ir.ui.view,arch_db:l10n_pe_account.pragmatic_type_income_table_31_tree
+msgid "Sunat Table 31 - Type Income"
+msgstr "Sunat Tabla 31 - Tipo de renta"
+
+#. module: l10n_pe_account
+#: model:ir.actions.act_window,name:l10n_pe_account.pragmatic_type_income_table_31_action
+msgid "Sunat Table 31 - Type of Income"
+msgstr "Sunat Tabla 31 - Tipo de Renta"
+
+#. module: l10n_pe_account
+#: model:ir.ui.menu,name:l10n_pe_account.pragmatic_account_sunat_values
+msgid "Sunat Values"
+msgstr "Sunat Valores"
+
+#. module: l10n_pe_account
+#: model:ir.model,name:l10n_pe_account.model_pragmatic_type_income_table_31
+msgid "Sunat table 31 - Type Of Income"
+msgstr "Sunat tabla 31 - Type Of Renta"
+
+#. module: l10n_pe_account
+#: model_terms:ir.ui.view,arch_db:l10n_pe_account.template_account_invoice_document_fe_ticket
+msgid "TOTAL"
+msgstr ""
+
+#. module: l10n_pe_account
+#: model:ir.model,name:l10n_pe_account.model_account_tax
+msgid "Tax"
+msgstr "Impuesto"
+
+#. module: l10n_pe_account
+#: model_terms:ir.ui.view,arch_db:l10n_pe_account.template_account_invoice_document_fe_ticket
+msgid "Taxed Operations"
+msgstr "OP. Gravadas"
+
+#. module: l10n_pe_account
+#: code:addons/l10n_pe_account/models/account_move.py:0
+#, python-format
+msgid "The document is registered."
+msgstr "El documento esta registrado"
+
+#. module: l10n_pe_account
+#: model:ir.model.fields,help:l10n_pe_account.field_res_currency_rate__rate
+msgid "The rate of the currency to the currency of rate 1"
+msgstr "La tasa de cambio de la moneda respecto a la moneda de tasa 1"
+
+#. module: l10n_pe_account
+#: model_terms:ir.ui.view,arch_db:l10n_pe_account.pg_view_move_form
+msgid "Total Credit"
+msgstr "Total Credito"
+
+#. module: l10n_pe_account
+#: model_terms:ir.ui.view,arch_db:l10n_pe_account.pg_view_move_form
+msgid "Total Debit"
+msgstr "Total Debito"
+
+#. module: l10n_pe_account
+#: model:ir.actions.act_window,name:l10n_pe_account.pg_l10n_latam_document_type_action_window
+#: model:ir.model.fields,field_description:l10n_pe_account.field_pragmatic_serie_sequence__type_document
+msgid "Type Document"
+msgstr "Tipo de identificacion"
+
+#. module: l10n_pe_account
+#: model:ir.model.fields,field_description:l10n_pe_account.field_res_currency_rate__rate_exchange
+msgid "Type Exchange"
+msgstr "Tipo de cambio"
+
+#. module: l10n_pe_account
+#: model:ir.ui.menu,name:l10n_pe_account.pragmatic_sunat_type_operation
+msgid "Type Operation"
+msgstr "Tipo de Operacion"
+
+#. module: l10n_pe_account
+#: model:ir.model.fields,field_description:l10n_pe_account.field_account_tax__tax_type_purchase
+msgid "Type Tax Purchase"
+msgstr "Tipo Impuesto Compra"
+
+#. module: l10n_pe_account
+#: model:ir.model.fields,field_description:l10n_pe_account.field_l10n_latam_identification_type__invoice_type_allowed
+msgid "Type document allowed"
+msgstr "Tipo de documento permitido"
+
+#. module: l10n_pe_account
+#: model:ir.ui.menu,name:l10n_pe_account.pragmatic_sunat_type_document
+msgid "Type of Document"
+msgstr "Tipo de documento"
+
+#. module: l10n_pe_account
+#: model:ir.model.fields,field_description:l10n_pe_account.field_account_bank_statement_line__type_of_income
+#: model:ir.model.fields,field_description:l10n_pe_account.field_account_move__type_of_income
+#: model:ir.model.fields,field_description:l10n_pe_account.field_account_payment__type_of_income
+#: model:ir.ui.menu,name:l10n_pe_account.pragmatic_sunat_type_income
+msgid "Type of Income"
+msgstr "Tipo de ingreso"
+
+#. module: l10n_pe_account
+#: model:ir.model.fields,field_description:l10n_pe_account.field_account_move_line__price_ref
+msgid "Unit Price"
+msgstr "Precio Unitario"

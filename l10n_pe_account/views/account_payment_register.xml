@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="pg_account_payment_register" model="ir.ui.view">
+        <field name="name">account.payment.register.inherit.form.localization</field>
+        <field name="model">account.payment.register</field>
+        <field name="inherit_id" ref="account.view_account_payment_register_form"/>
+        <field name="arch" type="xml">
+            <field name="partner_bank_id" position="after">
+                <field name="detraction" widget="boolean_toggle"/>
+                <field name="detraction_date"
+                       attrs="{'invisible': [('detraction', '=', False)],'required':[('detraction', '=', True)]}"/>
+                <field name="detraction_number"
+                       attrs="{'invisible': [('detraction', '=', False)],'required':[('detraction', '=', True)]}"/>
+            </field>
+        </field>
+    </record>
+</odoo>

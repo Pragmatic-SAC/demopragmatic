@@ -1,0 +1,2 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_pragmatic_type_operation_table_12,pragmatic.table.25,l10n_pe_stock.model_pragmatic_type_operation_table_12,l10n_pe_conf.pragmatic_user,1,1,1,1

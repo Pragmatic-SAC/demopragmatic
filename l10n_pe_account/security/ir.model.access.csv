@@ -1,0 +1,5 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_pragmatic_type_income_table_31,pragmatic.type.income.table.31,l10n_pe_account.model_pragmatic_type_income_table_31,l10n_pe_conf.pragmatic_user,1,1,1,1
+access_pg_l10n_latam_document_type,l10n_latam.document.type,l10n_latam_invoice_document.model_l10n_latam_document_type,l10n_pe_conf.pragmatic_user,1,1,1,1
+access_pragmatic_serie_sequence,pragmatic.serie.sequence,l10n_pe_journal_sequence.model_pragmatic_serie_sequence,l10n_pe_conf.pragmatic_user,1,1,1,1
+access_pragmatic_type_operation_catalog_51,pragmatic.type.operation.catalog.51,l10n_pe_account.model_pragmatic_type_operation_catalog_51,l10n_pe_conf.pragmatic_user,1,1,1,1

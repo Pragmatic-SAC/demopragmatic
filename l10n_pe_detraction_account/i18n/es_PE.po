@@ -1,0 +1,57 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* l10n_pe_detraction_account
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-27 20:43+0000\n"
+"PO-Revision-Date: 2021-04-27 20:43+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: l10n_pe_detraction_account
+#: model:ir.model.fields,field_description:l10n_pe_detraction_account.field_account_bank_statement_line__detraction_code
+#: model:ir.model.fields,field_description:l10n_pe_detraction_account.field_account_move__detraction_code
+#: model:ir.model.fields,field_description:l10n_pe_detraction_account.field_account_payment__detraction_code
+msgid "Detraction Code"
+msgstr "Codigo de detraccion"
+
+#. module: l10n_pe_detraction_account
+#: model:ir.model.fields,field_description:l10n_pe_detraction_account.field_account_bank_statement_line__detraction_percent
+#: model:ir.model.fields,field_description:l10n_pe_detraction_account.field_account_move__detraction_percent
+#: model:ir.model.fields,field_description:l10n_pe_detraction_account.field_account_payment__detraction_percent
+msgid "Detraction Percent"
+msgstr "Porcentaje Detraccion"
+
+#. module: l10n_pe_detraction_account
+#: model:ir.model.fields,field_description:l10n_pe_detraction_account.field_account_move__display_name
+msgid "Display Name"
+msgstr "Nombre a Mostrar"
+
+#. module: l10n_pe_detraction_account
+#: model:ir.model.fields,field_description:l10n_pe_detraction_account.field_account_move__id
+msgid "ID"
+msgstr "ID"
+
+#. module: l10n_pe_detraction_account
+#: model:ir.model,name:l10n_pe_detraction_account.model_account_move
+msgid "Journal Entry"
+msgstr "Asiento contable"
+
+#. module: l10n_pe_detraction_account
+#: model:ir.model.fields,field_description:l10n_pe_detraction_account.field_account_move____last_update
+msgid "Last Modified on"
+msgstr "Ultima Modificación en"
+
+#. module: l10n_pe_detraction_account
+#: model:ir.model.fields,field_description:l10n_pe_detraction_account.field_account_bank_statement_line__detraction_amount
+#: model:ir.model.fields,field_description:l10n_pe_detraction_account.field_account_move__detraction_amount
+#: model:ir.model.fields,field_description:l10n_pe_detraction_account.field_account_payment__detraction_amount
+msgid "Monto de detraccion"
+msgstr "Monto de detraccion"

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="rate_view_currency_rate_form_inherit" model="ir.ui.view">
+            <field name="name">res.currency.rate.form</field>
+            <field name="model">res.currency.rate</field>
+            <field name="inherit_id" ref="base.view_currency_rate_form"/>
+            <field name="arch" type="xml">
+                <field name="name" position="after">
+                    <field name="type" readonly="True"/>
+                </field>
+            </field>
+        </record>
+        <record id="rate_view_currency_rate_tree_inherit" model="ir.ui.view">
+            <field name="name">res.currency.rate.tree</field>
+            <field name="model">res.currency.rate</field>
+            <field name="inherit_id" ref="base.view_currency_rate_tree"/>
+            <field name="arch" type="xml">
+                <field name="name" position="after">
+                    <field name="type" readonly="True"/>
+                </field>
+            </field>
+        </record>
+        <record id="rate_view_currency_tree_inherit" model="ir.ui.view">
+            <field name="name">res.currency.tree</field>
+            <field name="model">res.currency</field>
+            <field name="inherit_id" ref="base.view_currency_tree"/>
+            <field name="arch" type="xml">
+                <field name="name" position="after">
+                    <field name="type"/>
+                </field>
+            </field>
+        </record>
+        <record id="rate_view_currency_form_inherit" model="ir.ui.view">
+            <field name="name">res.currency.form</field>
+            <field name="model">res.currency</field>
+            <field name="inherit_id" ref="base.view_currency_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//form/sheet" position="before">
+                    <header>
+                        <button name="get_exchange_rate" type="object" string="Sale Exchange Rate"
+                                class="oe_highlight o_invoice_send"
+                                attrs="{'invisible': ['|',('type', '!=', 'sale'),('name', '!=', 'USD')]}"/>
+                        <button name="get_exchange_rate" type="object" string="Purchase Exchange Rate"
+                                class="oe_highlight o_invoice_purchase"
+                                attrs="{'invisible': ['|',('type', '!=', 'purchase'),('name', '!=', 'USD')]}"/>
+                    </header>
+                </xpath>
+                <field name="name" position="after">
+                    <field name="type" attrs="{'invisible': [('name', '!=', 'USD')],'required':[('name','=','USD')]}"/>
+                    <field name="from_type"
+                           attrs="{'invisible': [('name', '!=', 'USD')],'required':[('name','=','USD')]}"/>
+                </field>
+            </field>
+        </record>
+    </data>
+</odoo>

@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="pragmatic_annexed_2_01" model="pragmatic.annexed.2">
+            <field name="code">01</field>
+            <field name="name">PERSONA NATURAL SIN NEGOCIO</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_annexed_2_02" model="pragmatic.annexed.2">
+            <field name="code">02</field>
+            <field name="name">PERSONA NATURAL CON NEGOCIO</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_annexed_2_03" model="pragmatic.annexed.2">
+            <field name="code">03</field>
+            <field name="name">SOCIEDAD CONYUGAL SIN NEGOCIO</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_annexed_2_04" model="pragmatic.annexed.2">
+            <field name="code">04</field>
+            <field name="name">SOCIEDAD CONYUGAL CON NEGOCIO</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_annexed_2_05" model="pragmatic.annexed.2">
+            <field name="code">05</field>
+            <field name="name">SUCESION INDIVISA SIN NEGOCIO</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_annexed_2_06" model="pragmatic.annexed.2">
+            <field name="code">06</field>
+            <field name="name">SUCESION INDIVISA CON NEGOCIO</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_annexed_2_07" model="pragmatic.annexed.2">
+            <field name="code">07</field>
+            <field name="name">EMPRESA INDIVIDUAL DE RESP. LTDA</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_annexed_2_08" model="pragmatic.annexed.2">
+            <field name="code">08</field>
+            <field name="name">SOCIEDAD CIVIL</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_annexed_2_09" model="pragmatic.annexed.2">
+            <field name="code">09</field>
+            <field name="name">SOCIEDAD IRREGULAR</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_annexed_2_10" model="pragmatic.annexed.2">
+            <field name="code">10</field>
+            <field name="name">ASOCIACION EN PARTICIPACION</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_annexed_2_11" model="pragmatic.annexed.2">
+            <field name="code">11</field>
+            <field name="name">ASOCIACION</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_annexed_2_12" model="pragmatic.annexed.2">
+            <field name="code">12</field>
+            <field name="name">FUNDACION</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_annexed_2_13" model="pragmatic.annexed.2">
+            <field name="code">13</field>
+            <field name="name">SOCIEDAD EN COMANDITA SIMPLE</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_annexed_2_14" model="pragmatic.annexed.2">
+            <field name="code">14</field>
+            <field name="name">SOCIEDAD COLECTIVA</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_annexed_2_15" model="pragmatic.annexed.2">
+            <field name="code">15</field>
+            <field name="name">INSTITUCIONES PUBLICAS</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_annexed_2_16" model="pragmatic.annexed.2">
+            <field name="code">16</field>
+            <field name="name">INSTITUCIONES RELIGIOSAS</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_annexed_2_17" model="pragmatic.annexed.2">
+            <field name="code">17</field>
+            <field name="name">SOCIEDAD DE BENEFICIENCIA</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_annexed_2_18" model="pragmatic.annexed.2">
+            <field name="code">18</field>
+            <field name="name">ENTIDADES DE AUXILIO MUTUO</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_annexed_2_19" model="pragmatic.annexed.2">
+            <field name="code">19</field>
+            <field name="name">UNIVERS. CENTROS EDUCAT. Y CULT.</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_annexed_2_20" model="pragmatic.annexed.2">
+            <field name="code">20</field>
+            <field name="name">GOBIERNO REGIONAL, LOCAL</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_annexed_2_21" model="pragmatic.annexed.2">
+            <field name="code">21</field>
+            <field name="name">GOBIERNO CENTRAL</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_annexed_2_22" model="pragmatic.annexed.2">
+            <field name="code">22</field>
+            <field name="name">COMUNIDAD LABORAL</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_annexed_2_23" model="pragmatic.annexed.2">
+            <field name="code">23</field>
+            <field name="name">COMUNIDAD CAMPESINA,NATIVA,COMUNAL</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_annexed_2_24" model="pragmatic.annexed.2">
+            <field name="code">24</field>
+            <field name="name">COOPERATIVAS, SAIS, CAPS</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_annexed_2_25" model="pragmatic.annexed.2">
+            <field name="code">25</field>
+            <field name="name">EMPRESA DE PROPIEDAD SOCIAL</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_annexed_2_26" model="pragmatic.annexed.2">
+            <field name="code">26</field>
+            <field name="name">SOCIEDAD ANONIMA</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_annexed_2_27" model="pragmatic.annexed.2">
+            <field name="code">27</field>
+            <field name="name">SOCIEDAD EN COMANDITA POR ACCIONES</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_annexed_2_28" model="pragmatic.annexed.2">
+            <field name="code">28</field>
+            <field name="name">SOC.COM.RESPONS. LTDA</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_annexed_2_29" model="pragmatic.annexed.2">
+            <field name="code">29</field>
+            <field name="name">SUC,AG.EMP.EXTRANJ,EST.PERM NO DOM.</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_annexed_2_30" model="pragmatic.annexed.2">
+            <field name="code">30</field>
+            <field name="name">EMPRESA DE DERECHO PUBLICO</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_annexed_2_31" model="pragmatic.annexed.2">
+            <field name="code">31</field>
+            <field name="name">EMPRESA ESTATAL DE DERECHO PRIVADO</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_annexed_2_32" model="pragmatic.annexed.2">
+            <field name="code">32</field>
+            <field name="name">EMPRESA DE ECONOMIA MIXTA</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_annexed_2_33" model="pragmatic.annexed.2">
+            <field name="code">33</field>
+            <field name="name">ACCIONARIADO DEL ESTADO</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_annexed_2_34" model="pragmatic.annexed.2">
+            <field name="code">34</field>
+            <field name="name">MISIONES DIPLOMATICAS Y ORG. INTER.</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_annexed_2_35" model="pragmatic.annexed.2">
+            <field name="code">35</field>
+            <field name="name">JUNTA DE PROPIETARIOS</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_annexed_2_36" model="pragmatic.annexed.2">
+            <field name="code">36</field>
+            <field name="name">OF.REPRESENTACION DE NO DOMICILIADO</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_annexed_2_37" model="pragmatic.annexed.2">
+            <field name="code">37</field>
+            <field name="name">FONDOS MUTUOS DE INVERSION</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_annexed_2_38" model="pragmatic.annexed.2">
+            <field name="code">38</field>
+            <field name="name">SOCIEDAD ANONIMA ABIERTA</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_annexed_2_39" model="pragmatic.annexed.2">
+            <field name="code">39</field>
+            <field name="name">SOCIEDAD ANONIMA CERRADA</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_annexed_2_40" model="pragmatic.annexed.2">
+            <field name="code">40</field>
+            <field name="name">CONTRATOS COLABORACION EMPRESARIAL</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_annexed_2_41" model="pragmatic.annexed.2">
+            <field name="code">41</field>
+            <field name="name">ENT.INST.COOPERAC.TECNICA - ENIEX</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_annexed_2_42" model="pragmatic.annexed.2">
+            <field name="code">42</field>
+            <field name="name">COMUNIDAD DE BIENES</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_annexed_2_43" model="pragmatic.annexed.2">
+            <field name="code">43</field>
+            <field name="name">SOCIEDAD MINERA DE RESP.LIMITADA</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_annexed_2_44" model="pragmatic.annexed.2">
+            <field name="code">44</field>
+            <field name="name">ASOC. FUNDAC. Y COMITE NO INSCRITOS</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_annexed_2_45" model="pragmatic.annexed.2">
+            <field name="code">45</field>
+            <field name="name">PARTIDOS,MOVIM, ALIANZAS POLITICAS</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_annexed_2_46" model="pragmatic.annexed.2">
+            <field name="code">46</field>
+            <field name="name">ASOC. DE HECHO DE PROFESIONALES</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_annexed_2_47" model="pragmatic.annexed.2">
+            <field name="code">47</field>
+            <field name="name">CAFAES Y SUBCAFAES</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_annexed_2_48" model="pragmatic.annexed.2">
+            <field name="code">48</field>
+            <field name="name">SINDICATOS Y FEDERACIONES</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_annexed_2_49" model="pragmatic.annexed.2">
+            <field name="code">49</field>
+            <field name="name">COLEGIOS PROFESIONALES</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_annexed_2_50" model="pragmatic.annexed.2">
+            <field name="code">50</field>
+            <field name="name">COMITES INSCRITOS</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_annexed_2_51" model="pragmatic.annexed.2">
+            <field name="code">51</field>
+            <field name="name">ORGANIZACIONES SOCIALES DE BASE</field>
+            <field name="active" eval="True"/>
+        </record>
+    </data>
+</odoo>

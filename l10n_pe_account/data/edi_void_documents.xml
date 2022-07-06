@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<odoo>
+    <data>
+        <template id="pe_ubl_2_1_void_documents_prg" inherit_id="l10n_pe_edi.pe_ubl_2_1_void_documents">
+            <xpath expr="//*[name()='cbc:ReferenceDate']" position="before">
+                <t t-set="reference_date" t-value="0"/>
+                <t t-foreach="records" t-as="invoice0">
+                    <t t-set="reference_date" t-value="invoice0.invoice_date"/>
+                </t>
+            </xpath>
+            <xpath expr="//*[name()='cbc:ReferenceDate']" position="replace">
+                <t xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
+
+                    <cbc:ReferenceDate t-esc="reference_date"/>
+                </t>
+            </xpath>
+<!--            <xpath expr="//*[name()='cbc:IssueDate']" position="replace">-->
+<!--                <t xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">-->
+
+<!--                    <cbc:IssueDate t-esc="reference_date"/>-->
+<!--                </t>-->
+<!--            </xpath>-->
+        </template>
+    </data>
+</odoo>

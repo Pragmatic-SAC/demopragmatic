@@ -1,0 +1,9 @@
+<odoo>
+    <data>
+        <template id="pg_assets_backend" name="xls_assets_kardex" inherit_id="web.assets_backend">
+            <xpath expr="." position="inside">
+                <script  src="/l10n_pe_kardex/static/src/js/action_manager.js"/>
+            </xpath>
+        </template>
+    </data>
+</odoo>

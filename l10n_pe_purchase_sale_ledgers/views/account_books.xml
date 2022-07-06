@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="account_books_tree" model="ir.ui.view">
+            <field name="name">Purchase and Sales Register reports</field>
+            <field name="model">report.account.books</field>
+            <field name="arch" type="xml">
+                <tree string="Purchase and Sales Register reports" editable="bottom">
+                    <field name="name"/>
+                    <field name="date_from"/>
+                    <field name="date_to"/>
+                    <field name="book_type"/>
+                    <field name="company_id"/>
+                    <button class="oe_stat_button" type="object" string="Export (XLSX)" name="export_excel"
+                            icon="fa-file-excel-o"/>
+                    <button class="oe_stat_button" type="object" string="Export (TXT)" name="export_txt"
+                            icon="fa-file"/>
+                </tree>
+            </field>
+        </record>
+        <record id="account_books_action" model="ir.actions.act_window">
+            <field name="name">Purchase and Sales Register reports</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">report.account.books</field>
+            <field name="view_mode">tree</field>
+        </record>
+        <menuitem id="account_books_menu" name="Reports Books"
+                  parent="account.menu_finance_reports" sequence="99"/>
+        <menuitem id="account_books_report" name="Reports Purchase and Sales"
+                  action="account_books_action" parent="account_books_menu" sequence="99"/>
+    </data>
+</odoo>

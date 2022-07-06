@@ -1,0 +1,3 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_pragmatic_table_tmpl,pragmatic.table.tmpl,l10n_pe_base.model_pragmatic_table_tmpl,l10n_pe_conf.pragmatic_user,1,1,1,1
+access_pragmatic_establishment,pragmatic.establishment,l10n_pe_base.model_pragmatic_establishment,l10n_pe_conf.pragmatic_user,1,1,1,1

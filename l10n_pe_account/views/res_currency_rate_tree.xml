@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="pg_res_currency_rate_tree" model="ir.ui.view">
+        <field name="model">res.currency.rate</field>
+        <field name="inherit_id" ref="base.view_currency_rate_tree"/>
+        <field name="arch" type="xml">
+            <field name="name" position="after">
+                <field name="rate_exchange"/>
+            </field>
+        </field>
+    </record>
+</odoo>

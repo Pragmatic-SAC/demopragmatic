@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="pragmatic_25_00" model="pragmatic.table.25">
+            <field name="code">00</field>
+            <field name="name">NINGUNO</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_25_01" model="pragmatic.table.25">
+            <field name="code">01</field>
+            <field name="name">CANADA</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_25_02" model="pragmatic.table.25">
+            <field name="code">02</field>
+            <field name="name">CHILE</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_25_03" model="pragmatic.table.25">
+            <field name="code">03</field>
+            <field name="name">COMUNIDAD ANDINA DE NACIONES (CAN)</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_25_04" model="pragmatic.table.25">
+            <field name="code">04</field>
+            <field name="name">BRASIL</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_25_05" model="pragmatic.table.25">
+            <field name="code">05</field>
+            <field name="name">ESTADOS UNIDOS MEXICANOS</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_25_06" model="pragmatic.table.25">
+            <field name="code">06</field>
+            <field name="name">REPUBLICA DE COREA</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_25_07" model="pragmatic.table.25">
+            <field name="code">07</field>
+            <field name="name">CONFEDERACIÓN SUIZA</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_25_08" model="pragmatic.table.25">
+            <field name="code">08</field>
+            <field name="name">PORTUGAL</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_25_09" model="pragmatic.table.25">
+            <field name="code">09</field>
+            <field name="name">OTROS</field>
+            <field name="active" eval="True"/>
+        </record>
+    </data>
+</odoo>

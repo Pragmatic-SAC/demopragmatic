@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<odoo>
+    <data>
+        <record id="type_exist_res_config_settings_view_form" model="ir.ui.view">
+            <field name="name">res.config.settings.view.form.inherit</field>
+            <field name="model">res.config.settings</field>
+            <field name="inherit_id" ref="stock.res_config_settings_view_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//div[@id='production_lot_info']" position="after">
+                    <h2>Cod. Existence Type</h2>
+                    <div class="row mt16 o_settings_container">
+                        <div class="col-xs-12 col-md-6 o_setting_box" id="conf_type_existence">
+                            <div class="o_setting_right_pane">
+                                <span class="o_form_label">Existence type</span>
+                                <div class="text-muted">
+                                    Cod. of the Existence type table 13
+                                </div>
+                                <div class="content-group">
+                                    <div class="mt16">
+                                        <field name="catalog_exist" class="o_light_label" widget="selection"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </xpath>
+            </field>
+        </record>
+    </data>
+</odoo>

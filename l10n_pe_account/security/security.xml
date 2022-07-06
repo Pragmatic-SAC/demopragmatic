@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="pragmatic_edit_correlative" model="res.groups">
+        <field name="name">Edit correlative</field>
+        <field name="category_id" ref="l10n_pe_conf.pragmatic_category"/>
+    </record>
+</odoo>

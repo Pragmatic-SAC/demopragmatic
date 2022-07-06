@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <menuitem
+            id="pragmatic_stock_conf"
+            name="Inventory"
+            parent="l10n_pe_conf.pragmatic_root"
+            sequence="2"/>
+    <menuitem id="pragmatic_stock_sunat_values"
+              sequence="1"
+              name="Sunat Values"
+              parent="pragmatic_stock_conf"/>
+    <menuitem id="pragmatic_sunat_table_12"
+              sequence="1"
+              name="Sunat Table 12 - Type of Operation"
+              parent="pragmatic_stock_sunat_values"
+              action="pragmatic_table_12_action"/>
+</odoo>

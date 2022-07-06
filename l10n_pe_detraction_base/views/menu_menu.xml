@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <menuitem id="pragmatic_catalog_54"
+              sequence="1"
+              name="Sunat Catalog 54 - Goods and services codes subject to detraction"
+              parent="l10n_pe_product.pragmatic_product_sunat_values"
+              action="l10n_pe_detraction_base.pragmatic_catalog_54_action"/>
+</odoo>

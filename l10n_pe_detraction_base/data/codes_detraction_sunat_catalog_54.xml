@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="pragmatic_catalog_54_000" model="pragmatic.catalog.54">
+            <field name="code">000</field>
+            <field name="name">NO ASIGNADO</field>
+            <field name="percent">0</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_catalog_54_001" model="pragmatic.catalog.54">
+            <field name="code">001</field>
+            <field name="name">Azúcar</field>
+            <field name="percent">10</field>
+            <field name="active" eval="False"/>
+        </record>
+        <record id="pragmatic_catalog_54_003" model="pragmatic.catalog.54">
+            <field name="code">003</field>
+            <field name="name">Alcohol etílico</field>
+            <field name="percent">10</field>
+            <field name="active" eval="False"/>
+        </record>
+        <record id="pragmatic_catalog_54_004" model="pragmatic.catalog.54">
+            <field name="code">004</field>
+            <field name="name">Recursos hidrobiológicos</field>
+            <field name="percent">4</field>
+            <field name="active" eval="False"/>
+        </record>
+        <record id="pragmatic_catalog_54_005" model="pragmatic.catalog.54">
+            <field name="code">005</field>
+            <field name="name">Maíz amarillo duro</field>
+            <field name="percent">4</field>
+            <field name="active" eval="False"/>
+        </record>
+        <record id="pragmatic_catalog_54_006" model="pragmatic.catalog.54">
+            <field name="code">006</field>
+            <field name="name">Algodón</field>
+            <field name="percent">10</field>
+            <field name="active" eval="False"/>
+        </record>
+        <record id="pragmatic_catalog_54_007" model="pragmatic.catalog.54">
+            <field name="code">007</field>
+            <field name="name">Caña de azúcar</field>
+            <field name="percent">4</field>
+            <field name="active" eval="False"/>
+        </record>
+        <record id="pragmatic_catalog_54_008" model="pragmatic.catalog.54">
+            <field name="code">008</field>
+            <field name="name">Madera</field>
+            <field name="percent">10</field>
+            <field name="active" eval="False"/>
+        </record>
+        <record id="pragmatic_catalog_54_009" model="pragmatic.catalog.54">
+            <field name="code">009</field>
+            <field name="name">Arena y piedra.</field>
+            <field name="percent">15</field>
+            <field name="active" eval="False"/>
+        </record>
+        <record id="pragmatic_catalog_54_010" model="pragmatic.catalog.54">
+            <field name="code">010</field>
+            <field name="name">Residuos, subproductos, desechos, recortes y desperdicios</field>
+            <field name="percent">10</field>
+            <field name="active" eval="False"/>
+        </record>
+        <record id="pragmatic_catalog_54_011" model="pragmatic.catalog.54">
+            <field name="code">011</field>
+            <field name="name">Bienes del inciso A) del Apéndice I de la Ley del IGV</field>
+            <field name="percent">4</field>
+            <field name="active" eval="False"/>
+        </record>
+        <record id="pragmatic_catalog_54_012" model="pragmatic.catalog.54">
+            <field name="code">012</field>
+            <field name="name">Intermediación laboral y tercerización</field>
+            <field name="percent">4</field>
+            <field name="active" eval="False"/>
+        </record>
+        <record id="pragmatic_catalog_54_013" model="pragmatic.catalog.54">
+            <field name="code">013</field>
+            <field name="name">Animales vivos</field>
+            <field name="percent">10</field>
+            <field name="active" eval="False"/>
+        </record>
+        <record id="pragmatic_catalog_54_014" model="pragmatic.catalog.54">
+            <field name="code">014</field>
+            <field name="name">Carnes y despojos comestibles</field>
+            <field name="percent">10</field>
+            <field name="active" eval="False"/>
+        </record>
+        <record id="pragmatic_catalog_54_015" model="pragmatic.catalog.54">
+            <field name="code">015</field>
+            <field name="name">Abonos, cueros y pieles de origen animal</field>
+            <field name="percent">10</field>
+            <field name="active" eval="False"/>
+        </record>
+        <record id="pragmatic_catalog_54_016" model="pragmatic.catalog.54">
+            <field name="code">016</field>
+            <field name="name">Aceite de pescado</field>
+            <field name="percent">4</field>
+            <field name="active" eval="False"/>
+        </record>
+        <record id="pragmatic_catalog_54_017" model="pragmatic.catalog.54">
+            <field name="code">017</field>
+            <field name="name">Harina, polvo y “pellets” de pescado, crustáceos, moluscos y demás invertebrados
+                acuáticos
+            </field>
+            <field name="percent">10</field>
+            <field name="active" eval="False"/>
+        </record>
+        <record id="pragmatic_catalog_54_018" model="pragmatic.catalog.54">
+            <field name="code">018</field>
+            <field name="name">Embarcaciones pesqueras</field>
+            <field name="percent">10</field>
+            <field name="active" eval="False"/>
+        </record>
+        <record id="pragmatic_catalog_54_019" model="pragmatic.catalog.54">
+            <field name="code">019</field>
+            <field name="name">Arrendamiento de bienes muebles</field>
+            <field name="percent">10</field>
+            <field name="active" eval="False"/>
+        </record>
+        <record id="pragmatic_catalog_54_020" model="pragmatic.catalog.54">
+            <field name="code">020</field>
+            <field name="name">Mantenimiento y reparación de bienes muebles</field>
+            <field name="percent">4</field>
+            <field name="active" eval="False"/>
+        </record>
+        <record id="pragmatic_catalog_54_021" model="pragmatic.catalog.54">
+            <field name="code">021</field>
+            <field name="name">Movimiento de carga</field>
+            <field name="percent">10</field>
+            <field name="active" eval="False"/>
+        </record>
+        <record id="pragmatic_catalog_54_022" model="pragmatic.catalog.54">
+            <field name="code">022</field>
+            <field name="name">Otros servicios empresariales</field>
+            <field name="percent">10</field>
+            <field name="active" eval="False"/>
+        </record>
+        <record id="pragmatic_catalog_54_023" model="pragmatic.catalog.54">
+            <field name="code">023</field>
+            <field name="name">Leche</field>
+            <field name="percent">1.5</field>
+            <field name="active" eval="False"/>
+        </record>
+        <record id="pragmatic_catalog_54_024" model="pragmatic.catalog.54">
+            <field name="code">024</field>
+            <field name="name">Comisión mercantil</field>
+            <field name="percent">1.5</field>
+            <field name="active" eval="False"/>
+        </record>
+        <record id="pragmatic_catalog_54_025" model="pragmatic.catalog.54">
+            <field name="code">025</field>
+            <field name="name">Fabricación de bienes por encargo</field>
+            <field name="percent">10</field>
+            <field name="active" eval="False"/>
+        </record>
+        <record id="pragmatic_catalog_54_026" model="pragmatic.catalog.54">
+            <field name="code">026</field>
+            <field name="name">Servicio de transporte de personas</field>
+            <field name="percent">10</field>
+            <field name="active" eval="False"/>
+        </record>
+        <record id="pragmatic_catalog_54_029" model="pragmatic.catalog.54">
+            <field name="code">029</field>
+            <field name="name">Algodón en rama sin desmontar</field>
+            <field name="percent">4</field>
+            <field name="active" eval="False"/>
+        </record>
+        <record id="pragmatic_catalog_54_030" model="pragmatic.catalog.54">
+            <field name="code">030</field>
+            <field name="name">Contratos de construcción</field>
+            <field name="percent">10</field>
+            <field name="active" eval="False"/>
+        </record>
+        <record id="pragmatic_catalog_54_031" model="pragmatic.catalog.54">
+            <field name="code">031</field>
+            <field name="name">Oro gravado con el IGV</field>
+            <field name="percent">10</field>
+            <field name="active" eval="False"/>
+        </record>
+        <record id="pragmatic_catalog_54_032" model="pragmatic.catalog.54">
+            <field name="code">032</field>
+            <field name="name">Páprika y otros frutos de los géneros capsicum o pimienta</field>
+            <field name="percent">4</field>
+            <field name="active" eval="False"/>
+        </record>
+        <record id="pragmatic_catalog_54_033" model="pragmatic.catalog.54">
+            <field name="code">033</field>
+            <field name="name">Espárragos</field>
+            <field name="percent">4</field>
+            <field name="active" eval="False"/>
+        </record>
+        <record id="pragmatic_catalog_54_034" model="pragmatic.catalog.54">
+            <field name="code">034</field>
+            <field name="name">Minerales metálicos no auríferos</field>
+            <field name="percent">10</field>
+            <field name="active" eval="False"/>
+        </record>
+        <record id="pragmatic_catalog_54_035" model="pragmatic.catalog.54">
+            <field name="code">035</field>
+            <field name="name">Bienes exonerados del IGV</field>
+            <field name="percent">4</field>
+            <field name="active" eval="False"/>
+        </record>
+        <record id="pragmatic_catalog_54_036" model="pragmatic.catalog.54">
+            <field name="code">036</field>
+            <field name="name">Oro y demás minerales metálicos exonerados del IGV</field>
+            <field name="percent">10</field>
+            <field name="active" eval="False"/>
+        </record>
+        <record id="pragmatic_catalog_54_037" model="pragmatic.catalog.54">
+            <field name="code">037</field>
+            <field name="name">Demás servicios gravados con el IGV</field>
+            <field name="percent">15</field>
+            <field name="active" eval="False"/>
+        </record>
+        <record id="pragmatic_catalog_54_039" model="pragmatic.catalog.54">
+            <field name="code">039</field>
+            <field name="name">Minerales no metálicos</field>
+            <field name="percent">10</field>
+            <field name="active" eval="False"/>
+        </record>
+        <record id="pragmatic_catalog_54_040" model="pragmatic.catalog.54">
+            <field name="code">040</field>
+            <field name="name">Bien inmueble gravado con IGV</field>
+            <field name="percent">4</field>
+            <field name="active" eval="False"/>
+        </record>
+    </data>
+</odoo>

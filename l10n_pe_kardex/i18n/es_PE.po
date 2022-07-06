@@ -1,0 +1,557 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* l10n_pe_kardex
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-21 01:03+0000\n"
+"PO-Revision-Date: 2021-05-21 01:03+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: l10n_pe_kardex
+#: model_terms:ir.ui.view,arch_db:l10n_pe_kardex.type_exist_res_config_settings_view_form
+msgid "<span class=\"o_form_label\">Existence type</span>"
+msgstr "<span class=\"o_form_label\">Tipo de existencia</span>"
+
+#. module: l10n_pe_kardex
+#: code:addons/l10n_pe_kardex/models/kardex.py:0
+#, python-format
+msgid "Address:"
+msgstr "Dirección:"
+
+#. module: l10n_pe_kardex
+#: code:addons/l10n_pe_kardex/models/kardex.py:0
+#, python-format
+msgid "BUSINESS NAME:"
+msgstr "RAZON SOCIAL:"
+
+#. module: l10n_pe_kardex
+#: code:addons/l10n_pe_kardex/models/kardex.py:0
+#, python-format
+msgid "Business name:"
+msgstr "Razón Social:"
+
+#. module: l10n_pe_kardex
+#: model:ir.model.fields.selection,name:l10n_pe_kardex.selection__res_company__catalog_exist__2
+#: model:ir.model.fields.selection,name:l10n_pe_kardex.selection__res_config_settings__catalog_exist__2
+msgid "CUBSO"
+msgstr ""
+
+#. module: l10n_pe_kardex
+#: code:addons/l10n_pe_kardex/models/tools.py:0
+#: code:addons/l10n_pe_kardex/models/tools.py:0
+#, python-format
+msgid "CUO"
+msgstr ""
+
+#. module: l10n_pe_kardex
+#: model:ir.model.fields,field_description:l10n_pe_kardex.field_account_bank_statement_line__initial_cant
+#: model:ir.model.fields,field_description:l10n_pe_kardex.field_account_move__initial_cant
+#: model:ir.model.fields,field_description:l10n_pe_kardex.field_account_payment__initial_cant
+msgid "Cantidad  Inicial Valorizado"
+msgstr ""
+
+#. module: l10n_pe_kardex
+#: model:ir.model.fields,field_description:l10n_pe_kardex.field_account_bank_statement_line__initial_cant_uni
+#: model:ir.model.fields,field_description:l10n_pe_kardex.field_account_move__initial_cant_uni
+#: model:ir.model.fields,field_description:l10n_pe_kardex.field_account_payment__initial_cant_uni
+msgid "Cantidad Inicial Unidades"
+msgstr ""
+
+#. module: l10n_pe_kardex
+#: model_terms:ir.ui.view,arch_db:l10n_pe_kardex.type_exist_res_config_settings_view_form
+msgid "Cod. Existence Type"
+msgstr "Cod. tipo de existencia"
+
+#. module: l10n_pe_kardex
+#: model_terms:ir.ui.view,arch_db:l10n_pe_kardex.type_exist_res_config_settings_view_form
+msgid "Cod. of the Existence type table 13"
+msgstr "Cod. de la tabla de tipos de Existencia 13"
+
+#. module: l10n_pe_kardex
+#: model:ir.model.fields,field_description:l10n_pe_kardex.field_kardex_states__code
+msgid "Code"
+msgstr "Codigo"
+
+#. module: l10n_pe_kardex
+#: model:ir.model.fields,field_description:l10n_pe_kardex.field_kardex_states__color
+msgid "Color"
+msgstr ""
+
+#. module: l10n_pe_kardex
+#: model:ir.model,name:l10n_pe_kardex.model_res_company
+msgid "Companies"
+msgstr "Compañias"
+
+#. module: l10n_pe_kardex
+#: model:ir.model.fields,field_description:l10n_pe_kardex.field_kardex_inventory_mov__company_id
+msgid "Company"
+msgstr "Compañia"
+
+#. module: l10n_pe_kardex
+#: model:ir.model,name:l10n_pe_kardex.model_res_config_settings
+msgid "Config Settings"
+msgstr "Opciones de configuración"
+
+#. module: l10n_pe_kardex
+#: model:ir.model.fields,field_description:l10n_pe_kardex.field_pragmatic_type_operation_table_12__cost_adjustment
+msgid "Cost adjustment"
+msgstr "Ajuste de costes"
+
+#. module: l10n_pe_kardex
+#: model:ir.model.fields,field_description:l10n_pe_kardex.field_account_bank_statement_line__initial_cost_uni
+#: model:ir.model.fields,field_description:l10n_pe_kardex.field_account_move__initial_cost_uni
+#: model:ir.model.fields,field_description:l10n_pe_kardex.field_account_payment__initial_cost_uni
+msgid "Costo Inicial Unidades"
+msgstr ""
+
+#. module: l10n_pe_kardex
+#: model:ir.model.fields,field_description:l10n_pe_kardex.field_account_bank_statement_line__initial_cost
+#: model:ir.model.fields,field_description:l10n_pe_kardex.field_account_move__initial_cost
+#: model:ir.model.fields,field_description:l10n_pe_kardex.field_account_payment__initial_cost
+msgid "Costo Inicial Valorizado"
+msgstr ""
+
+#. module: l10n_pe_kardex
+#: model:ir.model.fields,field_description:l10n_pe_kardex.field_kardex_inventory_mov__create_uid
+#: model:ir.model.fields,field_description:l10n_pe_kardex.field_kardex_states__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: l10n_pe_kardex
+#: model:ir.model.fields,field_description:l10n_pe_kardex.field_kardex_inventory_mov__create_date
+#: model:ir.model.fields,field_description:l10n_pe_kardex.field_kardex_states__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: l10n_pe_kardex
+#: code:addons/l10n_pe_kardex/models/tools.py:0
+#: code:addons/l10n_pe_kardex/models/tools.py:0
+#, python-format
+msgid "Date"
+msgstr "Fecha"
+
+#. module: l10n_pe_kardex
+#: model:ir.model.fields,field_description:l10n_pe_kardex.field_kardex_inventory_mov__date_from
+msgid "Date from"
+msgstr "Fecha de"
+
+#. module: l10n_pe_kardex
+#: model:ir.model.fields,field_description:l10n_pe_kardex.field_kardex_inventory_mov__date_to
+msgid "Date to"
+msgstr "Fecha hasta"
+
+#. module: l10n_pe_kardex
+#: model:ir.model.fields,field_description:l10n_pe_kardex.field_res_company__catalog_exist_des
+msgid "Descripcion"
+msgstr "Descripcion"
+
+#. module: l10n_pe_kardex
+#: model:ir.model.fields,field_description:l10n_pe_kardex.field_account_move__display_name
+#: model:ir.model.fields,field_description:l10n_pe_kardex.field_kardex_inventory_mov__display_name
+#: model:ir.model.fields,field_description:l10n_pe_kardex.field_kardex_states__display_name
+#: model:ir.model.fields,field_description:l10n_pe_kardex.field_pragmatic_type_operation_table_12__display_name
+#: model:ir.model.fields,field_description:l10n_pe_kardex.field_res_company__display_name
+#: model:ir.model.fields,field_description:l10n_pe_kardex.field_res_config_settings__display_name
+msgid "Display Name"
+msgstr "Nombre a Mostrar"
+
+#. module: l10n_pe_kardex
+#: code:addons/l10n_pe_kardex/models/kardex.py:0
+#, python-format
+msgid "ESTABLISHMENT:"
+msgstr "ESTABLECIMIENTO:"
+
+#. module: l10n_pe_kardex
+#: code:addons/l10n_pe_kardex/models/tools.py:0
+#: code:addons/l10n_pe_kardex/models/tools.py:0
+#: model:ir.model.fields,field_description:l10n_pe_kardex.field_kardex_inventory_mov__establishment
+#, python-format
+msgid "Establishment"
+msgstr "Establecimiento"
+
+#. module: l10n_pe_kardex
+#: model_terms:ir.ui.view,arch_db:l10n_pe_kardex.it_kardex_inv_tree
+msgid "Export (TXT)"
+msgstr "Exportar (TXT)"
+
+#. module: l10n_pe_kardex
+#: model_terms:ir.ui.view,arch_db:l10n_pe_kardex.it_kardex_inv_tree
+msgid "Export (XLSX)"
+msgstr "Exportar (XLSX)"
+
+#. module: l10n_pe_kardex
+#: code:addons/l10n_pe_kardex/models/tools.py:0
+#, python-format
+msgid "Final Balance"
+msgstr ""
+
+#. module: l10n_pe_kardex
+#: code:addons/l10n_pe_kardex/models/tools.py:0
+#, python-format
+msgid "Final Cant."
+msgstr ""
+
+#. module: l10n_pe_kardex
+#: code:addons/l10n_pe_kardex/models/tools.py:0
+#, python-format
+msgid "Final Cost Total"
+msgstr ""
+
+#. module: l10n_pe_kardex
+#: code:addons/l10n_pe_kardex/models/tools.py:0
+#, python-format
+msgid "Final Cost Unit."
+msgstr ""
+
+#. module: l10n_pe_kardex
+#: model:ir.model.fields.selection,name:l10n_pe_kardex.selection__res_company__catalog_exist__3
+#: model:ir.model.fields.selection,name:l10n_pe_kardex.selection__res_config_settings__catalog_exist__3
+msgid "GS1 (EAN-UCC)"
+msgstr ""
+
+#. module: l10n_pe_kardex
+#: code:addons/l10n_pe_kardex/models/kardex.py:0
+#, python-format
+msgid "General detail"
+msgstr "Detalle General"
+
+#. module: l10n_pe_kardex
+#: model:ir.model.fields,field_description:l10n_pe_kardex.field_account_move__id
+#: model:ir.model.fields,field_description:l10n_pe_kardex.field_kardex_inventory_mov__id
+#: model:ir.model.fields,field_description:l10n_pe_kardex.field_kardex_states__id
+#: model:ir.model.fields,field_description:l10n_pe_kardex.field_pragmatic_type_operation_table_12__id
+#: model:ir.model.fields,field_description:l10n_pe_kardex.field_res_company__id
+#: model:ir.model.fields,field_description:l10n_pe_kardex.field_res_config_settings__id
+msgid "ID"
+msgstr ""
+
+#. module: l10n_pe_kardex
+#: code:addons/l10n_pe_kardex/models/kardex.py:0
+#, python-format
+msgid "INVENTORY RECORD IN PHYSICAL UNITS"
+msgstr "REGISTRO DE INVENTARIO EN UNIDADES FISICAS"
+
+#. module: l10n_pe_kardex
+#: code:addons/l10n_pe_kardex/models/tools.py:0
+#, python-format
+msgid "Input Cant."
+msgstr "Entrada Cant."
+
+#. module: l10n_pe_kardex
+#: code:addons/l10n_pe_kardex/models/tools.py:0
+#, python-format
+msgid "Input Cost Total"
+msgstr "Entrada Cost Total"
+
+#. module: l10n_pe_kardex
+#: code:addons/l10n_pe_kardex/models/tools.py:0
+#, python-format
+msgid "Input Cost Unit."
+msgstr "Entrada Cost Uni."
+
+#. module: l10n_pe_kardex
+#: code:addons/l10n_pe_kardex/models/tools.py:0
+#, python-format
+msgid "Inputs"
+msgstr "Entradas"
+
+#. module: l10n_pe_kardex
+#: model:ir.model,name:l10n_pe_kardex.model_account_move
+msgid "Journal Entry"
+msgstr "Asiento contable"
+
+#. module: l10n_pe_kardex
+#: model:ir.actions.act_window,name:l10n_pe_kardex.it_kardex_inv_action
+#: model:ir.ui.menu,name:l10n_pe_kardex.it_report_kardex_report
+#: model_terms:ir.ui.view,arch_db:l10n_pe_kardex.it_kardex_inv_tree
+msgid "Kardex"
+msgstr "Kardex"
+
+#. module: l10n_pe_kardex
+#: model:ir.model,name:l10n_pe_kardex.model_kardex_inventory_mov
+#: model:ir.ui.menu,name:l10n_pe_kardex.menu_kardex_inventory_mov
+msgid "Kardex Inventory"
+msgstr "Inventario Kardex"
+
+#. module: l10n_pe_kardex
+#: model:ir.model,name:l10n_pe_kardex.model_kardex_states
+msgid "Kardex states"
+msgstr "Estados Kardex"
+
+#. module: l10n_pe_kardex
+#: model:ir.model.fields,field_description:l10n_pe_kardex.field_account_move____last_update
+#: model:ir.model.fields,field_description:l10n_pe_kardex.field_kardex_inventory_mov____last_update
+#: model:ir.model.fields,field_description:l10n_pe_kardex.field_kardex_states____last_update
+#: model:ir.model.fields,field_description:l10n_pe_kardex.field_pragmatic_type_operation_table_12____last_update
+#: model:ir.model.fields,field_description:l10n_pe_kardex.field_res_company____last_update
+#: model:ir.model.fields,field_description:l10n_pe_kardex.field_res_config_settings____last_update
+msgid "Last Modified on"
+msgstr "Ultima Modificación en"
+
+#. module: l10n_pe_kardex
+#: model:ir.model.fields,field_description:l10n_pe_kardex.field_kardex_inventory_mov__write_uid
+#: model:ir.model.fields,field_description:l10n_pe_kardex.field_kardex_states__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: l10n_pe_kardex
+#: model:ir.model.fields,field_description:l10n_pe_kardex.field_kardex_inventory_mov__write_date
+#: model:ir.model.fields,field_description:l10n_pe_kardex.field_kardex_states__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: l10n_pe_kardex
+#: code:addons/l10n_pe_kardex/models/kardex.py:0
+#, python-format
+msgid "Mail:"
+msgstr "Correo:"
+
+#. module: l10n_pe_kardex
+#: code:addons/l10n_pe_kardex/models/kardex.py:0
+#: code:addons/l10n_pe_kardex/models/kardex.py:0
+#, python-format
+msgid "Month"
+msgstr "Mes"
+
+#. module: l10n_pe_kardex
+#: code:addons/l10n_pe_kardex/models/tools.py:0
+#: code:addons/l10n_pe_kardex/models/tools.py:0
+#, python-format
+msgid "Movement"
+msgstr "Movimiento"
+
+#. module: l10n_pe_kardex
+#: model:ir.model.fields.selection,name:l10n_pe_kardex.selection__res_company__catalog_exist__1
+#: model:ir.model.fields.selection,name:l10n_pe_kardex.selection__res_config_settings__catalog_exist__1
+msgid "NACIONES UNIDAS"
+msgstr ""
+
+#. module: l10n_pe_kardex
+#: model:ir.model.fields,field_description:l10n_pe_kardex.field_kardex_inventory_mov__name
+#: model:ir.model.fields,field_description:l10n_pe_kardex.field_kardex_states__name
+msgid "Name"
+msgstr "Nombre"
+
+#. module: l10n_pe_kardex
+#: model:ir.model.fields.selection,name:l10n_pe_kardex.selection__res_company__catalog_exist__9
+#: model:ir.model.fields.selection,name:l10n_pe_kardex.selection__res_config_settings__catalog_exist__9
+msgid "OTROS"
+msgstr ""
+
+#. module: l10n_pe_kardex
+#: code:addons/l10n_pe_kardex/models/tools.py:0
+#: code:addons/l10n_pe_kardex/models/tools.py:0
+#, python-format
+msgid "Operation type"
+msgstr "Tipo de Operacion"
+
+#. module: l10n_pe_kardex
+#: code:addons/l10n_pe_kardex/models/tools.py:0
+#, python-format
+msgid "Output Cant."
+msgstr "Salida Cant."
+
+#. module: l10n_pe_kardex
+#: code:addons/l10n_pe_kardex/models/tools.py:0
+#, python-format
+msgid "Output Cost Total"
+msgstr "Salida Cost Total"
+
+#. module: l10n_pe_kardex
+#: code:addons/l10n_pe_kardex/models/tools.py:0
+#, python-format
+msgid "Output Cost Unit."
+msgstr "Salida Cost Uni."
+
+#. module: l10n_pe_kardex
+#: code:addons/l10n_pe_kardex/models/tools.py:0
+#, python-format
+msgid "Outputs"
+msgstr "Salidas"
+
+#. module: l10n_pe_kardex
+#: code:addons/l10n_pe_kardex/models/kardex.py:0
+#, python-format
+msgid "PERIOD:"
+msgstr "PERIODO"
+
+#. module: l10n_pe_kardex
+#: code:addons/l10n_pe_kardex/models/kardex.py:0
+#: code:addons/l10n_pe_kardex/models/kardex.py:0
+#, python-format
+msgid "PHYSICAL KARDEX"
+msgstr "KARDEX FISICO"
+
+#. module: l10n_pe_kardex
+#: code:addons/l10n_pe_kardex/models/kardex.py:0
+#, python-format
+msgid "PHYSICAL KARDEX "
+msgstr "KARDEX FISICO"
+
+#. module: l10n_pe_kardex
+#: code:addons/l10n_pe_kardex/models/kardex.py:0
+#, python-format
+msgid "Phone:"
+msgstr "Telefono:"
+
+#. module: l10n_pe_kardex
+#: code:addons/l10n_pe_kardex/models/tools.py:0
+#: code:addons/l10n_pe_kardex/models/tools.py:0
+#, python-format
+msgid "Product"
+msgstr "Producto:"
+
+#. module: l10n_pe_kardex
+#: code:addons/l10n_pe_kardex/models/kardex.py:0
+#, python-format
+msgid "RECORD OF PERMANENT INVENTORY VALUED"
+msgstr "REGISTRO DE INVENTARIO PERMANENTE VALORIZADO"
+
+#. module: l10n_pe_kardex
+#: code:addons/l10n_pe_kardex/models/kardex.py:0
+#, python-format
+msgid "RUC:"
+msgstr "RUC:"
+
+#. module: l10n_pe_kardex
+#: code:addons/l10n_pe_kardex/models/tools.py:0
+#: code:addons/l10n_pe_kardex/models/tools.py:0
+#, python-format
+msgid "Reference"
+msgstr "Referencia"
+
+#. module: l10n_pe_kardex
+#: model:ir.ui.menu,name:l10n_pe_kardex.menu_Kardex_reports
+msgid "Reports"
+msgstr "Reportes"
+
+#. module: l10n_pe_kardex
+#: code:addons/l10n_pe_kardex/models/kardex.py:0
+#, python-format
+msgid "Ruc:"
+msgstr "Ruc:"
+
+#. module: l10n_pe_kardex
+#: model:ir.model.fields,field_description:l10n_pe_kardex.field_account_bank_statement_line__initial_balance_uni
+#: model:ir.model.fields,field_description:l10n_pe_kardex.field_account_move__initial_balance_uni
+#: model:ir.model.fields,field_description:l10n_pe_kardex.field_account_payment__initial_balance_uni
+msgid "Saldo Inicial Unidades"
+msgstr ""
+
+#. module: l10n_pe_kardex
+#: model:ir.model.fields,field_description:l10n_pe_kardex.field_account_bank_statement_line__initial_balance
+#: model:ir.model.fields,field_description:l10n_pe_kardex.field_account_move__initial_balance
+#: model:ir.model.fields,field_description:l10n_pe_kardex.field_account_payment__initial_balance
+msgid "Saldo Inicial Valorizado"
+msgstr ""
+
+#. module: l10n_pe_kardex
+#: code:addons/l10n_pe_kardex/models/tools.py:0
+#, python-format
+msgid "Series"
+msgstr "Serie"
+
+#. module: l10n_pe_kardex
+#: model:ir.model.fields,field_description:l10n_pe_kardex.field_kardex_inventory_mov__state_ids
+msgid "State"
+msgstr "Estado"
+
+#. module: l10n_pe_kardex
+#: model:ir.model,name:l10n_pe_kardex.model_pragmatic_type_operation_table_12
+msgid "Sunat Table 12 - Type Operation"
+msgstr "Sunat Tabla 12 - Tipo de operacion"
+
+#. module: l10n_pe_kardex
+#: code:addons/l10n_pe_kardex/models/kardex.py:0
+#: code:addons/l10n_pe_kardex/models/kardex.py:0
+#, python-format
+msgid "The Start date cannot be less than the end date "
+msgstr "La fecha de inicio no puede ser menor que la fecha de finalización "
+
+#. module: l10n_pe_kardex
+#: code:addons/l10n_pe_kardex/models/kardex.py:0
+#, python-format
+msgid ""
+"There is a Buy / Sell movement without a reference document: Number "
+"document: %s name"
+msgstr ""
+"Hay un movimiento de compra/venta sin documento de referencia: Número "
+"documento: %s nombre"
+
+#. module: l10n_pe_kardex
+#: code:addons/l10n_pe_kardex/models/kardex.py:0
+#, python-format
+msgid ""
+"There is a Buy / Sell movement without a reference document: Serie document:"
+" %s name"
+msgstr ""
+"Hay un movimiento de compra/venta sin documento de referencia: Serie documento:"
+" %s nombre"
+
+#. module: l10n_pe_kardex
+#: code:addons/l10n_pe_kardex/models/kardex.py:0
+#, python-format
+msgid ""
+"There is a Buy / Sell movement without a reference document: Type document: "
+"%s name"
+msgstr ""
+"Hay un movimiento de compra/venta sin documento de referencia: Tipo documento: "
+"%s nombre"
+
+#. module: l10n_pe_kardex
+#: model:ir.model.fields,field_description:l10n_pe_kardex.field_kardex_inventory_mov__type_kardex
+msgid "Type Kardex"
+msgstr "Tipo Kardex"
+
+#. module: l10n_pe_kardex
+#: model:ir.model.fields,field_description:l10n_pe_kardex.field_res_company__catalog_exist
+#: model:ir.model.fields,field_description:l10n_pe_kardex.field_res_config_settings__catalog_exist
+msgid "Type existences"
+msgstr "Tipo existencias"
+
+#. module: l10n_pe_kardex
+#: code:addons/l10n_pe_kardex/models/kardex.py:0
+#: model:ir.model.fields.selection,name:l10n_pe_kardex.selection__kardex_inventory_mov__type_kardex__units
+#, python-format
+msgid "Units"
+msgstr "Unidades"
+
+#. module: l10n_pe_kardex
+#: code:addons/l10n_pe_kardex/models/kardex.py:0
+#: code:addons/l10n_pe_kardex/models/kardex.py:0
+#, python-format
+msgid "VALORIZED KARDEX"
+msgstr "KARDEX VALORIZADO"
+
+#. module: l10n_pe_kardex
+#: code:addons/l10n_pe_kardex/models/kardex.py:0
+#, python-format
+msgid "VALORIZED KARDEX "
+msgstr "KARDEX VALORIZADO"
+
+#. module: l10n_pe_kardex
+#: code:addons/l10n_pe_kardex/models/kardex.py:0
+#: model:ir.model.fields.selection,name:l10n_pe_kardex.selection__kardex_inventory_mov__type_kardex__valued
+#, python-format
+msgid "Valued"
+msgstr "Valorizado"
+
+#. module: l10n_pe_kardex
+#: code:addons/l10n_pe_kardex/models/kardex.py:0
+#, python-format
+msgid "from:"
+msgstr "desde:"
+
+#. module: l10n_pe_kardex
+#: code:addons/l10n_pe_kardex/models/kardex.py:0
+#, python-format
+msgid "to:"
+msgstr "a:"

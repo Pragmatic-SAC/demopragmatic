@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="pragmatic_serie_sequence_tree" model="ir.ui.view">
+        <field name="name">pragmatic.serie.sequence.tree</field>
+        <field name="model">pragmatic.serie.sequence</field>
+        <field name="arch" type="xml">
+            <tree string="Manager Serie">
+                <field name="sequence" widget="handle"/>
+                <field name="name"/>
+                <field name="sequence_id"/>
+                <field name="company_id"/>
+                <field name="active" widget="boolean_toggle"/>
+            </tree>
+        </field>
+    </record>
+    <record id="pragmatic_serie_sequence_form" model="ir.ui.view">
+        <field name="name">pragmatic.serie.sequence.form</field>
+        <field name="model">pragmatic.serie.sequence</field>
+        <field name="arch" type="xml">
+            <form string="Manager Serie">
+                <sheet>
+                    <div class="oe_button_box" name="button_box">
+                    </div>
+                    <group>
+                        <group>
+                            <field name="name"/>
+                            <field name="sequence_id"/>
+                            <field name="type" widget="radio"/>
+                        </group>
+                        <group>
+                            <field name="active" widget="boolean_toggle"/>
+                            <field name="sequence_number_next"/>
+                            <field name="user_ids" widget="many2many_tags"
+                                   options="{'no_create': True, 'no_create_edit':True,'no_open': True}"/>
+                            <field name="company_id"
+                                   options="{'no_create': True, 'no_create_edit':True,'no_open': True}"/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+    <record id="pragmatic_serie_sequence_search" model="ir.ui.view">
+        <field name="name">pragmatic.serie.sequence.search</field>
+        <field name="model">pragmatic.serie.sequence</field>
+        <field name="type">search</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="name"/>
+                <filter name="active" string="Active" domain="[('active','=',True)]"
+                        help="Show active"/>
+                <filter name="inactive" string="Archived" domain="[('active','=',False)]"
+                        help="Show archived"/>
+            </search>
+        </field>
+    </record>
+    <record id="pragmatic_serie_sequence_action" model="ir.actions.act_window">
+        <field name="name">Serie Sequence</field>
+        <field name="res_model">pragmatic.serie.sequence</field>
+        <field name="view_mode">tree,form</field>
+        <field name="search_view_id" ref="pragmatic_serie_sequence_search"/>
+        <field name="domain"></field>
+    </record>
+    <menuitem id="pragmatic_serie_sequence"
+              name="Serie Sequence"
+              parent="account.account_account_menu"
+              action="l10n_pe_journal_sequence.pragmatic_serie_sequence_action"
+              sequence="99"/>
+</odoo>

@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<odoo>
+    <record id="pg_res_config_settings_tax_free" model="ir.ui.view">
+        <field name="name">res.config.settings.view.form.tax.free</field>
+        <field name="model">res.config.settings</field>
+        <field name="inherit_id" ref="l10n_pe_conf.pg_res_config_settings_invoice_conf"/>
+        <field name="arch" type="xml">
+            <xpath expr="//div[@id='pg_localization_settings']" position="inside">
+                <div class="col-12 col-lg-6 o_setting_box">
+                    <div class="o_setting_right_pane">
+                        <span class="o_form_label">Journal For Free Tax</span>
+                        <div class="text-muted">
+                        </div>
+                        <field name="journal_free"
+                               options="{'no_create': True, 'no_create_edit':True,'no_open': True}"/>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 o_setting_box">
+                    <div class="o_setting_right_pane">
+                        <span class="o_form_label">Account For Free Tax Reverse</span>
+                        <div class="text-muted">
+                        </div>
+                        <field name="account_free_reverse"
+                               options="{'no_create': True, 'no_create_edit':True,'no_open': True}"/>
+                    </div>
+                </div>
+            </xpath>
+        </field>
+    </record>
+</odoo>

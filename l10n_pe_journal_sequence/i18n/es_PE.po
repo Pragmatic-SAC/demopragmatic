@@ -1,0 +1,189 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* l10n_pe_journal_sequence
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-10 20:04+0000\n"
+"PO-Revision-Date: 2021-05-10 20:04+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: l10n_pe_journal_sequence
+#: model:ir.model.fields,field_description:l10n_pe_journal_sequence.field_pragmatic_serie_sequence__active
+#: model_terms:ir.ui.view,arch_db:l10n_pe_journal_sequence.pragmatic_serie_sequence_search
+msgid "Active"
+msgstr "Activo"
+
+#. module: l10n_pe_journal_sequence
+#: model_terms:ir.ui.view,arch_db:l10n_pe_journal_sequence.pragmatic_serie_sequence_search
+msgid "Archived"
+msgstr "Archivado"
+
+#. module: l10n_pe_journal_sequence
+#: model:ir.model,name:l10n_pe_journal_sequence.model_sequence_mixin
+msgid "Automatic sequence"
+msgstr "Secuencia automática"
+
+#. module: l10n_pe_journal_sequence
+#: model:ir.model.fields,field_description:l10n_pe_journal_sequence.field_pragmatic_serie_sequence__company_id
+msgid "Company"
+msgstr "Compañia"
+
+#. module: l10n_pe_journal_sequence
+#: model:ir.model.fields,field_description:l10n_pe_journal_sequence.field_pragmatic_serie_sequence__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: l10n_pe_journal_sequence
+#: model:ir.model.fields,field_description:l10n_pe_journal_sequence.field_pragmatic_serie_sequence__create_date
+msgid "Created on"
+msgstr "Creado en"
+
+#. module: l10n_pe_journal_sequence
+#: model:ir.model.fields,field_description:l10n_pe_journal_sequence.field_account_journal__display_name
+#: model:ir.model.fields,field_description:l10n_pe_journal_sequence.field_account_move__display_name
+#: model:ir.model.fields,field_description:l10n_pe_journal_sequence.field_pragmatic_serie_sequence__display_name
+#: model:ir.model.fields,field_description:l10n_pe_journal_sequence.field_sequence_mixin__display_name
+msgid "Display Name"
+msgstr "Nombre Mostrado"
+
+#. module: l10n_pe_journal_sequence
+#: model:ir.model.fields.selection,name:l10n_pe_journal_sequence.selection__pragmatic_serie_sequence__type__electronic
+msgid "Electronic"
+msgstr "Electronico"
+
+#. module: l10n_pe_journal_sequence
+#: model:ir.model.fields,field_description:l10n_pe_journal_sequence.field_pragmatic_serie_sequence__sequence_id
+msgid "Entry Sequence"
+msgstr "Secuencia"
+
+#. module: l10n_pe_journal_sequence
+#: model:ir.model.fields,field_description:l10n_pe_journal_sequence.field_account_journal__id
+#: model:ir.model.fields,field_description:l10n_pe_journal_sequence.field_account_move__id
+#: model:ir.model.fields,field_description:l10n_pe_journal_sequence.field_pragmatic_serie_sequence__id
+#: model:ir.model.fields,field_description:l10n_pe_journal_sequence.field_sequence_mixin__id
+msgid "ID"
+msgstr ""
+
+#. module: l10n_pe_journal_sequence
+#: model:ir.model,name:l10n_pe_journal_sequence.model_account_journal
+msgid "Journal"
+msgstr "Diario"
+
+#. module: l10n_pe_journal_sequence
+#: model:ir.model,name:l10n_pe_journal_sequence.model_account_move
+msgid "Journal Entry"
+msgstr "Asiento contable"
+
+#. module: l10n_pe_journal_sequence
+#: model:ir.model.fields,field_description:l10n_pe_journal_sequence.field_account_journal____last_update
+#: model:ir.model.fields,field_description:l10n_pe_journal_sequence.field_account_move____last_update
+#: model:ir.model.fields,field_description:l10n_pe_journal_sequence.field_pragmatic_serie_sequence____last_update
+#: model:ir.model.fields,field_description:l10n_pe_journal_sequence.field_sequence_mixin____last_update
+msgid "Last Modified on"
+msgstr "Última modificación el"
+
+#. module: l10n_pe_journal_sequence
+#: model:ir.model.fields,field_description:l10n_pe_journal_sequence.field_pragmatic_serie_sequence__write_uid
+msgid "Last Updated by"
+msgstr "Ultima Acutalizacion por"
+
+#. module: l10n_pe_journal_sequence
+#: model:ir.model.fields,field_description:l10n_pe_journal_sequence.field_pragmatic_serie_sequence__write_date
+msgid "Last Updated on"
+msgstr "Ultima Actualizacion en"
+
+#. module: l10n_pe_journal_sequence
+#: model_terms:ir.ui.view,arch_db:l10n_pe_journal_sequence.pragmatic_serie_sequence_form
+#: model_terms:ir.ui.view,arch_db:l10n_pe_journal_sequence.pragmatic_serie_sequence_tree
+msgid "Manager Serie"
+msgstr "Gestionar Series"
+
+#. module: l10n_pe_journal_sequence
+#: model:ir.model.fields.selection,name:l10n_pe_journal_sequence.selection__pragmatic_serie_sequence__type__manual
+msgid "Manual"
+msgstr ""
+
+#. module: l10n_pe_journal_sequence
+#: model:ir.model.fields,field_description:l10n_pe_journal_sequence.field_pragmatic_serie_sequence__name
+msgid "Name"
+msgstr "Nombre"
+
+#. module: l10n_pe_journal_sequence
+#: model:ir.model.fields,field_description:l10n_pe_journal_sequence.field_pragmatic_serie_sequence__sequence_number_next
+msgid "Next Number"
+msgstr "Siguiente Numero"
+
+#. module: l10n_pe_journal_sequence
+#: model:ir.model.fields,help:l10n_pe_journal_sequence.field_pragmatic_serie_sequence__sequence_number_next
+msgid ""
+"Next number that will be used. This number can be incremented frequently so "
+"the displayed value might already be obsolete"
+msgstr ""
+"Siguiente número que se utilizará. Este número se puede incrementar con "
+"frecuencia para es posible que el valor mostrado ya esté obsoleto"
+
+#. module: l10n_pe_journal_sequence
+#: model:ir.model.fields,field_description:l10n_pe_journal_sequence.field_pragmatic_serie_sequence__user_ids
+msgid "Responsable"
+msgstr "Responsable"
+
+#. module: l10n_pe_journal_sequence
+#: model:ir.model.fields,field_description:l10n_pe_journal_sequence.field_pragmatic_serie_sequence__sequence
+msgid "Sequence"
+msgstr "Secuencia"
+
+#. module: l10n_pe_journal_sequence
+#: model:ir.model.fields,field_description:l10n_pe_journal_sequence.field_account_bank_statement_line__sequence_generated
+#: model:ir.model.fields,field_description:l10n_pe_journal_sequence.field_account_move__sequence_generated
+#: model:ir.model.fields,field_description:l10n_pe_journal_sequence.field_account_payment__sequence_generated
+msgid "Sequence Generated"
+msgstr "Secuencia generada"
+
+#. module: l10n_pe_journal_sequence
+#: model:ir.model.fields,field_description:l10n_pe_journal_sequence.field_account_journal__sequence_purchase_id
+msgid "Sequence for Purchase"
+msgstr "Secuencia para Compra"
+
+#. module: l10n_pe_journal_sequence
+#: model:ir.model.fields,field_description:l10n_pe_journal_sequence.field_account_bank_statement_line__serie_id
+#: model:ir.model.fields,field_description:l10n_pe_journal_sequence.field_account_move__serie_id
+#: model:ir.model.fields,field_description:l10n_pe_journal_sequence.field_account_payment__serie_id
+msgid "Serie"
+msgstr "Serie"
+
+#. module: l10n_pe_journal_sequence
+#: model:ir.model.fields,field_description:l10n_pe_journal_sequence.field_account_bank_statement_line__serie_filter
+#: model:ir.model.fields,field_description:l10n_pe_journal_sequence.field_account_move__serie_filter
+#: model:ir.model.fields,field_description:l10n_pe_journal_sequence.field_account_payment__serie_filter
+msgid "Serie Filter"
+msgstr "Filtro de serie"
+
+#. module: l10n_pe_journal_sequence
+#: model:ir.actions.act_window,name:l10n_pe_journal_sequence.pragmatic_serie_sequence_action
+#: model:ir.model,name:l10n_pe_journal_sequence.model_pragmatic_serie_sequence
+#: model:ir.ui.menu,name:l10n_pe_journal_sequence.pragmatic_serie_sequence
+msgid "Serie Sequence"
+msgstr "Secuencia de serie"
+
+#. module: l10n_pe_journal_sequence
+#: model_terms:ir.ui.view,arch_db:l10n_pe_journal_sequence.pragmatic_serie_sequence_search
+msgid "Show active"
+msgstr "Mostrar Activo"
+
+#. module: l10n_pe_journal_sequence
+#: model_terms:ir.ui.view,arch_db:l10n_pe_journal_sequence.pragmatic_serie_sequence_search
+msgid "Show archived"
+msgstr "Mostrar Archivado"
+
+#. module: l10n_pe_journal_sequence
+#: model:ir.model.fields,field_description:l10n_pe_journal_sequence.field_pragmatic_serie_sequence__type
+msgid "Type"
+msgstr "Tipo"

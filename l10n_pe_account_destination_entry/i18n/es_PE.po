@@ -1,0 +1,112 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* l10n_pe_account_destination_entry
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-27 21:19+0000\n"
+"PO-Revision-Date: 2021-04-27 21:19+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: l10n_pe_account_destination_entry
+#: model:ir.model,name:l10n_pe_account_destination_entry.model_account_account
+msgid "Account"
+msgstr "Cuenta"
+
+#. module: l10n_pe_account_destination_entry
+#: model:ir.model.fields,field_description:l10n_pe_account_destination_entry.field_account_account__credit_target_account_id
+msgid "Credit target account"
+msgstr "Cuenta objetivo de crédito"
+
+#. module: l10n_pe_account_destination_entry
+#: model:ir.model.fields,field_description:l10n_pe_account_destination_entry.field_account_account__debit_target_account_id
+msgid "Debit target account"
+msgstr "Cuenta objetivo de débito"
+
+#. module: l10n_pe_account_destination_entry
+#: model:ir.model.fields,field_description:l10n_pe_account_destination_entry.field_account_account__display_name
+#: model:ir.model.fields,field_description:l10n_pe_account_destination_entry.field_account_move__display_name
+#: model:ir.model.fields,field_description:l10n_pe_account_destination_entry.field_account_move_line__display_name
+msgid "Display Name"
+msgstr "Nombre a Mostrar"
+
+#. module: l10n_pe_account_destination_entry
+#: model:ir.model.fields,field_description:l10n_pe_account_destination_entry.field_account_account__target_account
+msgid "Has target account"
+msgstr "Tiene cuenta de destino"
+
+#. module: l10n_pe_account_destination_entry
+#: model:ir.model.fields,field_description:l10n_pe_account_destination_entry.field_account_account__id
+#: model:ir.model.fields,field_description:l10n_pe_account_destination_entry.field_account_move__id
+#: model:ir.model.fields,field_description:l10n_pe_account_destination_entry.field_account_move_line__id
+msgid "ID"
+msgstr "ID"
+
+#. module: l10n_pe_account_destination_entry
+#: model:ir.model,name:l10n_pe_account_destination_entry.model_account_move
+msgid "Journal Entry"
+msgstr "Asiento contable"
+
+#. module: l10n_pe_account_destination_entry
+#: model:ir.model,name:l10n_pe_account_destination_entry.model_account_move_line
+msgid "Journal Item"
+msgstr "Apunte contable"
+
+#. module: l10n_pe_account_destination_entry
+#: model:ir.model.fields,field_description:l10n_pe_account_destination_entry.field_account_account____last_update
+#: model:ir.model.fields,field_description:l10n_pe_account_destination_entry.field_account_move____last_update
+#: model:ir.model.fields,field_description:l10n_pe_account_destination_entry.field_account_move_line____last_update
+msgid "Last Modified on"
+msgstr "Ultima Modificación en"
+
+#. module: l10n_pe_account_destination_entry
+#: model:ir.model.fields,field_description:l10n_pe_account_destination_entry.field_account_bank_statement_line__origin_move_id
+#: model:ir.model.fields,field_description:l10n_pe_account_destination_entry.field_account_move__origin_move_id
+#: model:ir.model.fields,field_description:l10n_pe_account_destination_entry.field_account_move_line__origin_move_id
+#: model:ir.model.fields,field_description:l10n_pe_account_destination_entry.field_account_payment__origin_move_id
+msgid "Origin entry"
+msgstr "Entrada de origen"
+
+#. module: l10n_pe_account_destination_entry
+#: model:ir.model.fields,field_description:l10n_pe_account_destination_entry.field_account_bank_statement_line__origin_move_line_id
+#: model:ir.model.fields,field_description:l10n_pe_account_destination_entry.field_account_move__origin_move_line_id
+#: model:ir.model.fields,field_description:l10n_pe_account_destination_entry.field_account_move_line__origin_move_line_id
+#: model:ir.model.fields,field_description:l10n_pe_account_destination_entry.field_account_payment__origin_move_line_id
+msgid "Origin move line"
+msgstr "Línea de movimiento de origen"
+
+#. module: l10n_pe_account_destination_entry
+#: model_terms:ir.ui.view,arch_db:l10n_pe_account_destination_entry.target_view_move_form
+msgid "Target Entries"
+msgstr "Entradas de destino"
+
+#. module: l10n_pe_account_destination_entry
+#: model:ir.model.fields,field_description:l10n_pe_account_destination_entry.field_account_bank_statement_line__target_move_ids
+#: model:ir.model.fields,field_description:l10n_pe_account_destination_entry.field_account_move__target_move_ids
+#: model:ir.model.fields,field_description:l10n_pe_account_destination_entry.field_account_payment__target_move_ids
+msgid "Target entries"
+msgstr "Entradas de destino"
+
+#. module: l10n_pe_account_destination_entry
+#: model:ir.model.fields,field_description:l10n_pe_account_destination_entry.field_account_move_line__target_move_id
+msgid "Target entry"
+msgstr "Entrada de destino"
+
+#. module: l10n_pe_account_destination_entry
+#: model:ir.model.fields,field_description:l10n_pe_account_destination_entry.field_account_account__target_journal_id
+msgid "Target journal"
+msgstr "Diario de destino"
+
+#. module: l10n_pe_account_destination_entry
+#: model:ir.model.fields,field_description:l10n_pe_account_destination_entry.field_account_bank_statement_line__target_move_count
+#: model:ir.model.fields,field_description:l10n_pe_account_destination_entry.field_account_move__target_move_count
+#: model:ir.model.fields,field_description:l10n_pe_account_destination_entry.field_account_payment__target_move_count
+msgid "Target move count"
+msgstr "Recuento de movimientos de destino"

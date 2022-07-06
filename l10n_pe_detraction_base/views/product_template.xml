@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="pg_product_detraction_template" model="ir.ui.view">
+        <field name="name">product.template.detraction</field>
+        <field name="model">product.template</field>
+        <field name="inherit_id" ref="product.product_template_only_form_view"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='uom_po_id']" position="after">
+                <field name="is_detraction" widget="boolean_toggle"/>
+                <field name="detraction_type"
+                       options="{'no_create': True, 'no_create_edit':True,'no_open': True}"
+                       attrs="{'invisible': [('is_detraction','=',False)],'required': [('is_detraction','=',True)]}"/>
+                <field name="detraction_percent"
+                       attrs="{'invisible': [('is_detraction','=',False)]}"/>
+                <field name="l10n_pe_withhold_code" attrs="{'invisible': [('is_detraction','=',False)]}"/>
+                <field name="l10n_pe_withhold_percentage"
+                       attrs="{'invisible': [('is_detraction','=',False)]}"/>
+            </xpath>
+        </field>
+    </record>
+    <record id="pg_product_detraction_template_peru_edi" model="ir.ui.view">
+        <field name="name">product.template.peru.edi.detraction</field>
+        <field name="model">product.template</field>
+        <field name="inherit_id" ref="l10n_pe_edi.product_template_form_inherit_l10n_pe_edi"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='l10n_pe_withhold_code']" position="attributes">
+                <attribute name="invisible">0</attribute>
+            </xpath>
+            <xpath expr="//field[@name='l10n_pe_withhold_percentage']" position="attributes">
+                <attribute name="invisible">0</attribute>
+            </xpath>
+        </field>
+    </record>
+</odoo>

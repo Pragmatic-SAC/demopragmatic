@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="pg_view_move_get_edi_form" model="ir.ui.view">
+        <field name="name">account.move.form.localization</field>
+        <field name="model">account.move</field>
+        <field name="inherit_id" ref="account.view_move_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//button[@name='button_draft']" position="after">
+                <button name="get_edi_validate_documents" type="object" string="GET DOC EDI"
+                        attrs="{'invisible': [('move_type', 'not in', ['out_invoice','out_refund']),('state', 'not in', ['posted'])]}"/>
+                <button name="get_edi_validate_state" type="object" string="GET STATE EDI"
+                        attrs="{'invisible': [('move_type', 'not in', ['out_invoice','out_refund']),('state', 'not in', ['posted'])]}"/>
+            </xpath>
+        </field>
+    </record>
+</odoo>

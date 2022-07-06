@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="pragmatic_stock_scrap" model="ir.ui.view">
+        <field name="name">stock.scrap.inherit</field>
+        <field name="model">stock.scrap</field>
+        <field name="inherit_id" ref="stock.stock_scrap_form_view"/>
+        <field name="arch" type="xml">
+            <xpath expr="//div[@class='o_row']" position="after">
+                <field name="type_transaction" required="1"
+                       options="{'no_create': True, 'no_create_edit':True,'no_open': True}"/>
+            </xpath>
+        </field>
+    </record>
+</odoo>

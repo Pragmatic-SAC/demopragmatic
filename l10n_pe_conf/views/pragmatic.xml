@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <menuitem
+            id="pragmatic_root"
+            sequence="1"
+            name="Localization (PE)"
+            groups="l10n_pe_conf.pragmatic_manager"
+            web_icon="l10n_pe_conf,static/description/icon.png"/>
+    <menuitem id="pragmatic_configuration"
+              name="Configuration"
+              parent="pragmatic_root"
+              sequence="99"/>
+    <menuitem id="pragmatic_establishment_menu"
+              sequence="1"
+              name="Establishment"
+              parent="pragmatic_configuration"
+              action="pragmatic_establishment_action"/>
+</odoo>

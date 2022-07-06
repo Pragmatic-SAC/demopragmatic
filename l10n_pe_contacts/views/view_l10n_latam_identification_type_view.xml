@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="pg_l10n_latam_identification_type_tree" model="ir.ui.view">
+        <field name="name">l10n_latam.identification.type.tree</field>
+        <field name="model">l10n_latam.identification.type</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="name"/>
+                <field name="description"/>
+                <field name="country_id"/>
+                <field name="is_vat"/>
+                <field name="sequence" invisible="1"/>
+                <field name="l10n_pe_vat_code"/>
+                <field name="active" widget="boolean_toggle"/>
+            </tree>
+        </field>
+    </record>
+    <record id="pg_l10n_latam_identification_type_view" model="ir.ui.view">
+        <field name="name">l10n_latam.identification.type.view</field>
+        <field name="model">l10n_latam.identification.type</field>
+        <field name="arch" type="xml">
+            <form string="Sunat - Type Document">
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="name"/>
+                            <field name="description"/>
+                            <field name="is_vat"/>
+                            <field name="l10n_pe_vat_code"/>
+                        </group>
+                        <group>
+                            <field name="active" widget="boolean_toggle"/>
+                            <field name="country_id"/>
+                            <field name="sequence"/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+    <record id="pg_l10n_latam_identification_type_action_window" model="ir.actions.act_window">
+        <field name="name">Type Identification</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">l10n_latam.identification.type</field>
+        <field name="view_mode">tree</field>
+        <field name="help">
+            Description
+        </field>
+    </record>
+    <record id="pg_l10n_latam_identification_type_action_view" model="ir.actions.act_window.view">
+        <field eval="1" name="sequence"/>
+        <field name="view_mode">tree</field>
+        <field name="view_id" ref="pg_l10n_latam_identification_type_tree"/>
+        <field name="act_window_id" ref="pg_l10n_latam_identification_type_action_window"/>
+    </record>
+    <record id="pg_l10n_latam_identification_type_action_view_2" model="ir.actions.act_window.view">
+        <field eval="2" name="sequence"/>
+        <field name="view_mode">form</field>
+        <field name="view_id" ref="pg_l10n_latam_identification_type_view"/>
+        <field name="act_window_id" ref="pg_l10n_latam_identification_type_action_window"/>
+    </record>
+</odoo>

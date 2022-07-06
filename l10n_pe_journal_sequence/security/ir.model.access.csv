@@ -1,0 +1,3 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_pragmatic_serie_sequence,pragmatic.serie.sequence,l10n_pe_journal_sequence.model_pragmatic_serie_sequence,account.group_account_manager,1,1,1,1
+access_sq_l10n_latam_document_type,l10n_latam.document.type,l10n_latam_invoice_document.model_l10n_latam_document_type,account.group_account_manager,1,1,1,1

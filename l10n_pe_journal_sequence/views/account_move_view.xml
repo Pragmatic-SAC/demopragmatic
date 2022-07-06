@@ -1,0 +1,26 @@
+<odoo>
+    <record id="pg_view_move_form_seq" model="ir.ui.view">
+        <field name="name">account.move.seq</field>
+        <field name="model">account.move</field>
+        <field name="inherit_id" ref="account.view_move_form"/>
+        <field name="arch" type="xml">
+            <field name="name" position="attributes">
+                <attribute name="attrs">{'invisible': [('state', '=', 'draft')]}</attribute>
+                <attribute name="readonly">1</attribute>
+                <attribute name="force_save">1</attribute>
+            </field>
+            <xpath expr="//group[1]" position="after">
+                <group name="localization_invoice">
+                    <group>
+                        <field name="serie_filter" invisible="1"/>
+                        <field name="serie_id" domain="[('id','in',serie_filter)]"
+                               options="{'no_create': True, 'no_create_edit':True,'no_open': True}"
+                               attrs="{'invisible': [('move_type', 'not in', ['out_invoice','out_refund'])],'readonly': [('state','not in',['draft'])]}"/>
+                    </group>
+                    <group>
+                    </group>
+                </group>
+            </xpath>
+        </field>
+    </record>
+</odoo>

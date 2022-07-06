@@ -1,0 +1,263 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* l10n_pe_daily_book
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-27 21:22+0000\n"
+"PO-Revision-Date: 2021-04-27 21:22+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: l10n_pe_daily_book
+#: code:addons/l10n_pe_daily_book/models/daily_book.py:0
+#, python-format
+msgid "Account code"
+msgstr "Código de cuenta"
+
+#. module: l10n_pe_daily_book
+#: code:addons/l10n_pe_daily_book/models/daily_book.py:0
+#, python-format
+msgid "Address:"
+msgstr "Direccion"
+
+#. module: l10n_pe_daily_book
+#: code:addons/l10n_pe_daily_book/models/daily_book.py:0
+#, python-format
+msgid "BUSINESS NAME:"
+msgstr "Nombre Comercial"
+
+#. module: l10n_pe_daily_book
+#: model:ir.model.fields,field_description:l10n_pe_daily_book.field_report_daily_book__book_type
+msgid "Book Type"
+msgstr "Tipo de libro"
+
+#. module: l10n_pe_daily_book
+#: code:addons/l10n_pe_daily_book/models/daily_book.py:0
+#, python-format
+msgid "Book code"
+msgstr "Codigo de Libro"
+
+#. module: l10n_pe_daily_book
+#: code:addons/l10n_pe_daily_book/models/daily_book.py:0
+#, python-format
+msgid "Business name:"
+msgstr "Nombre comercial"
+
+#. module: l10n_pe_daily_book
+#: code:addons/l10n_pe_daily_book/models/daily_book.py:0
+#, python-format
+msgid "CUO"
+msgstr "CUO"
+
+#. module: l10n_pe_daily_book
+#: model:ir.model.fields,field_description:l10n_pe_daily_book.field_report_daily_book__company_id
+msgid "Company"
+msgstr "Compañia"
+
+#. module: l10n_pe_daily_book
+#: model:ir.model.fields,field_description:l10n_pe_daily_book.field_report_daily_book__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: l10n_pe_daily_book
+#: model:ir.model.fields,field_description:l10n_pe_daily_book.field_report_daily_book__create_date
+msgid "Created on"
+msgstr "Creado en"
+
+#. module: l10n_pe_daily_book
+#: code:addons/l10n_pe_daily_book/models/daily_book.py:0
+#, python-format
+msgid "Credit"
+msgstr "Credito"
+
+#. module: l10n_pe_daily_book
+#: code:addons/l10n_pe_daily_book/models/daily_book.py:0
+#, python-format
+msgid "DAILY BOOK REPORT"
+msgstr "Informe de libro diario"
+
+#. module: l10n_pe_daily_book
+#: code:addons/l10n_pe_daily_book/models/daily_book.py:0
+#: code:addons/l10n_pe_daily_book/models/daily_book.py:0
+#: model:ir.model.fields.selection,name:l10n_pe_daily_book.selection__report_daily_book__book_type__daily_book
+#: model:ir.ui.menu,name:l10n_pe_daily_book.daily_book_report
+#, python-format
+msgid "Daily Book"
+msgstr "Libro diario"
+
+#. module: l10n_pe_daily_book
+#: code:addons/l10n_pe_daily_book/models/daily_book.py:0
+#, python-format
+msgid "Daily book"
+msgstr "Libro diario"
+
+#. module: l10n_pe_daily_book
+#: model:ir.actions.act_window,name:l10n_pe_daily_book.daily_book_action
+#: model_terms:ir.ui.view,arch_db:l10n_pe_daily_book.daily_book_tree
+msgid "Daily book reports"
+msgstr "Libro diario reportes"
+
+#. module: l10n_pe_daily_book
+#: code:addons/l10n_pe_daily_book/models/daily_book.py:0
+#, python-format
+msgid "Date"
+msgstr "Fecha"
+
+#. module: l10n_pe_daily_book
+#: model:ir.model.fields,field_description:l10n_pe_daily_book.field_report_daily_book__date_from
+msgid "Date from"
+msgstr "Fecha Inicio"
+
+#. module: l10n_pe_daily_book
+#: model:ir.model.fields,field_description:l10n_pe_daily_book.field_report_daily_book__date_to
+msgid "Date to"
+msgstr "Fecha Fin"
+
+#. module: l10n_pe_daily_book
+#: code:addons/l10n_pe_daily_book/models/daily_book.py:0
+#, python-format
+msgid "Debit"
+msgstr "Debito"
+
+#. module: l10n_pe_daily_book
+#: code:addons/l10n_pe_daily_book/models/daily_book.py:0
+#, python-format
+msgid "Denomination"
+msgstr "Denominacion"
+
+#. module: l10n_pe_daily_book
+#: model:ir.model.fields,field_description:l10n_pe_daily_book.field_report_daily_book__display_name
+msgid "Display Name"
+msgstr "Nombre a mostrar"
+
+#. module: l10n_pe_daily_book
+#: model_terms:ir.ui.view,arch_db:l10n_pe_daily_book.daily_book_tree
+msgid "Export (TXT)"
+msgstr "Exportar (TXT)"
+
+#. module: l10n_pe_daily_book
+#: model_terms:ir.ui.view,arch_db:l10n_pe_daily_book.daily_book_tree
+msgid "Export (XLSX)"
+msgstr "Exportar (XLSX)"
+
+#. module: l10n_pe_daily_book
+#: code:addons/l10n_pe_daily_book/models/daily_book.py:0
+#, python-format
+msgid "General detail"
+msgstr "Detalles generales"
+
+#. module: l10n_pe_daily_book
+#: model:ir.model.fields,field_description:l10n_pe_daily_book.field_report_daily_book__id
+msgid "ID"
+msgstr "ID"
+
+#. module: l10n_pe_daily_book
+#: model:ir.model.fields,field_description:l10n_pe_daily_book.field_report_daily_book____last_update
+msgid "Last Modified on"
+msgstr "Última modificación el"
+
+#. module: l10n_pe_daily_book
+#: model:ir.model.fields,field_description:l10n_pe_daily_book.field_report_daily_book__write_uid
+msgid "Last Updated by"
+msgstr "Actualizado por última vez por"
+
+#. module: l10n_pe_daily_book
+#: model:ir.model.fields,field_description:l10n_pe_daily_book.field_report_daily_book__write_date
+msgid "Last Updated on"
+msgstr "Ultima actualización en"
+
+#. module: l10n_pe_daily_book
+#: code:addons/l10n_pe_daily_book/models/daily_book.py:0
+#, python-format
+msgid "Mail:"
+msgstr "Correo"
+
+#. module: l10n_pe_daily_book
+#: model:ir.model.fields,field_description:l10n_pe_daily_book.field_report_daily_book__name
+msgid "Name"
+msgstr "Nombre"
+
+#. module: l10n_pe_daily_book
+#: code:addons/l10n_pe_daily_book/models/daily_book.py:0
+#, python-format
+msgid "Number correlative"
+msgstr "Numbero de correlativo"
+
+#. module: l10n_pe_daily_book
+#: code:addons/l10n_pe_daily_book/models/daily_book.py:0
+#, python-format
+msgid "Operation Description"
+msgstr "Descripción de la operación"
+
+#. module: l10n_pe_daily_book
+#: code:addons/l10n_pe_daily_book/models/daily_book.py:0
+#, python-format
+msgid "PERIOD:"
+msgstr "Periodo"
+
+#. module: l10n_pe_daily_book
+#: code:addons/l10n_pe_daily_book/models/daily_book.py:0
+#, python-format
+msgid "Phone:"
+msgstr "Teléfono"
+
+#. module: l10n_pe_daily_book
+#: code:addons/l10n_pe_daily_book/models/daily_book.py:0
+#: model:ir.model.fields.selection,name:l10n_pe_daily_book.selection__report_daily_book__book_type__plain_account
+#, python-format
+msgid "Plain Account"
+msgstr "Cuenta simple"
+
+#. module: l10n_pe_daily_book
+#: code:addons/l10n_pe_daily_book/models/daily_book.py:0
+#, python-format
+msgid "RUC:"
+msgstr "RUC:"
+
+#. module: l10n_pe_daily_book
+#: model:ir.ui.menu,name:l10n_pe_daily_book.daily_book_menu
+msgid "Reports Books Audit"
+msgstr "Auditoría de libros de informes"
+
+#. module: l10n_pe_daily_book
+#: code:addons/l10n_pe_daily_book/models/daily_book.py:0
+#, python-format
+msgid "Ruc:"
+msgstr "RUC:"
+
+#. module: l10n_pe_daily_book
+#: code:addons/l10n_pe_daily_book/models/daily_book.py:0
+#, python-format
+msgid "Series"
+msgstr "Series"
+
+#. module: l10n_pe_daily_book
+#: code:addons/l10n_pe_daily_book/models/daily_book.py:0
+#: code:addons/l10n_pe_daily_book/models/daily_book.py:0
+#, python-format
+msgid "The Start date cannot be less than the end date "
+msgstr "La fecha de inicio no puede ser menor que la fecha de finalización"
+
+#. module: l10n_pe_daily_book
+#: code:addons/l10n_pe_daily_book/models/daily_book.py:0
+#, python-format
+msgid "from:"
+msgstr "De:"
+
+#. module: l10n_pe_daily_book
+#: model:ir.model,name:l10n_pe_daily_book.model_report_daily_book
+msgid "report of daily book"
+msgstr "informe del libro diario"
+
+#. module: l10n_pe_daily_book
+#: code:addons/l10n_pe_daily_book/models/daily_book.py:0
+#, python-format
+msgid "to:"
+msgstr "hasta:"

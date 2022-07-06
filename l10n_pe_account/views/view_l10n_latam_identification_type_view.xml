@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="pg_l10n_latam_identification_type_account" model="ir.ui.view">
+        <field name="name">l10n_latam.identification.type.inherit.localization</field>
+        <field name="model">l10n_latam.identification.type</field>
+        <field name="inherit_id" ref="l10n_pe_contacts.pg_l10n_latam_identification_type_view"/>
+        <field name="arch" type="xml">
+            <field name="sequence" position="after">
+                <field name="invoice_type_allowed" widget="many2many_tags"/>
+                <field name="placeholder"/>
+            </field>
+        </field>
+    </record>
+</odoo>

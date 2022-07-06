@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="pg_tree_res_city_district" model="ir.ui.view">
+        <field name="name">Districs</field>
+        <field name="model">l10n_pe.res.city.district</field>
+        <field name="arch" type="xml">
+            <tree string="District" editable="bottom">
+                <field name="name"/>
+                <field name="city_id"/>
+                <field name="code" context="{'default_city_id': city_id}"/>
+            </tree>
+        </field>
+    </record>
+    <record id="pg_action_res_city_district" model="ir.actions.act_window">
+        <field name="name">Districs</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">l10n_pe.res.city.district</field>
+        <field name="view_mode">tree</field>
+        <field name="help">
+            Display and manage the list of all districts that can be assigned to
+            your partner records. Note that an option can be set on each country separately
+            to enforce any address of it to have a district in this list.
+        </field>
+    </record>
+    <record id="pg_action_res_city_district_tree" model="ir.actions.act_window.view">
+        <field eval="1" name="sequence"/>
+        <field name="view_mode">tree</field>
+        <field name="view_id" ref="pg_tree_res_city_district"/>
+        <field name="act_window_id" ref="pg_action_res_city_district"/>
+    </record>
+</odoo>

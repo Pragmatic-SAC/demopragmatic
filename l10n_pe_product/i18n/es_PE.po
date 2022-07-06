@@ -1,0 +1,180 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* l10n_pe_product
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-27 19:59+0000\n"
+"PO-Revision-Date: 2021-04-27 19:59+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: l10n_pe_product
+#: model:ir.model.fields,field_description:l10n_pe_product.field_pragmatic_type_existence_table_5__active
+#: model:ir.model.fields,field_description:l10n_pe_product.field_pragmatic_unit_measurement_table_6__active
+#: model_terms:ir.ui.view,arch_db:l10n_pe_product.pragmatic_table_5_search
+#: model_terms:ir.ui.view,arch_db:l10n_pe_product.pragmatic_table_6_search
+msgid "Active"
+msgstr "Activo"
+
+#. module: l10n_pe_product
+#: model_terms:ir.ui.view,arch_db:l10n_pe_product.pragmatic_table_5_search
+#: model_terms:ir.ui.view,arch_db:l10n_pe_product.pragmatic_table_6_search
+msgid "Archived"
+msgstr "Archivado"
+
+#. module: l10n_pe_product
+#: model:ir.model.fields,field_description:l10n_pe_product.field_pragmatic_type_existence_table_5__code
+#: model:ir.model.fields,field_description:l10n_pe_product.field_pragmatic_unit_measurement_table_6__code
+msgid "Code"
+msgstr "Codigo"
+
+#. module: l10n_pe_product
+#: model:ir.model.fields,field_description:l10n_pe_product.field_pragmatic_type_existence_table_5__create_uid
+#: model:ir.model.fields,field_description:l10n_pe_product.field_pragmatic_unit_measurement_table_6__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: l10n_pe_product
+#: model:ir.model.fields,field_description:l10n_pe_product.field_pragmatic_type_existence_table_5__create_date
+#: model:ir.model.fields,field_description:l10n_pe_product.field_pragmatic_unit_measurement_table_6__create_date
+msgid "Created on"
+msgstr "Creado en"
+
+#. module: l10n_pe_product
+#: model:ir.model.fields,field_description:l10n_pe_product.field_pragmatic_type_existence_table_5__display_name
+#: model:ir.model.fields,field_description:l10n_pe_product.field_pragmatic_unit_measurement_table_6__display_name
+#: model:ir.model.fields,field_description:l10n_pe_product.field_product_template__display_name
+#: model:ir.model.fields,field_description:l10n_pe_product.field_uom_uom__display_name
+msgid "Display Name"
+msgstr "Nombre a Mostrar"
+
+#. module: l10n_pe_product
+#: model:ir.model.fields,field_description:l10n_pe_product.field_pragmatic_type_existence_table_5__id
+#: model:ir.model.fields,field_description:l10n_pe_product.field_pragmatic_unit_measurement_table_6__id
+#: model:ir.model.fields,field_description:l10n_pe_product.field_product_template__id
+#: model:ir.model.fields,field_description:l10n_pe_product.field_uom_uom__id
+msgid "ID"
+msgstr "ID"
+
+#. module: l10n_pe_product
+#: model:ir.model.fields,field_description:l10n_pe_product.field_pragmatic_type_existence_table_5____last_update
+#: model:ir.model.fields,field_description:l10n_pe_product.field_pragmatic_unit_measurement_table_6____last_update
+#: model:ir.model.fields,field_description:l10n_pe_product.field_product_template____last_update
+#: model:ir.model.fields,field_description:l10n_pe_product.field_uom_uom____last_update
+msgid "Last Modified on"
+msgstr "Ultima Modificación en"
+
+#. module: l10n_pe_product
+#: model:ir.model.fields,field_description:l10n_pe_product.field_pragmatic_type_existence_table_5__write_uid
+#: model:ir.model.fields,field_description:l10n_pe_product.field_pragmatic_unit_measurement_table_6__write_uid
+msgid "Last Updated by"
+msgstr "Ultima actualizacion por"
+
+#. module: l10n_pe_product
+#: model:ir.model.fields,field_description:l10n_pe_product.field_pragmatic_type_existence_table_5__write_date
+#: model:ir.model.fields,field_description:l10n_pe_product.field_pragmatic_unit_measurement_table_6__write_date
+msgid "Last Updated on"
+msgstr "Ultima Actualizacion en"
+
+#. module: l10n_pe_product
+#: model:ir.model.fields,field_description:l10n_pe_product.field_uom_uom__l10n_pe_edi_measure_unit_code
+msgid "Measure unit code"
+msgstr "Código de unidad de medida"
+
+#. module: l10n_pe_product
+#: model:ir.model.fields,field_description:l10n_pe_product.field_pragmatic_type_existence_table_5__name
+#: model:ir.model.fields,field_description:l10n_pe_product.field_pragmatic_unit_measurement_table_6__name
+msgid "Name"
+msgstr "Nombre"
+
+#. module: l10n_pe_product
+#: model:ir.ui.menu,name:l10n_pe_product.pragmatic_product_conf
+msgid "Product"
+msgstr "Producto"
+
+#. module: l10n_pe_product
+#: model:ir.model,name:l10n_pe_product.model_product_template
+msgid "Product Template"
+msgstr "Plantilla de Producto"
+
+#. module: l10n_pe_product
+#: model:ir.model,name:l10n_pe_product.model_uom_uom
+msgid "Product Unit of Measure"
+msgstr "Unidad de Medida del Producto"
+
+#. module: l10n_pe_product
+#: model_terms:ir.ui.view,arch_db:l10n_pe_product.pragmatic_table_5_search
+#: model_terms:ir.ui.view,arch_db:l10n_pe_product.pragmatic_table_6_search
+msgid "Show active"
+msgstr "Mostrar Activo"
+
+#. module: l10n_pe_product
+#: model_terms:ir.ui.view,arch_db:l10n_pe_product.pragmatic_table_5_search
+#: model_terms:ir.ui.view,arch_db:l10n_pe_product.pragmatic_table_6_search
+msgid "Show archived"
+msgstr "Mostrar Archivado"
+
+#. module: l10n_pe_product
+#: model:ir.actions.act_window,name:l10n_pe_product.pragmatic_table_5_action
+msgid "Sunat Table 25 - Type Of Existence"
+msgstr "Tabla Sunat 25 - Tipo de existencia"
+
+#. module: l10n_pe_product
+#: model:ir.model,name:l10n_pe_product.model_pragmatic_type_existence_table_5
+msgid "Sunat Table 5 - Type Existence"
+msgstr "Sunat Tabla 5 - Tipo de existencia"
+
+#. module: l10n_pe_product
+#: model_terms:ir.ui.view,arch_db:l10n_pe_product.pragmatic_table_5_form
+#: model_terms:ir.ui.view,arch_db:l10n_pe_product.pragmatic_table_5_tree
+msgid "Sunat Table 5 - Type Of Existence"
+msgstr "Sunat Tabla 5 - Tipo de existencia"
+
+#. module: l10n_pe_product
+#: model:ir.ui.menu,name:l10n_pe_product.pragmatic_sunat_table_5
+msgid "Sunat Table 5 - Type of Existence"
+msgstr "Sunat Tabla 5 - Tipo de existencia"
+
+#. module: l10n_pe_product
+#: model:ir.model,name:l10n_pe_product.model_pragmatic_unit_measurement_table_6
+msgid "Sunat Table 6 - Unit Measurement"
+msgstr "Sunat Tabla 6 - Unidades de medida"
+
+#. module: l10n_pe_product
+#: model:ir.actions.act_window,name:l10n_pe_product.pragmatic_table_6_action
+#: model:ir.ui.menu,name:l10n_pe_product.pragmatic_sunat_table_6
+#: model_terms:ir.ui.view,arch_db:l10n_pe_product.pragmatic_table_6_form
+#: model_terms:ir.ui.view,arch_db:l10n_pe_product.pragmatic_table_6_tree
+msgid "Sunat Table 6 - Unit of measurement"
+msgstr "Sunat Tabla 6 - Unidades de medida"
+
+#. module: l10n_pe_product
+#: model:ir.model.fields,field_description:l10n_pe_product.field_product_product__type_existence
+#: model:ir.model.fields,field_description:l10n_pe_product.field_product_template__type_existence
+msgid "Sunat Type Existence"
+msgstr "Sunat Tipo de existencia"
+
+#. module: l10n_pe_product
+#: model:ir.model.fields,field_description:l10n_pe_product.field_uom_uom__sunat_unit_measure
+msgid "Sunat Unit of Measure"
+msgstr "Sunat Unidad de Medida"
+
+#. module: l10n_pe_product
+#: model:ir.ui.menu,name:l10n_pe_product.pragmatic_product_sunat_values
+msgid "Sunat Values"
+msgstr "Sunat Valores"
+
+#. module: l10n_pe_product
+#: model:ir.model.fields,help:l10n_pe_product.field_uom_uom__l10n_pe_edi_measure_unit_code
+msgid ""
+"Unit code that relates to a product in order to identify what measure unit "
+"it uses, the possible values that you can use here can be found in this URL"
+msgstr "Código de unidad que se relaciona con un producto para identificar qué unidad de medida"
+" utiliza, los posibles valores que puede utilizar aquí se pueden encontrar en esta URL"

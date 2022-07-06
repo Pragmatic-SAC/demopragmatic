@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="pragmatic_catalog_54_tree" model="ir.ui.view">
+        <field name="name">pragmatic.catalog.54.tree</field>
+        <field name="model">pragmatic.catalog.54</field>
+        <field name="arch" type="xml">
+            <tree string="Sunat Catalog 54 - Goods and services codes subject to detraction">
+                <field name="name"/>
+                <field name="code"/>
+                <field name="percent"/>
+                <field name="active" widget="boolean_toggle"/>
+            </tree>
+        </field>
+    </record>
+    <record id="pragmatic_catalog_54_form" model="ir.ui.view">
+        <field name="name">pragmatic.catalog.54.form</field>
+        <field name="model">pragmatic.catalog.54</field>
+        <field name="arch" type="xml">
+            <form string="Sunat Catalog 54 - Goods and services codes subject to detraction">
+                <sheet>
+                    <div class="oe_button_box" name="button_box">
+                    </div>
+                    <group>
+                        <group>
+                            <field name="name"/>
+                            <field name="code"/>
+                        </group>
+                        <group>
+                            <field name="active" widget="boolean_toggle"/>
+                            <field name="percent"/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+    <record id="pragmatic_catalog_54_search" model="ir.ui.view">
+        <field name="name">pragmatic.catalog.54.search</field>
+        <field name="model">pragmatic.catalog.54</field>
+        <field name="type">search</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="name"/>
+                <filter name="active" string="Active" domain="[('active','=',True)]"
+                        help="Show active"/>
+                <filter name="inactive" string="Archived" domain="[('active','=',False)]"
+                        help="Show archived"/>
+            </search>
+        </field>
+    </record>
+    <record id="pragmatic_catalog_54_action" model="ir.actions.act_window">
+        <field name="name">Sunat Catalog 54 - Goods and services codes subject to detraction</field>
+        <field name="res_model">pragmatic.catalog.54</field>
+        <field name="view_mode">tree,form</field>
+        <field name="search_view_id" ref="pragmatic_catalog_54_search"/>
+        <field name="domain"></field>
+    </record>
+</odoo>

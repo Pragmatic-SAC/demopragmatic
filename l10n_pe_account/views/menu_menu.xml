@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <menuitem
+            id="pragmatic_account_conf"
+            name="Account"
+            parent="l10n_pe_conf.pragmatic_root"
+            sequence="2"/>
+    <menuitem id="pragmatic_account_sunat_values"
+              sequence="1"
+              name="Sunat Values"
+              parent="pragmatic_account_conf"/>
+    <menuitem id="pragmatic_sunat_type_document"
+              sequence="1"
+              name="Type of Document"
+              parent="pragmatic_account_sunat_values"
+              action="pg_l10n_latam_document_type_action_window"/>
+    <menuitem id="pragmatic_sunat_type_income"
+              sequence="2"
+              name="Type of Income"
+              parent="pragmatic_account_sunat_values"
+              action="pragmatic_type_income_table_31_action"/>
+    <menuitem id="pragmatic_sunat_type_operation"
+              sequence="3"
+              name="Type Operation"
+              parent="pragmatic_account_sunat_values"
+              action="pragmatic_type_operation_catalog_51_action"/>
+</odoo>

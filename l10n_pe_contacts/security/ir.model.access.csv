@@ -1,0 +1,3 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_pragmatic_table_25,pragmatic.table.25,l10n_pe_contacts.model_pragmatic_table_25,l10n_pe_conf.pragmatic_user,1,1,1,1
+access_pragmatic_annexed_2,pragmatic.annexed.2,l10n_pe_contacts.model_pragmatic_annexed_2,l10n_pe_conf.pragmatic_user,1,1,1,1

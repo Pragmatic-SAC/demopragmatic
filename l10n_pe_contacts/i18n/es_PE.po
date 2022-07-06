@@ -1,0 +1,294 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* l10n_pe_contacts
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-27 19:46+0000\n"
+"PO-Revision-Date: 2021-04-27 19:46+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: l10n_pe_contacts
+#: model:ir.model.fields,field_description:l10n_pe_contacts.field_pragmatic_annexed_2__active
+#: model:ir.model.fields,field_description:l10n_pe_contacts.field_pragmatic_table_25__active
+#: model_terms:ir.ui.view,arch_db:l10n_pe_contacts.pragmatic_annexed_2_search
+#: model_terms:ir.ui.view,arch_db:l10n_pe_contacts.pragmatic_table_25_search
+msgid "Active"
+msgstr "Activo"
+
+#. module: l10n_pe_contacts
+#: model_terms:ir.ui.view,arch_db:l10n_pe_contacts.pragmatic_annexed_2_search
+#: model_terms:ir.ui.view,arch_db:l10n_pe_contacts.pragmatic_table_25_search
+msgid "Archived"
+msgstr "Archivado"
+
+#. module: l10n_pe_contacts
+#: model:ir.actions.act_window,name:l10n_pe_contacts.pg_action_res_city
+msgid "Cities"
+msgstr "Provincias"
+
+#. module: l10n_pe_contacts
+#: model_terms:ir.ui.view,arch_db:l10n_pe_contacts.pg_tree_res_city_view
+msgid "City"
+msgstr "Ciudad"
+
+#. module: l10n_pe_contacts
+#: model:ir.model.fields,field_description:l10n_pe_contacts.field_pragmatic_annexed_2__code
+#: model:ir.model.fields,field_description:l10n_pe_contacts.field_pragmatic_table_25__code
+msgid "Code"
+msgstr "Codigo"
+
+#. module: l10n_pe_contacts
+#: model:ir.model,name:l10n_pe_contacts.model_res_partner
+msgid "Contact"
+msgstr "Contacto"
+
+#. module: l10n_pe_contacts
+#: model:ir.ui.menu,name:l10n_pe_contacts.pragmatic_contact_conf
+msgid "Contacts"
+msgstr "Contactos"
+
+#. module: l10n_pe_contacts
+#: model:ir.ui.menu,name:l10n_pe_contacts.pragmatic_location_countries
+msgid "Countries"
+msgstr "Paises"
+
+#. module: l10n_pe_contacts
+#: model_terms:ir.ui.view,arch_db:l10n_pe_contacts.it_lztn_res_partner_pe
+msgid "Country"
+msgstr "Pais"
+
+#. module: l10n_pe_contacts
+#: model:ir.model.fields,field_description:l10n_pe_contacts.field_res_partner__country_code
+#: model:ir.model.fields,field_description:l10n_pe_contacts.field_res_users__country_code
+msgid "Country Code"
+msgstr "Codigo Pais"
+
+#. module: l10n_pe_contacts
+#: model:ir.model.fields,field_description:l10n_pe_contacts.field_pragmatic_annexed_2__create_uid
+#: model:ir.model.fields,field_description:l10n_pe_contacts.field_pragmatic_table_25__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: l10n_pe_contacts
+#: model:ir.model.fields,field_description:l10n_pe_contacts.field_pragmatic_annexed_2__create_date
+#: model:ir.model.fields,field_description:l10n_pe_contacts.field_pragmatic_table_25__create_date
+msgid "Created on"
+msgstr "Creado en"
+
+#. module: l10n_pe_contacts
+#: model_terms:ir.actions.act_window,help:l10n_pe_contacts.pg_l10n_latam_identification_type_action_window
+msgid "Description"
+msgstr "Descripcion"
+
+#. module: l10n_pe_contacts
+#: model:ir.model.fields,field_description:l10n_pe_contacts.field_pragmatic_annexed_2__display_name
+#: model:ir.model.fields,field_description:l10n_pe_contacts.field_pragmatic_table_25__display_name
+#: model:ir.model.fields,field_description:l10n_pe_contacts.field_res_partner__display_name
+msgid "Display Name"
+msgstr "Nombre a Mostrar"
+
+#. module: l10n_pe_contacts
+#: model_terms:ir.actions.act_window,help:l10n_pe_contacts.pg_action_res_city
+msgid ""
+"Display and manage the list of all cities that can be assigned to\n"
+"            your partner records. Note that an option can be set on each country separately\n"
+"            to enforce any address of it to have a city in this list."
+msgstr ""
+"Visualice y gestione la lista de todas las ciudades que se pueden asignar a\n"
+"            los registros de su socio. Tenga en cuenta que se puede configurar una opción en cada país por separado\n"
+"            para hacer cumplir cualquier dirección para tener una ciudad en esta lista."
+
+#. module: l10n_pe_contacts
+#: model_terms:ir.actions.act_window,help:l10n_pe_contacts.pg_action_res_city_district
+msgid ""
+"Display and manage the list of all districts that can be assigned to\n"
+"            your partner records. Note that an option can be set on each country separately\n"
+"            to enforce any address of it to have a district in this list."
+msgstr ""
+"Visualice y gestione la lista de todas las ciudades que se pueden asignar a\n"
+"            los registros de su socio. Tenga en cuenta que se puede configurar una opción en cada país por separado\n"
+"            para hacer cumplir cualquier dirección para tener una ciudad en esta lista."
+
+#. module: l10n_pe_contacts
+#: model:ir.actions.act_window,name:l10n_pe_contacts.pg_action_res_city_district
+msgid "Districs"
+msgstr "Distritos"
+
+#. module: l10n_pe_contacts
+#: model_terms:ir.ui.view,arch_db:l10n_pe_contacts.pg_tree_res_city_district
+msgid "District"
+msgstr "Distrito"
+
+#. module: l10n_pe_contacts
+#: model_terms:ir.ui.view,arch_db:l10n_pe_contacts.it_lztn_res_partner_pe
+msgid "District..."
+msgstr "Districto..."
+
+#. module: l10n_pe_contacts
+#: model:ir.ui.menu,name:l10n_pe_contacts.pragmatic_location_district
+msgid "Districts"
+msgstr "Distritos"
+
+#. module: l10n_pe_contacts
+#: model:ir.model.fields,field_description:l10n_pe_contacts.field_pragmatic_annexed_2__id
+#: model:ir.model.fields,field_description:l10n_pe_contacts.field_pragmatic_table_25__id
+#: model:ir.model.fields,field_description:l10n_pe_contacts.field_res_partner__id
+msgid "ID"
+msgstr "ID"
+
+#. module: l10n_pe_contacts
+#: model:ir.model.fields,field_description:l10n_pe_contacts.field_pragmatic_annexed_2____last_update
+#: model:ir.model.fields,field_description:l10n_pe_contacts.field_pragmatic_table_25____last_update
+#: model:ir.model.fields,field_description:l10n_pe_contacts.field_res_partner____last_update
+msgid "Last Modified on"
+msgstr "Ultima Modificación en"
+
+#. module: l10n_pe_contacts
+#: model:ir.model.fields,field_description:l10n_pe_contacts.field_pragmatic_annexed_2__write_uid
+#: model:ir.model.fields,field_description:l10n_pe_contacts.field_pragmatic_table_25__write_uid
+msgid "Last Updated by"
+msgstr "Ultima actualizacion por"
+
+#. module: l10n_pe_contacts
+#: model:ir.model.fields,field_description:l10n_pe_contacts.field_pragmatic_annexed_2__write_date
+#: model:ir.model.fields,field_description:l10n_pe_contacts.field_pragmatic_table_25__write_date
+msgid "Last Updated on"
+msgstr "Ultima actualizacion en"
+
+#. module: l10n_pe_contacts
+#: model:ir.ui.menu,name:l10n_pe_contacts.pragmatic_location
+msgid "Location"
+msgstr "Localización"
+
+#. module: l10n_pe_contacts
+#: model:ir.model.fields,field_description:l10n_pe_contacts.field_pragmatic_annexed_2__name
+#: model:ir.model.fields,field_description:l10n_pe_contacts.field_pragmatic_table_25__name
+msgid "Name"
+msgstr "Nombre"
+
+#. module: l10n_pe_contacts
+#: model_terms:ir.ui.view,arch_db:l10n_pe_contacts.it_lztn_res_partner_pe
+msgid "Province..."
+msgstr "Provincia"
+
+#. module: l10n_pe_contacts
+#: model:ir.ui.menu,name:l10n_pe_contacts.pragmatic_location_provinces
+msgid "Provinces"
+msgstr "Provincias"
+
+#. module: l10n_pe_contacts
+#: model_terms:ir.ui.view,arch_db:l10n_pe_contacts.pragmatic_annexed_2_search
+#: model_terms:ir.ui.view,arch_db:l10n_pe_contacts.pragmatic_table_25_search
+msgid "Show active"
+msgstr "Mostrar Activo"
+
+#. module: l10n_pe_contacts
+#: model_terms:ir.ui.view,arch_db:l10n_pe_contacts.pragmatic_annexed_2_search
+#: model_terms:ir.ui.view,arch_db:l10n_pe_contacts.pragmatic_table_25_search
+msgid "Show archived"
+msgstr "Mostrar Archivados"
+
+#. module: l10n_pe_contacts
+#: model_terms:ir.ui.view,arch_db:l10n_pe_contacts.it_lztn_res_partner_pe
+msgid "State..."
+msgstr "Estado"
+
+#. module: l10n_pe_contacts
+#: model:ir.ui.menu,name:l10n_pe_contacts.pragmatic_location_states
+msgid "State/Departament"
+msgstr "Estado/Departamento"
+
+#. module: l10n_pe_contacts
+#: model_terms:ir.ui.view,arch_db:l10n_pe_contacts.it_lztn_res_partner_pe
+msgid "Street"
+msgstr "Direccion"
+
+#. module: l10n_pe_contacts
+#: model_terms:ir.ui.view,arch_db:l10n_pe_contacts.it_lztn_res_partner_pe
+msgid "Street Name..."
+msgstr "Direccion"
+
+#. module: l10n_pe_contacts
+#: model_terms:ir.ui.view,arch_db:l10n_pe_contacts.it_lztn_res_partner_pe
+msgid "Street2"
+msgstr "Direccion 2"
+
+#. module: l10n_pe_contacts
+#: model_terms:ir.ui.view,arch_db:l10n_pe_contacts.pg_l10n_latam_identification_type_view
+msgid "Sunat - Type Document"
+msgstr "SUNAT - Tipo de documento"
+
+#. module: l10n_pe_contacts
+#: model:ir.ui.menu,name:l10n_pe_contacts.pragmatic_sunat_latam_identification_type
+msgid "Sunat - Type Identification"
+msgstr "Sunat - Tipo de Identificacion"
+
+#. module: l10n_pe_contacts
+#: model:ir.ui.menu,name:l10n_pe_contacts.pragmatic_sunat_annexced_2
+#: model_terms:ir.ui.view,arch_db:l10n_pe_contacts.pragmatic_annexed_2_form
+#: model_terms:ir.ui.view,arch_db:l10n_pe_contacts.pragmatic_annexed_2_tree
+msgid "Sunat Annexed 2 - Type Person"
+msgstr "Sunat Anexo 2 - Tipo de persona"
+
+#. module: l10n_pe_contacts
+#: model:ir.actions.act_window,name:l10n_pe_contacts.pragmatic_annexed_2_action
+#: model:ir.actions.act_window,name:l10n_pe_contacts.pragmatic_table_25_action
+#: model:ir.ui.menu,name:l10n_pe_contacts.pragmatic_sunat_table_25
+msgid "Sunat Table 25 - Agreement Avoid double taxation"
+msgstr "Sunat Tabla 25 - Acuerdo para evitar el doble impuesto."
+
+#. module: l10n_pe_contacts
+#: model:ir.model,name:l10n_pe_contacts.model_pragmatic_table_25
+#: model_terms:ir.ui.view,arch_db:l10n_pe_contacts.pragmatic_table_25_form
+#: model_terms:ir.ui.view,arch_db:l10n_pe_contacts.pragmatic_table_25_tree
+msgid "Sunat Table 25 - Type Agreement"
+msgstr "Sunat Tabla 25 - Tipe de acuerdo"
+
+#. module: l10n_pe_contacts
+#: model:ir.model.fields,field_description:l10n_pe_contacts.field_res_partner__sunat_type_agreement
+#: model:ir.model.fields,field_description:l10n_pe_contacts.field_res_users__sunat_type_agreement
+msgid "Sunat Type Agreement"
+msgstr "Sunat Tipo de acuerdo"
+
+#. module: l10n_pe_contacts
+#: model:ir.model.fields,field_description:l10n_pe_contacts.field_res_partner__sunat_type_person
+#: model:ir.model.fields,field_description:l10n_pe_contacts.field_res_users__sunat_type_person
+msgid "Sunat Type Person"
+msgstr "Sunat tipo de persona"
+
+#. module: l10n_pe_contacts
+#: model:ir.ui.menu,name:l10n_pe_contacts.pragmatic_contact_sunat_values
+msgid "Sunat Values"
+msgstr "Sunat Valores"
+
+#. module: l10n_pe_contacts
+#: model:ir.model,name:l10n_pe_contacts.model_pragmatic_annexed_2
+msgid "Sunat annexed 2 - Type Person"
+msgstr "Sunat Anexo 2 - Tipo de persona"
+
+#. module: l10n_pe_contacts
+#: model:ir.model.fields,help:l10n_pe_contacts.field_res_partner__country_code
+#: model:ir.model.fields,help:l10n_pe_contacts.field_res_users__country_code
+msgid ""
+"The ISO country code in two chars. \n"
+"You can use this field for quick search."
+msgstr "El código de país ISO en dos caracteres. \n"
+"Puede utilizar este campo para una búsqueda rápida."
+
+#. module: l10n_pe_contacts
+#: model:ir.actions.act_window,name:l10n_pe_contacts.pg_l10n_latam_identification_type_action_window
+msgid "Type Identification"
+msgstr "Tipo de Identificacion"
+
+#. module: l10n_pe_contacts
+#: model_terms:ir.ui.view,arch_db:l10n_pe_contacts.it_lztn_res_partner_pe
+msgid "ZIP"
+msgstr "ZIP"

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="pg_view_move_form" model="ir.ui.view">
+        <field name="name">account.move.form.localization</field>
+        <field name="model">account.move</field>
+        <field name="inherit_id" ref="account.view_move_form"/>
+        <field name="arch" type="xml">
+            <field name="invoice_user_id" position="before">
+                <field name="guide_number"/>
+                <field name="edi_show_cancel_button" groups="base.group_no_one"/>
+            </field>
+            <button name="button_draft" position="after">
+                <button name="button_draft_edi" type="object" string="To Draft"/>
+            </button>
+            <xpath expr="//field[@name='invoice_line_ids']//tree/field[@name='price_unit']" position="attributes">
+                <attribute name="attrs">
+                    {'column_invisible': [('parent.move_type', 'not in',['in_invoice','in_refund'])]}
+                </attribute>
+            </xpath>
+            <xpath expr="//field[@name='invoice_line_ids']//tree/field[@name='price_unit']" position="after">
+                <field name="price_unit_free" optional="hide"/>
+                <field name="price_ref" optional="show"
+                       attrs="{'column_invisible': [('parent.move_type', 'not in', ['out_invoice','out_refund'])]}"/>
+            </xpath>
+            <xpath expr="//field[@name='line_ids']//tree/field[@name='debit']" position="after">
+                <field name="price_ref" invisible="1"/>
+                <field name="price_unit_free" invisible="1"/>
+            </xpath>
+            <field name="invoice_date" position="after">
+                <field name="invoice_payment_term_id" attrs="{'readonly': [('state', 'not in', ['draft'])]}"/>
+                <field name="invoice_date_due" attrs="{'readonly': [('state', 'not in', ['draft'])]}"/>
+                <button name="create_account_move_freetax" type="object" string="GENERAR ASIENTO TAX FREE"
+                        invisible="1"/>
+            </field>
+            <xpath expr="//page[@id='aml_tab']" position="after">
+                <page string="Account Entry Free Tax" name="accounts_free"
+                      attrs="{'invisible': [('move_account_tax_free', '=',False)]}">
+                    <group>
+                        <field name="move_account_tax_free" readonly="1"/>
+                    </group>
+                    <group>
+                        <field name="line_free_ids" nolabel='1'>
+                            <tree>
+                                <field name="account_id"/>
+                                <field name="name"/>
+                                <field name="analytic_tag_ids"/>
+                                <field name="debit" sum="Total Debit"/>
+                                <field name="credit" sum="Total Credit"/>
+                                <field name="tax_tag_ids"/>
+                            </tree>
+                        </field>
+                    </group>
+                </page>
+            </xpath>
+        </field>
+    </record>
+    <record id="pg_l10n_latam_invoice_document" model="ir.ui.view">
+        <field name="name">account.move.form.localization</field>
+        <field name="model">account.move</field>
+        <field name="inherit_id" ref="l10n_latam_invoice_document.view_move_form"/>
+        <field name="arch" type="xml">
+            <field name="l10n_latam_document_type_id" position="attributes">
+                <attribute name="invisible">1</attribute>
+            </field>
+            <field name="l10n_latam_document_number" position="attributes">
+                <attribute name="invisible">1</attribute>
+            </field>
+        </field>
+    </record>
+    <record id="pragmatic_account_move_form" model="ir.ui.view">
+        <field name="name">account.move.pragmatic.form</field>
+        <field name="model">account.move</field>
+        <field name="inherit_id" ref="l10n_pe_journal_sequence.pg_view_move_form_seq"/>
+        <field name="arch" type="xml">
+            <group name="localization_invoice" position="replace">
+                <group name="localization_invoice"
+                       attrs="{'invisible':[('move_type','not in',['out_invoice','out_refund','in_invoice','in_refund'])]}">
+                    <group>
+                        <field name="document_type_filter" invisible="1"/>
+                        <field name="l10n_latam_document_type_id"
+                               domain="[('id','in',document_type_filter)]"
+                               attrs="{'readonly': [('state','not in',['draft'])],'required':[('move_type','in',['out_invoice','out_refund','in_invoice','in_refund'])]}"/>
+                        <field name="type_document_code" invisible="1"/>
+                        <field name="edit_serie_code" invisible="1"/>
+                        <field name="serie_filter" invisible="1"/>
+                        <field name="serie_id"
+                               domain="[('id','in',serie_filter)]"
+                               options="{'no_create': True, 'no_create_edit':True,'no_open': True}"
+                               attrs="{'invisible': [('move_type', 'not in', ['out_invoice','out_refund'])],'readonly': [('state','not in',['draft'])]}"/>
+                        <field name="serie_code"
+                               attrs="{'invisible': [('move_type', 'in',['out_invoice','out_refund'])],'readonly': [('state','not in',['draft'])],'required':[('move_type','in',['out_invoice','out_refund','in_invoice','in_refund'])]}"/>
+                    </group>
+                    <group>
+                        <field name="establish_filter" invisible="1"/>
+                        <field name="establishment"
+                               domain="[('id','in',establish_filter)]"
+                               attrs="{'readonly': [('state','not in',['draft'])],'required':[('move_type','in',['out_invoice','out_refund','in_invoice','in_refund'])]}"
+                               options="{'no_create': True, 'no_create_edit':True,'no_open': True}"/>
+                        <field name="can_edit_correlative" invisible="1"/>
+                        <field name="edit_correlative" groups="l10n_pe_account.pragmatic_edit_correlative"/>
+                        <field name="correlative"
+                               attrs="{'readonly': [('can_edit_correlative','not in',['editable'])],'required': [('move_type','in',['in_invoice','in_refund'])]}"/>
+                        <field name="initial_charge" invisible="1"/>
+                    </group>
+                </group>
+                <group string="Reference Document"
+                       attrs="{'invisible': [('type_document_code','not in',['07','08'])]}">
+                    <group>
+                        <field name="nc_nd_latam_document_type_id"
+                               options="{'no_create': True, 'no_create_edit':True,'no_open': True}"/>
+                        <field name="nc_nd_serie_code"/>
+                    </group>
+                    <group>
+                        <field name="nc_nd_date_emision"/>
+                        <field name="nc_nd_correlative"/>
+                    </group>
+                </group>
+            </group>
+            <field name="invoice_date" position="after">
+                <field name="datetime_emision" invisible="1"/>
+                <field name="exchange_rate" readonly="1"
+                       attrs="{'invisible':[('move_type','not in',['out_invoice','out_refund','in_invoice','in_refund'])]}"/>
+            </field>
+            <field name="invoice_user_id" position="after">
+                <field name="type_of_income" options="{'no_create': True, 'no_create_edit':True,'no_open': True}"/>
+            </field>
+        </field>
+    </record>
+    <record id="pragmatic_l10n_pe_edi_account_move_form" model="ir.ui.view">
+        <field name="name">account.move.pragmatic.form</field>
+        <field name="model">account.move</field>
+        <field name="inherit_id" ref="l10n_pe_edi.view_move_form"/>
+        <field name="arch" type="xml">
+            <field name="l10n_pe_edi_affectation_reason" position="attributes">
+                <attribute name="optional">{'optional': 'show'}</attribute>
+            </field>
+            <field name="l10n_pe_edi_allowance_charge_reason_code" position="attributes">
+                <attribute name="optional">{'optional': 'hide'}</attribute>
+            </field>
+        </field>
+    </record>
+    <record id="pragmatic_account_move_out" model="ir.ui.view">
+        <field name="name">stock.location.inherit</field>
+        <field name="model">account.move</field>
+        <field name="inherit_id" ref="account.view_out_invoice_tree"/>
+        <field name="arch" type="xml">
+            <field name="amount_total_signed" position="after">
+                <field name="amount_total"/>
+            </field>
+        </field>
+    </record>
+    <record id="pragmatic_account_move_in" model="ir.ui.view">
+        <field name="name">stock.location.inherit</field>
+        <field name="model">account.move</field>
+        <field name="inherit_id" ref="account.view_in_invoice_tree"/>
+        <field name="arch" type="xml">
+            <field name="amount_total_signed" position="after">
+                <field name="amount_total" optional="hide"/>
+                <field name="serie_code" optional="hide"/>
+                <field name="correlative" optional="hide"/>
+            </field>
+        </field>
+    </record>
+</odoo>

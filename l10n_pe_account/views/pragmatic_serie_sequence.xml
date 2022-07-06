@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="pg_account_serie_sequence_form" model="ir.ui.view">
+        <field name="name">pragmatic.serie.sequence.form.localization.account</field>
+        <field name="model">pragmatic.serie.sequence</field>
+        <field name="inherit_id" ref="l10n_pe_journal_sequence.pragmatic_serie_sequence_form"/>
+        <field name="arch" type="xml">
+            <field name="sequence_id" position="after">
+                <field name="establishment"/>
+            </field>
+            <field name="sequence_number_next" position="after">
+                <field name="type_document"/>
+            </field>
+        </field>
+    </record>
+    <menuitem id="pragmatic_serie_sequence_account"
+              name="Serie Sequence"
+              parent="l10n_pe_account.pragmatic_account_conf"
+              action="l10n_pe_journal_sequence.pragmatic_serie_sequence_action"/>
+</odoo>

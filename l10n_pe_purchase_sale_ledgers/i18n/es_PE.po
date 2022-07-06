@@ -1,0 +1,733 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* l10n_pe_purchase_sale_ledgers
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-06-07 03:47+0000\n"
+"PO-Revision-Date: 2022-06-07 03:47+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: l10n_pe_purchase_sale_ledgers
+#: code:addons/l10n_pe_purchase_sale_ledgers/models/tools.py:0
+#, python-format
+msgid ""
+"ADQUISICIONES GRAVADAS DESTINADAS A OPERACIONES GRAVADAS Y/O DE EXPORTACIÓN "
+"Y A OPERACIONES NO GRAVADAS / BASE IMPONIBLE"
+msgstr ""
+
+#. module: l10n_pe_purchase_sale_ledgers
+#: code:addons/l10n_pe_purchase_sale_ledgers/models/tools.py:0
+#, python-format
+msgid ""
+"ADQUISICIONES GRAVADAS DESTINADAS A OPERACIONES GRAVADAS Y/O DE EXPORTACIÓN "
+"Y A OPERACIONES NO GRAVADAS / IGV"
+msgstr ""
+
+#. module: l10n_pe_purchase_sale_ledgers
+#: code:addons/l10n_pe_purchase_sale_ledgers/models/tools.py:0
+#, python-format
+msgid ""
+"ADQUISICIONES GRAVADAS DESTINADAS A OPERACIONES GRAVADAS Y/O EXPORTACION / "
+"BASE IMPONIBLE"
+msgstr ""
+
+#. module: l10n_pe_purchase_sale_ledgers
+#: code:addons/l10n_pe_purchase_sale_ledgers/models/tools.py:0
+#, python-format
+msgid ""
+"ADQUISICIONES GRAVADAS DESTINADAS A OPERACIONES GRAVADAS Y/O EXPORTACION / "
+"IGV"
+msgstr ""
+
+#. module: l10n_pe_purchase_sale_ledgers
+#: code:addons/l10n_pe_purchase_sale_ledgers/models/tools.py:0
+#, python-format
+msgid ""
+"ADQUISICIONES GRAVADAS DESTINADAS A OPERACIONES NO GRAVADAS / BASE IMPONIBLE"
+msgstr ""
+
+#. module: l10n_pe_purchase_sale_ledgers
+#: code:addons/l10n_pe_purchase_sale_ledgers/models/tools.py:0
+#, python-format
+msgid "ADQUISICIONES GRAVADAS DESTINADAS A OPERACIONES NO GRAVADAS / IGV"
+msgstr ""
+
+#. module: l10n_pe_purchase_sale_ledgers
+#: code:addons/l10n_pe_purchase_sale_ledgers/models/tools.py:0
+#, python-format
+msgid "ANOTACION O INDICACION DE AJUSTE"
+msgstr ""
+
+#. module: l10n_pe_purchase_sale_ledgers
+#: code:addons/l10n_pe_purchase_sale_ledgers/models/account_book.py:0
+#, python-format
+msgid "Address:"
+msgstr ""
+
+#. module: l10n_pe_purchase_sale_ledgers
+#: code:addons/l10n_pe_purchase_sale_ledgers/models/account_book.py:0
+#, python-format
+msgid "BUSINESS NAME:"
+msgstr "NOMBRE DE EMPRESA:"
+
+#. module: l10n_pe_purchase_sale_ledgers
+#: code:addons/l10n_pe_purchase_sale_ledgers/models/tools.py:0
+#, python-format
+msgid "Base Imp Grav"
+msgstr ""
+
+#. module: l10n_pe_purchase_sale_ledgers
+#: model:ir.model.fields,field_description:l10n_pe_purchase_sale_ledgers.field_report_account_books__book_type
+msgid "Book Type"
+msgstr "Tipo de libro"
+
+#. module: l10n_pe_purchase_sale_ledgers
+#: code:addons/l10n_pe_purchase_sale_ledgers/models/account_book.py:0
+#, python-format
+msgid "Business name:"
+msgstr "Nombre de empresa:"
+
+#. module: l10n_pe_purchase_sale_ledgers
+#: code:addons/l10n_pe_purchase_sale_ledgers/models/tools.py:0
+#: code:addons/l10n_pe_purchase_sale_ledgers/models/tools.py:0
+#, python-format
+msgid "COMPROBANTE DE PAGO / AÑO DUA O DSI"
+msgstr ""
+
+#. module: l10n_pe_purchase_sale_ledgers
+#: code:addons/l10n_pe_purchase_sale_ledgers/models/tools.py:0
+#: code:addons/l10n_pe_purchase_sale_ledgers/models/tools.py:0
+#, python-format
+msgid "COMPROBANTE DE PAGO / NUMERO"
+msgstr ""
+
+#. module: l10n_pe_purchase_sale_ledgers
+#: code:addons/l10n_pe_purchase_sale_ledgers/models/tools.py:0
+#: code:addons/l10n_pe_purchase_sale_ledgers/models/tools.py:0
+#, python-format
+msgid "COMPROBANTE DE PAGO / SERIE"
+msgstr ""
+
+#. module: l10n_pe_purchase_sale_ledgers
+#: code:addons/l10n_pe_purchase_sale_ledgers/models/tools.py:0
+#: code:addons/l10n_pe_purchase_sale_ledgers/models/tools.py:0
+#, python-format
+msgid "COMPROBANTE DE PAGO / TIPO"
+msgstr ""
+
+#. module: l10n_pe_purchase_sale_ledgers
+#: code:addons/l10n_pe_purchase_sale_ledgers/models/tools.py:0
+#, python-format
+msgid "CONSTANCIA DE DEPOSITO DE DETRACCION / FECHA DE EMISION"
+msgstr ""
+
+#. module: l10n_pe_purchase_sale_ledgers
+#: code:addons/l10n_pe_purchase_sale_ledgers/models/tools.py:0
+#, python-format
+msgid "CONSTANCIA DE DEPOSITO DE DETRACCION / NUMERO"
+msgstr ""
+
+#. module: l10n_pe_purchase_sale_ledgers
+#: code:addons/l10n_pe_purchase_sale_ledgers/models/tools.py:0
+#, python-format
+msgid "CONVENIO PARA EVITAR DOBLE IMPOSICION"
+msgstr ""
+
+#. module: l10n_pe_purchase_sale_ledgers
+#: code:addons/l10n_pe_purchase_sale_ledgers/models/tools.py:0
+#: code:addons/l10n_pe_purchase_sale_ledgers/models/tools.py:0
+#: code:addons/l10n_pe_purchase_sale_ledgers/models/tools.py:0
+#, python-format
+msgid "CUO"
+msgstr ""
+
+#. module: l10n_pe_purchase_sale_ledgers
+#: model:ir.model.fields,field_description:l10n_pe_purchase_sale_ledgers.field_res_country__code_sunat
+msgid "Code Sunat"
+msgstr "Código Sunat"
+
+#. module: l10n_pe_purchase_sale_ledgers
+#: model:ir.model.fields,field_description:l10n_pe_purchase_sale_ledgers.field_report_account_books__company_id
+msgid "Company"
+msgstr "Compañia"
+
+#. module: l10n_pe_purchase_sale_ledgers
+#: model:ir.model.fields.selection,name:l10n_pe_purchase_sale_ledgers.selection__report_account_books__book_type__purchase
+msgid "Compra"
+msgstr ""
+
+#. module: l10n_pe_purchase_sale_ledgers
+#: model:ir.model,name:l10n_pe_purchase_sale_ledgers.model_res_country
+msgid "Country"
+msgstr "País"
+
+#. module: l10n_pe_purchase_sale_ledgers
+#: model:ir.model.fields,field_description:l10n_pe_purchase_sale_ledgers.field_report_account_books__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: l10n_pe_purchase_sale_ledgers
+#: model:ir.model.fields,field_description:l10n_pe_purchase_sale_ledgers.field_report_account_books__create_date
+msgid "Created on"
+msgstr "Creado en"
+
+#. module: l10n_pe_purchase_sale_ledgers
+#: model:ir.model.fields,field_description:l10n_pe_purchase_sale_ledgers.field_report_account_books__date_from
+msgid "Date from"
+msgstr "Fecha de Inicio"
+
+#. module: l10n_pe_purchase_sale_ledgers
+#: model:ir.model.fields,field_description:l10n_pe_purchase_sale_ledgers.field_report_account_books__date_to
+msgid "Date to"
+msgstr "Fecha Fin"
+
+#. module: l10n_pe_purchase_sale_ledgers
+#: model:ir.model.fields,field_description:l10n_pe_purchase_sale_ledgers.field_account_move__display_name
+#: model:ir.model.fields,field_description:l10n_pe_purchase_sale_ledgers.field_account_tax__display_name
+#: model:ir.model.fields,field_description:l10n_pe_purchase_sale_ledgers.field_l10n_latam_document_type__display_name
+#: model:ir.model.fields,field_description:l10n_pe_purchase_sale_ledgers.field_report_account_books__display_name
+#: model:ir.model.fields,field_description:l10n_pe_purchase_sale_ledgers.field_res_country__display_name
+msgid "Display Name"
+msgstr "Nombre a Mostrar"
+
+#. module: l10n_pe_purchase_sale_ledgers
+#: code:addons/l10n_pe_purchase_sale_ledgers/models/tools.py:0
+#: code:addons/l10n_pe_purchase_sale_ledgers/models/tools.py:0
+#, python-format
+msgid "ESTADO"
+msgstr ""
+
+#. module: l10n_pe_purchase_sale_ledgers
+#: code:addons/l10n_pe_purchase_sale_ledgers/models/tools.py:0
+#, python-format
+msgid "Estado"
+msgstr ""
+
+#. module: l10n_pe_purchase_sale_ledgers
+#: code:addons/l10n_pe_purchase_sale_ledgers/models/tools.py:0
+#, python-format
+msgid "Exonerado"
+msgstr ""
+
+#. module: l10n_pe_purchase_sale_ledgers
+#: model_terms:ir.ui.view,arch_db:l10n_pe_purchase_sale_ledgers.account_books_tree
+msgid "Export (TXT)"
+msgstr "Exportar (TXT)"
+
+#. module: l10n_pe_purchase_sale_ledgers
+#: model_terms:ir.ui.view,arch_db:l10n_pe_purchase_sale_ledgers.account_books_tree
+msgid "Export (XLSX)"
+msgstr "Exportar (XLSX)"
+
+#. module: l10n_pe_purchase_sale_ledgers
+#: code:addons/l10n_pe_purchase_sale_ledgers/models/tools.py:0
+#: code:addons/l10n_pe_purchase_sale_ledgers/models/tools.py:0
+#: code:addons/l10n_pe_purchase_sale_ledgers/models/tools.py:0
+#, python-format
+msgid "F. Cont"
+msgstr "F. Contable"
+
+#. module: l10n_pe_purchase_sale_ledgers
+#: code:addons/l10n_pe_purchase_sale_ledgers/models/tools.py:0
+#: code:addons/l10n_pe_purchase_sale_ledgers/models/tools.py:0
+#, python-format
+msgid "F. Vencim"
+msgstr "F. Vencimiento"
+
+#. module: l10n_pe_purchase_sale_ledgers
+#: code:addons/l10n_pe_purchase_sale_ledgers/models/account_book.py:0
+#: code:addons/l10n_pe_purchase_sale_ledgers/models/account_book.py:0
+#: code:addons/l10n_pe_purchase_sale_ledgers/models/account_book.py:0
+#, python-format
+msgid "General detail"
+msgstr ""
+
+#. module: l10n_pe_purchase_sale_ledgers
+#: model:ir.model.fields,field_description:l10n_pe_purchase_sale_ledgers.field_account_tax__tax_plastic
+msgid "ICBPer"
+msgstr ""
+
+#. module: l10n_pe_purchase_sale_ledgers
+#: model:ir.model.fields,field_description:l10n_pe_purchase_sale_ledgers.field_account_move__id
+#: model:ir.model.fields,field_description:l10n_pe_purchase_sale_ledgers.field_account_tax__id
+#: model:ir.model.fields,field_description:l10n_pe_purchase_sale_ledgers.field_l10n_latam_document_type__id
+#: model:ir.model.fields,field_description:l10n_pe_purchase_sale_ledgers.field_report_account_books__id
+#: model:ir.model.fields,field_description:l10n_pe_purchase_sale_ledgers.field_res_country__id
+msgid "ID"
+msgstr "ID (identificación)"
+
+#. module: l10n_pe_purchase_sale_ledgers
+#: code:addons/l10n_pe_purchase_sale_ledgers/models/tools.py:0
+#, python-format
+msgid "IGV"
+msgstr ""
+
+#. module: l10n_pe_purchase_sale_ledgers
+#: code:addons/l10n_pe_purchase_sale_ledgers/models/tools.py:0
+#, python-format
+msgid "IMPORTE TOTAL"
+msgstr ""
+
+#. module: l10n_pe_purchase_sale_ledgers
+#: code:addons/l10n_pe_purchase_sale_ledgers/models/tools.py:0
+#, python-format
+msgid "IMPORTE TOTAL DE LAS ADQUISIONES"
+msgstr ""
+
+#. module: l10n_pe_purchase_sale_ledgers
+#: code:addons/l10n_pe_purchase_sale_ledgers/models/tools.py:0
+#, python-format
+msgid "IMPUESTO AL CONSUMO DE BOLSAS DE PLASTICO"
+msgstr ""
+
+#. module: l10n_pe_purchase_sale_ledgers
+#: code:addons/l10n_pe_purchase_sale_ledgers/models/tools.py:0
+#: code:addons/l10n_pe_purchase_sale_ledgers/models/tools.py:0
+#, python-format
+msgid "ISC"
+msgstr ""
+
+#. module: l10n_pe_purchase_sale_ledgers
+#: code:addons/l10n_pe_purchase_sale_ledgers/models/tools.py:0
+#, python-format
+msgid "Imp Bolsas plastico"
+msgstr ""
+
+#. module: l10n_pe_purchase_sale_ledgers
+#: code:addons/l10n_pe_purchase_sale_ledgers/models/tools.py:0
+#, python-format
+msgid "Inafecto"
+msgstr ""
+
+#. module: l10n_pe_purchase_sale_ledgers
+#: model:ir.model,name:l10n_pe_purchase_sale_ledgers.model_account_move
+msgid "Journal Entry"
+msgstr "Asiento contable"
+
+#. module: l10n_pe_purchase_sale_ledgers
+#: model:ir.model.fields,field_description:l10n_pe_purchase_sale_ledgers.field_account_move____last_update
+#: model:ir.model.fields,field_description:l10n_pe_purchase_sale_ledgers.field_account_tax____last_update
+#: model:ir.model.fields,field_description:l10n_pe_purchase_sale_ledgers.field_l10n_latam_document_type____last_update
+#: model:ir.model.fields,field_description:l10n_pe_purchase_sale_ledgers.field_report_account_books____last_update
+#: model:ir.model.fields,field_description:l10n_pe_purchase_sale_ledgers.field_res_country____last_update
+msgid "Last Modified on"
+msgstr "Ultima Modificación en"
+
+#. module: l10n_pe_purchase_sale_ledgers
+#: model:ir.model.fields,field_description:l10n_pe_purchase_sale_ledgers.field_report_account_books__write_uid
+msgid "Last Updated by"
+msgstr "Ultima Actualizacion por"
+
+#. module: l10n_pe_purchase_sale_ledgers
+#: model:ir.model.fields,field_description:l10n_pe_purchase_sale_ledgers.field_report_account_books__write_date
+msgid "Last Updated on"
+msgstr "Ultima Acutalizacion en"
+
+#. module: l10n_pe_purchase_sale_ledgers
+#: model:ir.model,name:l10n_pe_purchase_sale_ledgers.model_l10n_latam_document_type
+msgid "Latam Document Type"
+msgstr "Tipo de Documento Latam"
+
+#. module: l10n_pe_purchase_sale_ledgers
+#: code:addons/l10n_pe_purchase_sale_ledgers/models/tools.py:0
+#, python-format
+msgid "MONEDA"
+msgstr ""
+
+#. module: l10n_pe_purchase_sale_ledgers
+#: code:addons/l10n_pe_purchase_sale_ledgers/models/tools.py:0
+#, python-format
+msgid "MONTO DE RETENCION DEL IGV"
+msgstr ""
+
+#. module: l10n_pe_purchase_sale_ledgers
+#: code:addons/l10n_pe_purchase_sale_ledgers/models/account_book.py:0
+#, python-format
+msgid "Mail:"
+msgstr "Correo:"
+
+#. module: l10n_pe_purchase_sale_ledgers
+#: code:addons/l10n_pe_purchase_sale_ledgers/models/account_book.py:0
+#, python-format
+msgid "NON DOMICILED"
+msgstr "No Domiciliado"
+
+#. module: l10n_pe_purchase_sale_ledgers
+#: code:addons/l10n_pe_purchase_sale_ledgers/models/account_book.py:0
+#, python-format
+msgid "NON DOMICILED REPORT"
+msgstr "Reporte no Domiciliado"
+
+#. module: l10n_pe_purchase_sale_ledgers
+#: code:addons/l10n_pe_purchase_sale_ledgers/models/tools.py:0
+#, python-format
+msgid "NUMBER"
+msgstr "NUMERO"
+
+#. module: l10n_pe_purchase_sale_ledgers
+#: model:ir.model.fields,field_description:l10n_pe_purchase_sale_ledgers.field_report_account_books__name
+msgid "Name"
+msgstr "Nombre"
+
+#. module: l10n_pe_purchase_sale_ledgers
+#: model:ir.model.fields.selection,name:l10n_pe_purchase_sale_ledgers.selection__report_account_books__book_type__non_domiciled
+msgid "No Domiciliado"
+msgstr ""
+
+#. module: l10n_pe_purchase_sale_ledgers
+#: code:addons/l10n_pe_purchase_sale_ledgers/models/account_book.py:0
+#, python-format
+msgid "Non-domiciled"
+msgstr "No Domiciliado"
+
+#. module: l10n_pe_purchase_sale_ledgers
+#: code:addons/l10n_pe_purchase_sale_ledgers/models/tools.py:0
+#, python-format
+msgid "Numero Doc"
+msgstr ""
+
+#. module: l10n_pe_purchase_sale_ledgers
+#: code:addons/l10n_pe_purchase_sale_ledgers/models/tools.py:0
+#, python-format
+msgid "Numero Doc Cliente"
+msgstr ""
+
+#. module: l10n_pe_purchase_sale_ledgers
+#: code:addons/l10n_pe_purchase_sale_ledgers/models/tools.py:0
+#, python-format
+msgid "N° DE COMPROBANTE DE PAGO EMITIDO POR SUJETO NO DOMICILIADO"
+msgstr ""
+
+#. module: l10n_pe_purchase_sale_ledgers
+#: code:addons/l10n_pe_purchase_sale_ledgers/models/tools.py:0
+#, python-format
+msgid "OTROS CONCEPTOS ADICIONALES"
+msgstr ""
+
+#. module: l10n_pe_purchase_sale_ledgers
+#: code:addons/l10n_pe_purchase_sale_ledgers/models/tools.py:0
+#, python-format
+msgid "OTROS TRIBUTOS Y CARGOS"
+msgstr ""
+
+#. module: l10n_pe_purchase_sale_ledgers
+#: code:addons/l10n_pe_purchase_sale_ledgers/models/tools.py:0
+#, python-format
+msgid "Otros Tributos"
+msgstr ""
+
+#. module: l10n_pe_purchase_sale_ledgers
+#: code:addons/l10n_pe_purchase_sale_ledgers/models/account_book.py:0
+#, python-format
+msgid "PERIOD:"
+msgstr "PERIODO:"
+
+#. module: l10n_pe_purchase_sale_ledgers
+#: code:addons/l10n_pe_purchase_sale_ledgers/models/tools.py:0
+#, python-format
+msgid "PROVEEDOR / NUMERO DOCUMENTO"
+msgstr ""
+
+#. module: l10n_pe_purchase_sale_ledgers
+#: code:addons/l10n_pe_purchase_sale_ledgers/models/tools.py:0
+#, python-format
+msgid "PROVEEDOR / RAZON SOCIAL"
+msgstr ""
+
+#. module: l10n_pe_purchase_sale_ledgers
+#: code:addons/l10n_pe_purchase_sale_ledgers/models/tools.py:0
+#, python-format
+msgid "PROVEEDOR / TIPO DOCUMENTO"
+msgstr ""
+
+#. module: l10n_pe_purchase_sale_ledgers
+#: code:addons/l10n_pe_purchase_sale_ledgers/models/account_book.py:0
+#, python-format
+msgid "PURCHASE"
+msgstr "Compra"
+
+#. module: l10n_pe_purchase_sale_ledgers
+#: code:addons/l10n_pe_purchase_sale_ledgers/models/account_book.py:0
+#, python-format
+msgid "PURCHASE REPORT"
+msgstr "Reporte de Compra"
+
+#. module: l10n_pe_purchase_sale_ledgers
+#: code:addons/l10n_pe_purchase_sale_ledgers/models/account_book.py:0
+#, python-format
+msgid "Phone:"
+msgstr "Celular:"
+
+#. module: l10n_pe_purchase_sale_ledgers
+#: code:addons/l10n_pe_purchase_sale_ledgers/models/account_book.py:0
+#, python-format
+msgid "Purchase"
+msgstr "Compras"
+
+#. module: l10n_pe_purchase_sale_ledgers
+#: model:ir.actions.act_window,name:l10n_pe_purchase_sale_ledgers.account_books_action
+#: model_terms:ir.ui.view,arch_db:l10n_pe_purchase_sale_ledgers.account_books_tree
+msgid "Purchase and Sales Register reports"
+msgstr "Reporte registro de compras y ventas."
+
+#. module: l10n_pe_purchase_sale_ledgers
+#: code:addons/l10n_pe_purchase_sale_ledgers/models/account_book.py:0
+#, python-format
+msgid "Purchase record"
+msgstr "Registro de compra"
+
+#. module: l10n_pe_purchase_sale_ledgers
+#: code:addons/l10n_pe_purchase_sale_ledgers/models/tools.py:0
+#, python-format
+msgid ""
+"REFERENCIA DEL COMPROBANTE DE PAGO O DOCUMENTO ORIGINAL QUE SE MODIFICA / "
+"FECHA"
+msgstr ""
+
+#. module: l10n_pe_purchase_sale_ledgers
+#: code:addons/l10n_pe_purchase_sale_ledgers/models/tools.py:0
+#, python-format
+msgid ""
+"REFERENCIA DEL COMPROBANTE DE PAGO O DOCUMENTO ORIGINAL QUE SE MODIFICA / "
+"NUMERO"
+msgstr ""
+
+#. module: l10n_pe_purchase_sale_ledgers
+#: code:addons/l10n_pe_purchase_sale_ledgers/models/tools.py:0
+#, python-format
+msgid ""
+"REFERENCIA DEL COMPROBANTE DE PAGO O DOCUMENTO ORIGINAL QUE SE MODIFICA / "
+"SERIE"
+msgstr ""
+
+#. module: l10n_pe_purchase_sale_ledgers
+#: code:addons/l10n_pe_purchase_sale_ledgers/models/tools.py:0
+#, python-format
+msgid ""
+"REFERENCIA DEL COMPROBANTE DE PAGO O DOCUMENTO ORIGINAL QUE SE MODIFICA / "
+"TIPO"
+msgstr ""
+
+#. module: l10n_pe_purchase_sale_ledgers
+#: code:addons/l10n_pe_purchase_sale_ledgers/models/account_book.py:0
+#, python-format
+msgid "RUC:"
+msgstr ""
+
+#. module: l10n_pe_purchase_sale_ledgers
+#: code:addons/l10n_pe_purchase_sale_ledgers/models/tools.py:0
+#, python-format
+msgid "Razon Social Cliente"
+msgstr ""
+
+#. module: l10n_pe_purchase_sale_ledgers
+#: code:addons/l10n_pe_purchase_sale_ledgers/models/account_book.py:0
+#, python-format
+msgid "Record sale"
+msgstr "Registro de venta"
+
+#. module: l10n_pe_purchase_sale_ledgers
+#: code:addons/l10n_pe_purchase_sale_ledgers/models/tools.py:0
+#, python-format
+msgid "Ref Fecha Doc"
+msgstr ""
+
+#. module: l10n_pe_purchase_sale_ledgers
+#: code:addons/l10n_pe_purchase_sale_ledgers/models/tools.py:0
+#, python-format
+msgid "Ref Numero Doc"
+msgstr ""
+
+#. module: l10n_pe_purchase_sale_ledgers
+#: code:addons/l10n_pe_purchase_sale_ledgers/models/tools.py:0
+#, python-format
+msgid "Ref Serie Doc"
+msgstr ""
+
+#. module: l10n_pe_purchase_sale_ledgers
+#: code:addons/l10n_pe_purchase_sale_ledgers/models/tools.py:0
+#, python-format
+msgid "Ref Tipo Doc"
+msgstr ""
+
+#. module: l10n_pe_purchase_sale_ledgers
+#: code:addons/l10n_pe_purchase_sale_ledgers/models/account_book.py:0
+#, python-format
+msgid "Registration of purchase subject not domiciled"
+msgstr "Registro de sujeto no domiciliado"
+
+#. module: l10n_pe_purchase_sale_ledgers
+#: model:ir.ui.menu,name:l10n_pe_purchase_sale_ledgers.account_books_menu
+msgid "Reports Books"
+msgstr "Reporte de Libros"
+
+#. module: l10n_pe_purchase_sale_ledgers
+#: model:ir.ui.menu,name:l10n_pe_purchase_sale_ledgers.account_books_report
+msgid "Reports Purchase and Sales"
+msgstr "Reporte de compras y ventas"
+
+#. module: l10n_pe_purchase_sale_ledgers
+#: code:addons/l10n_pe_purchase_sale_ledgers/models/account_book.py:0
+#, python-format
+msgid "Ruc:"
+msgstr ""
+
+#. module: l10n_pe_purchase_sale_ledgers
+#: code:addons/l10n_pe_purchase_sale_ledgers/models/account_book.py:0
+#, python-format
+msgid "SALE"
+msgstr "Venta"
+
+#. module: l10n_pe_purchase_sale_ledgers
+#: code:addons/l10n_pe_purchase_sale_ledgers/models/account_book.py:0
+#, python-format
+msgid "SALES REPORT"
+msgstr "Reporte de Venta"
+
+#. module: l10n_pe_purchase_sale_ledgers
+#: code:addons/l10n_pe_purchase_sale_ledgers/models/tools.py:0
+#, python-format
+msgid "SUJETO NO DOMICILIADO / DIRECCION"
+msgstr ""
+
+#. module: l10n_pe_purchase_sale_ledgers
+#: code:addons/l10n_pe_purchase_sale_ledgers/models/tools.py:0
+#, python-format
+msgid "SUJETO NO DOMICILIADO / NRO IDENTIFICACION"
+msgstr ""
+
+#. module: l10n_pe_purchase_sale_ledgers
+#: code:addons/l10n_pe_purchase_sale_ledgers/models/tools.py:0
+#, python-format
+msgid "SUJETO NO DOMICILIADO / PAIS DE RESIDENCIA"
+msgstr ""
+
+#. module: l10n_pe_purchase_sale_ledgers
+#: code:addons/l10n_pe_purchase_sale_ledgers/models/tools.py:0
+#, python-format
+msgid "SUJETO NO DOMICILIADO / RAZON SOCIAL"
+msgstr ""
+
+#. module: l10n_pe_purchase_sale_ledgers
+#: code:addons/l10n_pe_purchase_sale_ledgers/models/account_book.py:0
+#, python-format
+msgid "Sales"
+msgstr ""
+
+#. module: l10n_pe_purchase_sale_ledgers
+#: code:addons/l10n_pe_purchase_sale_ledgers/models/tools.py:0
+#, python-format
+msgid "Serie Doc"
+msgstr ""
+
+#. module: l10n_pe_purchase_sale_ledgers
+#: model:ir.model.fields,field_description:l10n_pe_purchase_sale_ledgers.field_account_bank_statement_line__show_book
+#: model:ir.model.fields,field_description:l10n_pe_purchase_sale_ledgers.field_account_move__show_book
+#: model:ir.model.fields,field_description:l10n_pe_purchase_sale_ledgers.field_account_payment__show_book
+#: model:ir.model.fields,field_description:l10n_pe_purchase_sale_ledgers.field_l10n_latam_document_type__show_book
+msgid "Show in Account Book"
+msgstr "Mostrar en libro contable"
+
+#. module: l10n_pe_purchase_sale_ledgers
+#: code:addons/l10n_pe_purchase_sale_ledgers/models/tools.py:0
+#: code:addons/l10n_pe_purchase_sale_ledgers/models/tools.py:0
+#, python-format
+msgid "TIPO DE CAMBIO"
+msgstr ""
+
+#. module: l10n_pe_purchase_sale_ledgers
+#: code:addons/l10n_pe_purchase_sale_ledgers/models/tools.py:0
+#, python-format
+msgid "TIPO DE RENTA"
+msgstr ""
+
+#. module: l10n_pe_purchase_sale_ledgers
+#: model:ir.model,name:l10n_pe_purchase_sale_ledgers.model_account_tax
+msgid "Tax"
+msgstr "Impuesto"
+
+#. module: l10n_pe_purchase_sale_ledgers
+#: model:ir.model.fields,field_description:l10n_pe_purchase_sale_ledgers.field_l10n_latam_document_type__tax_decrease
+msgid "Tax decrease"
+msgstr "Disminucion de impuesto"
+
+#. module: l10n_pe_purchase_sale_ledgers
+#: code:addons/l10n_pe_purchase_sale_ledgers/models/account_book.py:0
+#: code:addons/l10n_pe_purchase_sale_ledgers/models/account_book.py:0
+#, python-format
+msgid "The Start date cannot be less than the end date "
+msgstr "La fecha de inicio no puede ser inferior a la fecha de fin "
+
+#. module: l10n_pe_purchase_sale_ledgers
+#: code:addons/l10n_pe_purchase_sale_ledgers/models/tools.py:0
+#, python-format
+msgid "Tipo Doc"
+msgstr ""
+
+#. module: l10n_pe_purchase_sale_ledgers
+#: code:addons/l10n_pe_purchase_sale_ledgers/models/tools.py:0
+#, python-format
+msgid "Tipo Doc Cliente"
+msgstr ""
+
+#. module: l10n_pe_purchase_sale_ledgers
+#: code:addons/l10n_pe_purchase_sale_ledgers/models/tools.py:0
+#, python-format
+msgid "Tipo de cambio"
+msgstr ""
+
+#. module: l10n_pe_purchase_sale_ledgers
+#: code:addons/l10n_pe_purchase_sale_ledgers/models/tools.py:0
+#, python-format
+msgid "Total"
+msgstr ""
+
+#. module: l10n_pe_purchase_sale_ledgers
+#: code:addons/l10n_pe_purchase_sale_ledgers/models/tools.py:0
+#, python-format
+msgid "VALOR DE LAS ADQUISICIONES"
+msgstr ""
+
+#. module: l10n_pe_purchase_sale_ledgers
+#: code:addons/l10n_pe_purchase_sale_ledgers/models/tools.py:0
+#, python-format
+msgid "VALOR DE LAS ADQUISICIONES NO GRAVADAS"
+msgstr ""
+
+#. module: l10n_pe_purchase_sale_ledgers
+#: code:addons/l10n_pe_purchase_sale_ledgers/models/tools.py:0
+#, python-format
+msgid "Valor Fact Exportacion"
+msgstr ""
+
+#. module: l10n_pe_purchase_sale_ledgers
+#: model:ir.model.fields.selection,name:l10n_pe_purchase_sale_ledgers.selection__report_account_books__book_type__sale
+msgid "Ventas"
+msgstr ""
+
+#. module: l10n_pe_purchase_sale_ledgers
+#: code:addons/l10n_pe_purchase_sale_ledgers/models/account_book.py:0
+#, python-format
+msgid "from:"
+msgstr "de:"
+
+#. module: l10n_pe_purchase_sale_ledgers
+#: model:ir.model,name:l10n_pe_purchase_sale_ledgers.model_report_account_books
+msgid ""
+"report of accounting books of purchases and sales non-domiciled subjects"
+msgstr ""
+"Informe de libros contables de compras y ventas sujetos no domiciliados"
+
+#. module: l10n_pe_purchase_sale_ledgers
+#: code:addons/l10n_pe_purchase_sale_ledgers/models/account_book.py:0
+#, python-format
+msgid "to:"
+msgstr "a:"

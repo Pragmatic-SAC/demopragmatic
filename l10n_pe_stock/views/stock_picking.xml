@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="pragmatic_stock_picking" model="ir.ui.view">
+        <field name="name">stock.picking.inherit</field>
+        <field name="model">stock.picking</field>
+        <field name="inherit_id" ref="stock.view_picking_form"/>
+        <field name="arch" type="xml">
+            <field name="picking_type_id" position="after">
+                <field name="type_transaction_filter" invisible="1"/>
+                <field name="type_transaction" required="1"
+                       domain="[('id','in',type_transaction_filter)]"
+                       options="{'no_create': True, 'no_create_edit':True,'no_open': True}"/>
+            </field>
+            <xpath expr="//page[last()]" position="after">
+                <page string="Referral Guide Incoming" name="incominggr">
+                    <group>
+                        <group>
+                            <field name="l10n_latam_document_type_id"
+                                   options="{'no_create': True, 'no_create_edit':True,'no_open': True}"/>
+                            <field name="correlative"/>
+                        </group>
+                        <group>
+                            <field name="serie"/>
+                        </group>
+                    </group>
+                </page>
+            </xpath>
+        </field>
+    </record>
+</odoo>

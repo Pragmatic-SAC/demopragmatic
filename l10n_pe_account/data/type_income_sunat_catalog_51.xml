@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="pragmatic_catalog_0101" model="pragmatic.type.operation.catalog.51">
+            <field name="code">0101</field>
+            <field name="name">Internal sale</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_catalog_0112" model="pragmatic.type.operation.catalog.51">
+            <field name="code">0112</field>
+            <field name="name">Internal Sale - Sustains Natural Person Deductible Expenses</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_catalog_0113" model="pragmatic.type.operation.catalog.51">
+            <field name="code">0113</field>
+            <field name="name">Internal Sale-NRUS</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_catalog_0200" model="pragmatic.type.operation.catalog.51">
+            <field name="code">0200</field>
+            <field name="name">Export of Goods</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_catalog_0201" model="pragmatic.type.operation.catalog.51">
+            <field name="code">0201</field>
+            <field name="name">Exportation of Services - Provision of services performed entirely in the country</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_catalog_0202" model="pragmatic.type.operation.catalog.51">
+            <field name="code">0202</field>
+            <field name="name">Exportation of Services - Provision of non-domiciled lodging services</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_catalog_0203" model="pragmatic.type.operation.catalog.51">
+            <field name="code">0203</field>
+            <field name="name">Exports of Services - Transport of shipping companies</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_catalog_0204" model="pragmatic.type.operation.catalog.51">
+            <field name="code">0204</field>
+            <field name="name">Exportation of Services - Services to foreign-flagged ships and aircraft</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_catalog_0205" model="pragmatic.type.operation.catalog.51">
+            <field name="code">0205</field>
+            <field name="name">Exportation of Services - Services that make up a Tourist Package</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_catalog_0206" model="pragmatic.type.operation.catalog.51">
+            <field name="code">0206</field>
+            <field name="name">Exports of Services - Complementary services to freight transport</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_catalog_0207" model="pragmatic.type.operation.catalog.51">
+            <field name="code">0207</field>
+            <field name="name">Exportation of Services - Supply of electric power in favor of subjects domiciled in
+                ZED
+            </field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_catalog_0208" model="pragmatic.type.operation.catalog.51">
+            <field name="code">0208</field>
+            <field name="name">Exportation of Services - Provision of services partially carried out abroad</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_catalog_0301" model="pragmatic.type.operation.catalog.51">
+            <field name="code">0301</field>
+            <field name="name">Operations with air waybill (issued in the national scope)</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_catalog_0302" model="pragmatic.type.operation.catalog.51">
+            <field name="code">0302</field>
+            <field name="name">Passenger rail transport operations</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_catalog_0303" model="pragmatic.type.operation.catalog.51">
+            <field name="code">0303</field>
+            <field name="name">Oil royalty Pay Operations</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_catalog_0401" model="pragmatic.type.operation.catalog.51">
+            <field name="code">0401</field>
+            <field name="name">Non-domiciled sales that do not qualify as an export</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_catalog_1001" model="pragmatic.type.operation.catalog.51">
+            <field name="code">1001</field>
+            <field name="name">Operation Subject to Detraction</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_catalog_1002" model="pragmatic.type.operation.catalog.51">
+            <field name="code">1002</field>
+            <field name="name">Operation Subject to Detraction - Hydrobiological Resources</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_catalog_1003" model="pragmatic.type.operation.catalog.51">
+            <field name="code">1003</field>
+            <field name="name">Operation Subject to Drawdown - Passenger Transport Services</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_catalog_1004" model="pragmatic.type.operation.catalog.51">
+            <field name="code">1004</field>
+            <field name="name">Operation Subject to Drawdown - Cargo Transportation Services</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_catalog_2001" model="pragmatic.type.operation.catalog.51">
+            <field name="code">2001</field>
+            <field name="name">Operation Subject to Perception</field>
+            <field name="active" eval="True"/>
+        </record>
+    </data>
+</odoo>

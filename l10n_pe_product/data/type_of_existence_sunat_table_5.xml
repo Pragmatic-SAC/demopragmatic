@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="pragmatic_table_5_01" model="pragmatic.type.existence.table.5">
+            <field name="code">01</field>
+            <field name="name">MERCADERÍAS</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_table_5_02" model="pragmatic.type.existence.table.5">
+            <field name="code">02</field>
+            <field name="name">PRODUCTOS TERMINADOS</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_table_5_03" model="pragmatic.type.existence.table.5">
+            <field name="code">03</field>
+            <field name="name">MATERIAS PRIMAS</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_table_5_04" model="pragmatic.type.existence.table.5">
+            <field name="code">04</field>
+            <field name="name">ENVASES</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_table_5_05" model="pragmatic.type.existence.table.5">
+            <field name="code">05</field>
+            <field name="name">MATERIALES AUXILIARES</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_table_5_06" model="pragmatic.type.existence.table.5">
+            <field name="code">06</field>
+            <field name="name">SUMINISTROS</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_table_5_07" model="pragmatic.type.existence.table.5">
+            <field name="code">07</field>
+            <field name="name">REPUESTOS</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_table_5_08" model="pragmatic.type.existence.table.5">
+            <field name="code">08</field>
+            <field name="name">EMBALAJES</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_table_5_09" model="pragmatic.type.existence.table.5">
+            <field name="code">09</field>
+            <field name="name">SUBPRODUCTOS</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_table_5_10" model="pragmatic.type.existence.table.5">
+            <field name="code">10</field>
+            <field name="name">DESECHOS Y DESPERDICIOS</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_table_5_91" model="pragmatic.type.existence.table.5">
+            <field name="code">91</field>
+            <field name="name">OTROS 1</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_table_5_92" model="pragmatic.type.existence.table.5">
+            <field name="code">92</field>
+            <field name="name">OTROS 2</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_table_5_93" model="pragmatic.type.existence.table.5">
+            <field name="code">93</field>
+            <field name="name">OTROS 3</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_table_5_94" model="pragmatic.type.existence.table.5">
+            <field name="code">94</field>
+            <field name="name">OTROS 4</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_table_5_95" model="pragmatic.type.existence.table.5">
+            <field name="code">95</field>
+            <field name="name">OTROS 5</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_table_5_96" model="pragmatic.type.existence.table.5">
+            <field name="code">96</field>
+            <field name="name">OTROS 6</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_table_5_97" model="pragmatic.type.existence.table.5">
+            <field name="code">97</field>
+            <field name="name">OTROS 7</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_table_5_98" model="pragmatic.type.existence.table.5">
+            <field name="code">98</field>
+            <field name="name">OTROS 8</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_table_5_99" model="pragmatic.type.existence.table.5">
+            <field name="code">99</field>
+            <field name="name">OTROS</field>
+            <field name="active" eval="True"/>
+        </record>
+    </data>
+</odoo>

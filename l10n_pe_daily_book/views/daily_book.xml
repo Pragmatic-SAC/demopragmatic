@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="daily_book_tree" model="ir.ui.view">
+            <field name="name">Daily book reports</field>
+            <field name="model">report.daily.book</field>
+            <field name="arch" type="xml">
+                <tree string="Daily book reports" editable="bottom">
+                    <field name="name"/>
+                    <field name="date_from"/>
+                    <field name="date_to"/>
+                    <field name="book_type"/>
+                    <field name="company_id"/>
+                    <button class="oe_stat_button" type="object" string="Export (XLSX)" name="export_excel"
+                            icon="fa-file-excel-o" attrs="{'invisible': [('book_type', '=','plain_account')]}"/>
+                    <button class="oe_stat_button" type="object" string="Export (TXT)" name="export_txt"
+                            icon="fa-file"/>
+                </tree>
+            </field>
+        </record>
+        <record id="daily_book_action" model="ir.actions.act_window">
+            <field name="name">Daily book reports</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">report.daily.book</field>
+            <field name="view_mode">tree</field>
+
+        </record>
+        <menuitem id="daily_book_menu" name="Reports Books Audit"
+                  parent="account.menu_finance_reports" sequence="99"/>
+        <menuitem id="daily_book_report" name="Daily Book"
+                  action="daily_book_action" parent="daily_book_menu" sequence="99"/>
+    </data>
+</odoo>

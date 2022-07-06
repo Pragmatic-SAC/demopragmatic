@@ -1,0 +1,3 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_pragmatic_type_existence_table_5,pragmatic.type.existence.table.5,l10n_pe_product.model_pragmatic_type_existence_table_5,l10n_pe_conf.pragmatic_user,1,1,1,1
+access_pragmatic_unit_measurement_table_6,pragmatic.unit.measurement.table.6,l10n_pe_product.model_pragmatic_unit_measurement_table_6,l10n_pe_conf.pragmatic_user,1,1,1,1
