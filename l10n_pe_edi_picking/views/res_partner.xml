@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="gre_res_partner_view" model="ir.ui.view">
+        <field name="name">res.partner.transport.view</field>
+        <field name="model">res.partner</field>
+        <field name="inherit_id" ref="base.view_partner_form"/>
+        <field name="arch" type="xml">
+            <field name="category_id" position="after">
+                <field name="compute_is_transport" invisible="1" />
+            </field>
+           <xpath expr="//page[last()]" position="after">
+                <page string="Drivers - Transport Units" name="transport_unit"  attrs="{'invisible': [('compute_is_transport','=',False)]}">
+                    <group string="Transport Units">
+                        <field name="transport_units" nolabel='1'>
+                            <tree editable="bottom">
+                                <field name="name" />
+                                <field name="model"/>
+                                <field name="license_plate"/>
+                                <field name="second_license_plate" />
+                                <field name="unit_active" widget='boolean_toggle' />
+                            </tree>
+                        </field>
+                    </group>
+                    <group string="Drivers">
+                        <field name="drivers" nolabel='1'>
+                            <tree editable="bottom">
+                                <field name="name" />
+                                <field name="type_document"/>
+                                <field name="number_document"/>
+                                <field name="license" />
+                                <field name="driver_active" widget='boolean_toggle' />
+                            </tree>
+                        </field>
+                    </group>
+                </page>
+            </xpath>
+        </field>
+    </record>
+</odoo>

@@ -1,0 +1,237 @@
+<odoo>
+    <data>
+        <!-- Tree View -->
+        <record id="view_referral_guide_tree" model="ir.ui.view">
+            <field name="name">view.referral.guide.tree</field>
+            <field name="model">picking.referral.guide</field>
+            <field name="arch" type="xml">
+                <tree string="Referral guide" create="0">
+                    <field name="name"/>
+                    <field name="state" optional="show"/>
+                    <field name="transport_mode" optional="show"/>
+                    <field name="establishment" optional="show"/>
+                    <field name="unit_of_measurement" optional="show"/>
+                    <field name="issuing_date" optional="show"/>
+                    <field name="addressee_id" optional="show"/>
+                </tree>
+            </field>
+        </record>
+        <!-- Form View -->
+        <record id="view_referral_guide_form" model="ir.ui.view">
+            <field name="name">view.referral.guide.form</field>
+            <field name="model">picking.referral.guide</field>
+            <field name="arch" type="xml">
+                <form string="Referral guide" create="0">
+                    <header>
+                        <field name="state" widget="statusbar" statusbar_visible="draft,validated,cancel"/>
+                        <button name="action_post" attrs="{'invisible': [('state', 'not in', ('draft'))]}"
+                                string="Validate GRE" type="object" class="oe_highlight"/>
+                        <button name="action_cancel"
+                                attrs="{'invisible': [('state', 'not in', ('sunat_send'))]}"
+                                string="Cancel GRE" type="object"/>
+                        <button name="action_referral_sent"
+                                attrs="{'invisible': [('state', 'not in', ('sunat_send'))]}"
+                                string="Send by Email" class="oe_highlight" type="object"/>
+                        <button name="action_draft" attrs="{'invisible': [('state', 'not in', ('validated'))]}"
+                                string="Convert to Draft" type="object"/>
+                        <button name="action_send_sunat" string="Send SUNAT" type="object" class="oe_highlight"
+                                attrs="{'invisible': [('state', 'not in', ('validated'))]}"/>
+                    </header>
+                    <sheet>
+                        <div class="oe_title">
+                            <label for="name" class="oe_edit_only"/>
+                            <h1>
+                                <field name="name" class="oe_inline" readonly="1"/>
+                            </h1>
+                        </div>
+                        <group name="transfer_information" string="Transfer information">
+                            <group name="transfer_information_group_left">
+                                <field name="transport_mode" required="1"
+                                       attrs="{'readonly': [('state', 'not in', ['draft'])]}"
+                                       options="{'no_create': True, 'no_create_edit':True,'no_open': True}"/>
+                                <field name="unit_of_measurement" required="1"
+                                       context="{'show_sunat_uom': 1}"
+                                       options='{"always_reload": True, "highlight_first_line": True,"no_create": True, "no_create_edit":True,"no_open": True}'
+                                       domain="[('l10n_pe_edi_measure_unit_code','!=',False)]"
+                                       attrs="{'readonly': [('state', 'not in', ['draft'])]}"/>
+                                <field name="sunat_port_code"
+                                       attrs="{'readonly': ['|',('state', 'not in', ['draft']),('reason_for_transfer_code', 'not in', ['08','09'])],'required':[('reason_for_transfer_code', 'in', ['08','09'])]}"/>
+                                <field name="observation" attrs="{'readonly': [('state', 'not in', ['draft'])]}"/>
+                            </group>
+                            <group name="transfer_information_group_right">
+                                <field name="reason_for_transfer" required="1"
+                                       attrs="{'readonly': [('state', 'not in', ['draft'])]}"
+                                       options="{'no_create': True, 'no_create_edit':True,'no_open': True}"/>
+                                <field name="description" required="1"
+                                       attrs="{'readonly': [('state', 'not in', ['draft'])]}"/>
+                                <field name="package" attrs="{'readonly': [('state', 'not in', ['draft'])]}"/>
+                                <field name="container"
+                                       attrs="{'readonly': ['|',('state', 'not in', ['draft']),('reason_for_transfer_code', 'not in', ['08'])],'required':[('reason_for_transfer_code', '=', '08')]}"/>
+                            </group>
+                        </group>
+                        <group name="transfer_information2">
+                            <group name="transfer_information2_group_left">
+                                <field name="establishment" required="1"
+                                       attrs="{'readonly': [('state', 'not in', ['draft'])]}"
+                                       options="{'no_create': True, 'no_create_edit':True,'no_open': True}"/>
+                                <field name="transfer_date" required="1"
+                                       attrs="{'readonly': [('state', 'not in', ['draft'])]}"/>
+                            </group>
+                            <group name="transfer_information2_group_right">
+                                <field name="type_document" required="1"
+                                       readonly="1"
+                                       attrs="{'readonly': [('state', 'not in', ['draft'])]}"/>
+                                <field name="issuing_date" required="1"
+                                       attrs="{'readonly': [('state', 'not in', ['draft'])]}"/>
+                                <field name="delivery_date" required="1"
+                                       attrs="{'readonly': [('state', 'not in', ['draft'])]}"/>
+                                <field name="edit_origin" invisible="1"/>
+                            </group>
+                        </group>
+                        <group name="issuing_company" string="Issuing company"
+                               attrs="{'invisible': [('edit_origin', '=', False)]}">
+                            <group name="issuing_details_group_left">
+                                <field name='origin_id'
+                                       required="1"
+                                       attrs="{'readonly': [('state', 'not in', ['draft'])]}"
+                                       options="{'no_create': True, 'no_create_edit':True,'no_open': True}"/>
+                            </group>
+                            <group name="issuing_details_group_right">
+                            </group>
+                        </group>
+                        <group name="addressee_details" string="Addressee details">
+                            <group name="addressee_details_group_left">
+                                <field name="addressee_id" required="1"
+                                       attrs="{'readonly': [('state', 'not in', ['draft'])]}"
+                                       domain="[('type','=','contact')]"
+                                       options="{'no_create': True, 'no_create_edit':True,'no_open': True}"/>
+                                <field name="addressee_document_number"/>
+                            </group>
+                            <group name="addressee_details_group_right">
+                                <field name="addressee_type_document_id"
+                                       options="{'no_create': True, 'no_create_edit':True,'no_open': True}"/>
+                            </group>
+                        </group>
+                        <group name="origin_destination_addresses" string="Origin and destination addresses">
+                            <group>
+                                <field name='origin_filter' invisible="1"/>
+                                <field name='transport_mode_code' invisible="1"/>
+                                <field name='reason_for_transfer_code' invisible="1"/>
+                                <field name="origin_addresses_id" required="1"
+                                       attrs="{'readonly': [('state', 'not in', ['draft'])]}"
+                                       context="{'show_address_picking': 1}"
+                                       options='{"always_reload": True, "highlight_first_line": True,"no_create": True, "no_create_edit":True,"no_open": True}'
+                                       domain="[('id','=',origin_filter)]"/>
+                            </group>
+                            <group>
+                                <field name='destination_filter' invisible="1"/>
+                                <field name="destination_addresses_id" required="1"
+                                       context="{'show_address_picking': 1}"
+                                       attrs="{'readonly': [('state', 'not in', ['draft'])]}"
+                                       options='{"always_reload": True, "highlight_first_line": True,"no_create": True, "no_create_edit":True,"no_open": True}'
+                                       domain="[('id','=',destination_filter)]"/>
+                            </group>
+                        </group>
+                        <notebook>
+                            <page name="product_properties" string="Product Properties">
+                                <group>
+                                    <field name="referral_lines" required="1" nolabel='1'
+                                           attrs="{'readonly': [('state', 'not in', ['draft'])]}">
+                                        <tree editable="bottom">
+                                            <field name="product_id"
+                                                   options="{'no_create': True, 'no_create_edit':True,'no_open': True}"/>
+                                            <field name="name"/>
+                                            <field name="product_code"/>
+                                            <field name="unit_of_measurement"
+                                                   context="{'show_sunat_uom': 1}"
+                                                   options='{"always_reload": True, "highlight_first_line": True,"no_create": True, "no_create_edit":True,"no_open": True}'
+                                                   domain="[('l10n_pe_edi_measure_unit_code','!=',False)]"/>
+                                            <field name="quantity"/>
+                                            <field name="weight"/>
+                                            <field name="total_weight"/>
+                                        </tree>
+                                    </field>
+                                    <group class="oe_subtotal_footer oe_right">
+                                        <field name="total_weight" class="m16"/>
+                                    </group>
+                                </group>
+                            </page>
+                            <page name="carrier_referral_guide" string="Carrier information">
+                                <group name="carrier_information">
+                                    <group name="carrier_information_group_left">
+                                        <field name="carrier_id"
+                                               attrs="{'readonly': [('state', 'not in', ['draft'])],'required':[('transport_mode_code', '=', '01')] }"
+                                               domain="[('category_id.name','=','Transportista')]"
+                                               options="{'no_create': True, 'no_create_edit':True,'no_open': True}"/>
+                                        <field name="transport_unit_id"
+                                               attrs="{'readonly': [('state', 'not in', ['draft'])],'required':[('transport_mode_code', '=', '02')]}"
+                                               domain="[('partner_id','=',carrier_id)]"
+                                               options="{'no_create': True, 'no_create_edit':True,'no_open': True}"/>
+                                    </group>
+                                    <group name="carrier_information_group_right">
+                                        <field name="driver_id"
+                                               attrs="{'readonly': [('state', 'not in', ['draft'])],'required':[('transport_mode_code', '=', '02')]}"
+                                               domain="[('partner_id','=',carrier_id)]"
+                                               options="{'no_create': True, 'no_create_edit':True,'no_open': True}"/>
+                                        <field name="license_plate" readonly="1"/>
+                                    </group>
+                                </group>
+                            </page>
+                            <page name="other_information" string="Other information">
+                                <group string="Third Information">
+                                    <group name="other_information_group_left">
+                                        <field name="third" attrs="{'readonly': [('state', 'not in', ['draft'])]}"/>
+                                        <field name="third_document_number"
+                                               attrs="{'invisible': [('third', '=', False)],'required': [('third','=',True)] ,'readonly': [('state', 'not in', ['draft'])]}"/>
+                                    </group>
+                                    <group name="other_information_group_right">
+                                        <field name="third_document_type"
+                                               options="{'no_create': True, 'no_create_edit':True,'no_open': True}"
+                                               attrs="{'invisible': [('third', '=', False)],'required': [('third','=',True)] ,'readonly': [('state', 'not in', ['draft'])]}"/>
+                                        <field name="third_name"
+                                               attrs="{'invisible': [('third', '=', False)],'required': [('third','=',True)] ,'readonly': [('state', 'not in', ['draft'])]}"/>
+                                    </group>
+                                </group>
+                                <group string="Document Low"
+                                       attrs="{'invisible': [('referral_guide_low', '=', False)]}">
+                                    <group>
+                                        <field name="referral_guide_low" nolabel="1" readonly="1"/>
+                                    </group>
+                                </group>
+                                <group string="Reason by this document is Low"
+                                       attrs="{'invisible': [('referral_note_low', '=', False)]}">
+                                    <group>
+                                        <field name="referral_note_low" nolabel="1" readonly="1"/>
+                                    </group>
+                                </group>
+                            </page>
+                        </notebook>
+                    </sheet>
+                    <div class="oe_chatter">
+                        <field name="message_ids" widget="mail_thread"></field>
+                        <field name="activity_ids" widget="mail_activity"></field>
+                    </div>
+                </form>
+            </field>
+        </record>
+        <!-- Actions opening views on models -->
+        <record id="action_referral_guide_view" model="ir.actions.act_window">
+            <field name="name">Referral guide</field>
+            <field name="res_model">picking.referral.guide</field>
+            <field name="view_mode">tree,form</field>
+            <field name="help" type="html">
+                <p class="oe_view_nocontent_create">
+                    Create a new referral guide
+                </p>
+                <p>
+                    To add a referral guide you must ...
+                </p>
+            </field>
+        </record>
+        <menuitem id="pragmatic_referral_guide_menu"
+                  sequence="3"
+                  action="action_referral_guide_view"
+                  name="Referral Guide"
+                  parent="stock.menu_stock_warehouse_mgmt"/>
+    </data>
+</odoo>

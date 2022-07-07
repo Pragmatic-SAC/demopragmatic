@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="pragmatic_catalog_20_01" model="pragmatic.transportation.reason.catalog.20">
+            <field name="code">01</field>
+            <field name="name">Venta</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_catalog_20_02" model="pragmatic.transportation.reason.catalog.20">
+            <field name="code">02</field>
+            <field name="name">Compra</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_catalog_20_04" model="pragmatic.transportation.reason.catalog.20">
+            <field name="code">04</field>
+            <field name="name">Traslado entre establecimientos de la misma empresa</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_catalog_20_08" model="pragmatic.transportation.reason.catalog.20">
+            <field name="code">08</field>
+            <field name="name">Importación</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_catalog_20_09" model="pragmatic.transportation.reason.catalog.20">
+            <field name="code">09</field>
+            <field name="name">Exportación</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_catalog_20_13" model="pragmatic.transportation.reason.catalog.20">
+            <field name="code">13</field>
+            <field name="name">Otros</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_catalog_20_14" model="pragmatic.transportation.reason.catalog.20">
+            <field name="code">14</field>
+            <field name="name">Venta sujeta a confirmación del comprador</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_catalog_20_18" model="pragmatic.transportation.reason.catalog.20">
+            <field name="code">18</field>
+            <field name="name">Traslado emisor itinerante CP</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_catalog_20_19" model="pragmatic.transportation.reason.catalog.20">
+            <field name="code">19</field>
+            <field name="name">Traslado a zona primaria</field>
+            <field name="active" eval="True"/>
+        </record>
+    </data>
+</odoo>

@@ -1,0 +1,48 @@
+# -*- coding: utf-8 -*-
+
+{
+    "name": "Guía de Remisión Electrónica",
+    "category": "Inventory",
+    "summary": "Guía de remisión electrónica con envio directo a SUNAT",
+    "version": "0.1",
+    "license": "OPL-1",
+    "website": "https://www.pragmatic.com.pe/",
+    "contributors": [
+        "Kelvin Meza <kmeza@pragmatic.com.pe>",
+    ],
+    "depends": ["stock", "contacts", "l10n_pe_conf", "l10n_latam_invoice_document"],
+    "data": [
+        'data/ir_cron.xml',
+        'data/ir_config_parameter.xml',
+        'data/res_partner_category.xml',
+        'data/pragmatic_transport_mode_catalog_18.xml',
+        'data/pragmatic_transportation_reason_catalog_20.xml',
+        'data/l10n_latam_document_type_data.xml',
+        'data/unit_of_measurement_sunat_table_6.xml',
+        'data/2.1/edi_picking_referral_guide.xml',
+        'data/picking_referral_template.xml',
+        'security/ir.model.access.csv',
+        'report/l10n_picking_referral_guide.xml',
+        'report/l10n_picking_referral_guide_template.xml',
+        'views/l10n_picking_referral_guide.xml',
+        'views/res_partner.xml',
+        'views/stock_picking.xml',
+        'views/stock_picking_type.xml',
+        'views/pragmatic__transportation_reason.xml',
+        'views/pragmatic_type_income.xml',
+        'views/res_config_settings_view.xml',
+        'views/pragmatic_unit_of_measurement.xml',
+        'views/uom_uom.xml',
+        'views/menu_menu.xml',
+        'wizard/picking_referral_guide_wizard.xml',
+    ],
+    "images": [
+
+    ],
+    "author": "Pragmatic S.A.C",
+    "website": "pragmatic.com.pe",
+    "maintainer": "Pragmatic S.A.C.",
+    "installable": True,
+    "auto_install": False,
+    "application": True,
+}

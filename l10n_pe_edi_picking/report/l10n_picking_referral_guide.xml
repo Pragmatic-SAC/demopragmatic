@@ -1,0 +1,29 @@
+<odoo>
+
+    <record id="invoice_format_report_edi_referral" model="report.paperformat">
+        <field name="name">Electronic Picking Receipt Paper Format</field>
+        <field name="default" eval="False"/>
+        <field name="format">A4</field>
+        <field name="orientation">Portrait</field>
+        <field name="margin_top">10</field>
+        <field name="margin_bottom">10</field>
+        <field name="margin_left">7</field>
+        <field name="margin_right">7</field>
+        <field name="dpi">100</field>
+        <field name="header_line" eval="False"/>
+        <field name="header_spacing">0</field>
+    </record>
+
+    <record id="action_report_l10n_picking_referral_guide" model="ir.actions.report">
+        <field name="name">Referral guide</field>
+        <field name="model">picking.referral.guide</field>
+        <field name="report_type">qweb-pdf</field>
+        <field name="report_name">l10n_pe_edi_picking.referral_guide_report</field>
+        <field name="report_file">l10n_pe_edi_picking.referral_guide_report</field>
+        <field name="binding_model_id" ref="l10n_pe_edi_picking.model_picking_referral_guide"/>
+        <field name="binding_type">report</field>
+        <field name="paperformat_id" ref="l10n_pe_edi_picking.invoice_format_report_edi_referral"/>
+        <field name="print_report_name">(object.get_name_sunat())</field>
+    </record>
+
+</odoo>

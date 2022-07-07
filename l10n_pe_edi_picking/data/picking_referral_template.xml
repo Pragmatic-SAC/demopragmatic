@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<odoo>
+    <data noupdate="1">
+        <record id="mail_template_referral_guide" model="mail.template">
+            <field name="name">Referral Guide Electronic: Send by Email</field>
+            <field name="model_id" ref="l10n_pe_edi_picking.model_picking_referral_guide"/>
+            <field name="subject">Electronic referral guide: ${object.company_id.name}</field>
+            <field name="email_from">${object.company_id.email | safe}</field>
+            <field name="partner_to">${object.addressee_id.id}</field>
+            <field name="lang">${object.addressee_id.lang}</field>
+            <field name="body_html" type="html">
+                <div class="center">
+                    <h2>We attach your electronic referral guide</h2>
+                </div>
+                <div class="center" style="color: #000;font-weight: bold">
+                    <p>This is an automated message, please do not reply.</p>
+                </div>
+            </field>
+            <field name="auto_delete" eval="True"/>
+        </record>
+    </data>
+</odoo>

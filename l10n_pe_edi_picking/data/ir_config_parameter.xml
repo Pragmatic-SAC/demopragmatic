@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="edi_picking_url_ubl_2_1_beta" model="ir.config_parameter">
+            <field name="key">edi.picking.beta</field>
+            <field name="value">https://e-beta.sunat.gob.pe/ol-ti-itemision-guia-gem-beta/billService?wsdl</field>
+        </record>
+        <record id="edi_picking_url_ubl_2_1" model="ir.config_parameter">
+            <field name="key">edi.picking</field>
+            <field name="value">https://e-guiaremision.sunat.gob.pe/ol-ti-itemision-guia-gem/billService?wsdl</field>
+        </record>
+    </data>
+</odoo>

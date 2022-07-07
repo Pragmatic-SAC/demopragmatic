@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record model='l10n_latam.document.type' id='edi_document_type09'>
+        <field name='sequence'>11</field>
+        <field name='code'>09</field>
+        <field name='report_name'>Guia de remisión remitente</field>
+        <field name='name'>Guia de remisión remitente</field>
+        <field name='country_id' ref='base.pe'/>
+        <field name='doc_code_prefix'>F</field>
+    </record>
+</odoo>

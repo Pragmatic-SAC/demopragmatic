@@ -1,0 +1,471 @@
+<odoo>
+    <template id="referral_guide_report">
+        <t t-call="web.html_container">
+            <t t-foreach="docs" t-as="doc">
+                <t t-call="l10n_pe_edi_picking.template_account_referral_document_fe"
+                   t-lang="doc.addressee_id.lang"/>
+            </t>
+        </t>
+    </template>
+    <template id="template_account_referral_document_fe">
+        <t t-call="l10n_pe_edi_picking.external_layout_referral_fe">
+            <t t-set="o" t-value="doc.with_context(lang=doc.addressee_id.lang)"/>
+            <div class="page">
+                <style>
+                    #img-logo-company {
+                    width: 100px;
+                    height: 100px;
+                    }
+                    #box-invoice-right {
+                    border-radius: 10px;
+                    border: 2px solid #0d47a1;
+                    width: 300px;
+                    height: 125px;
+                    float: right;
+                    }
+                    .picking_header_1 {
+                    border-radius: 10px !important;
+                    border: 1px solid #000000 !important;
+                    }
+                    .to_left {
+                    float:left;
+                    }
+                    .to_right {
+                    float:right
+                    }
+                    .line_to_right{
+                    border-right: 1px solid #000000;
+                    }
+                    .line_to_top{
+                    border-top: 1px solid #000000;
+                    }
+                    #customers {
+                    border-collapse: collapse;
+                    }
+                    #customers th {
+                    background-color: #0d47a1;
+                    color: white;
+                    }
+                    #picking_tbody tr {
+                    background-color: transparent !important;
+                    }
+                </style>
+                <div class="row">
+                    <div class="col-8">
+                        <div class="row">
+                            <img t-if="o.company_id.logo" t-att-src="image_data_uri(o.company_id.logo)"
+                                 style="max-height: 90px;" alt="Logo"/>
+                        </div>
+                        <div class="row mt-2">
+                            <strong t-field="o.company_id.name"/>
+                        </div>
+                        <div class="row">
+                            <p>
+                                <t t-esc="o.company_id.partner_id.street"/>
+                                <br/>
+                                <t t-esc="o.company_id.partner_id.l10n_pe_district.name"/>
+                                -
+                                <t t-esc="o.company_id.partner_id.city_id.name"/>
+                                -
+                                <t t-esc="o.company_id.partner_id.state_id.name"/>
+                                -
+                                <t t-esc="o.company_id.partner_id.country_id.name"/>
+                                <br/>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-4 mt-2">
+                        <div id="box-invoice-right">
+                            <table style="height: 100%;width: 100%">
+                                <tr>
+                                    <td style="font-size: 16px;padding-top: 10px" align="center">
+                                        <b>
+                                            <t t-esc="o.company_id.partner_id.l10n_latam_identification_type_id.name"/>
+                                        </b>
+                                        :
+                                        <t t-esc="o.company_id.partner_id.vat"/>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="center"
+                                        t-if="o.state in ['sunat_send']"
+                                        style="background-color: #0d47a1;color: white;font-weight: bold;padding-top: 8px;text-transform: uppercase;font-size: 14px">
+                                        <t t-esc="o.type_document.report_name"/>
+                                    </td>
+                                    <td align="center"
+                                        t-if="o.state in ['draft','validated']"
+                                        style="background-color: #ff1744;color: white;font-weight: bold;padding-top: 8px;text-transform: uppercase;font-size: 14px">
+                                        It has no legal validity
+                                    </td>
+                                    <td align="center"
+                                        t-if="o.state in ['cancel']"
+                                        style="background-color: #0d47a1;color: white;font-weight: bold;padding-top: 8px;text-transform: uppercase;font-size: 14px">
+                                        <t t-esc="o.type_document.report_name"/>-
+                                        <span style="color: #ff1744">Cancelled</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="center">
+                                        <b style="font-size: 18px;">
+                                            <t t-esc="o.name"/>
+                                        </b>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="picking_header_1 mt-2 col-12 m-0">
+                        <div class="row mt-2">
+                            <div class="col-6">
+                                <div class="row mt-1">
+                                    <div class="col-4">
+                                        <strong class="to_left">Type Document</strong>
+                                        <strong class="to_right">:</strong>
+                                    </div>
+                                    <div class="col-8 to_right pl-0">
+                                        <span style="text-transform: uppercase" t-field="o.type_document.name"/>
+                                    </div>
+                                </div>
+                                <div class="row mt-1">
+                                    <div class="col-4">
+                                        <strong class="to_left">Client</strong>
+                                        <strong class="to_right">:</strong>
+                                    </div>
+                                    <div class="col-8 pl-0">
+                                        <span t-field="o.addressee_id.name"/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="row mt-1">
+                                    <div class="col-4">
+                                        <strong class="to_left">Date of issue</strong>
+                                        <strong class="to_right">:</strong>
+                                    </div>
+                                    <div class="col-8 pl-0">
+                                        <span t-field="o.issuing_date"/>
+                                    </div>
+                                </div>
+                                <div class="row mt-1">
+                                    <div class="col-4">
+                                        <strong class="to_left"
+                                                t-esc="o.addressee_id.l10n_latam_identification_type_id.name"/>
+                                        <strong class="to_right">:</strong>
+                                    </div>
+                                    <div class="col-8 pl-0">
+                                        <span t-field="o.addressee_id.vat"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mt-1">
+                            <div class="col-12">
+                                <div class="row mt-1">
+                                    <div class="col-2">
+                                        <strong class="to_left">Address</strong>
+                                        <strong class="to_right">:</strong>
+                                    </div>
+                                    <div class="col-10 pl-0">
+                                        <span t-field="o.addressee_id.street"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--                            <div class="row mt-1" style="display: none !important">-->
+                        <!--                                <div class="col-12">-->
+                        <!--                                    <div class="row mt-1">-->
+                        <!--                                        <div class="col-12" style="text-align: center;">-->
+                        <!--                                            <span t-field="o.addressee_id.l10n_pe_district"/>-->
+                        <!--                                            - -->
+                        <!--                                            <span t-field="o.addressee_id.city_id"/>-->
+                        <!--                                            - -->
+                        <!--                                            <span t-field="o.addressee_id.state_id.name"/>-->
+                        <!--                                            - -->
+                        <!--                                            <span t-field="o.addressee_id.country_id"/>-->
+                        <!--                                        </div>-->
+                        <!--                                    </div>-->
+                        <!--                                </div>-->
+                        <!--                            </div>-->
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-12">
+                        <h6>Guide detail</h6>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="picking_header_1 mt-2 col-12 m-0">
+                        <div class="row mt-2 mb-2">
+                            <div class="col-3 text-center line_to_right">
+                                <strong>Carrier Type:</strong>
+                                <br/>
+                                <span t-field="o.transport_mode"/>
+                            </div>
+                            <div class="col-3 text-center line_to_right">
+                                <strong>Transfer Start:</strong>
+                                <br/>
+                                <span t-field="o.delivery_date"/>
+                            </div>
+                            <div class="col-3 text-center line_to_right">
+                                <strong>Total Weight:</strong>
+                                <br/>
+                                <span t-field="o.total_weight"/>
+                            </div>
+                            <div class="col-3 text-center">
+                                <strong>Unit Measurement:</strong>
+                                <br/>
+                                <span>
+                                    <t t-esc="o.unit_of_measurement.l10n_pe_edi_measure_unit_code"/>-
+                                    <t t-esc="o.unit_of_measurement.sunat_unit_measure.name"/>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="row mb-2 line_to_top">
+                            <div class="col-6 mt-2 text-center line_to_right ">
+                                <strong>Reason:</strong>
+                                <br/>
+                                <span t-field="o.reason_for_transfer"/>
+                            </div>
+                            <div class="col-6 mt-2 text-center">
+                                <strong>Description:</strong>
+                                <br/>
+                                <span t-field="o.description"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-12">
+                        <h6>Carrier data</h6>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="picking_header_1 mt-2 col-12 m-0">
+                        <div class="row mt-2 mb-2">
+                            <div class="col-3 text-center line_to_right">
+                                <strong>Carrier Company Name:</strong>
+                                <br/>
+                                <span t-field="o.carrier_id"/>
+                            </div>
+                            <div class="col-3 text-center line_to_right">
+                                <strong>Carrier's<t t-esc="o.carrier_id.l10n_latam_identification_type_id.name"/>:
+                                </strong>
+                                <br/>
+                                <span t-field="o.carrier_id.vat"/>
+                            </div>
+                            <div class="col-3 text-center line_to_right">
+                                <strong>Driver's Name:</strong>
+                                <br/>
+                                <span t-field="o.driver_id.name"/>
+                            </div>
+                            <div class="col-3 text-center">
+                                <strong>Driver's<t t-esc="o.driver_id.type_document.name"/>:
+                                </strong>
+                                <br/>
+                                <span t-field="o.driver_id.number_document"/>
+                            </div>
+                        </div>
+                        <div class="row mb-2 line_to_top">
+                            <div class="col-6 mt-2 text-center line_to_right ">
+                                <strong>Driver's License No:</strong>
+                                <br/>
+                                <span t-field="o.driver_id.license"/>
+                            </div>
+                            <div class="col-6 mt-2 text-center">
+                                <strong>Vehicle plate:</strong>
+                                <br/>
+                                <span t-field="o.license_plate"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-6">
+                        <div class="row">
+                            <div class="col-12">
+                                <h6>Starting point</h6>
+                            </div>
+                        </div>
+                        <div class="row mt-1 pr-1">
+                            <div class="picking_header_1 p-2 col-12">
+                                <span t-esc="o.origin_addresses_id.get_full_picking_address()"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="row">
+                            <div class="col-12">
+                                <h6>Arrival point</h6>
+                            </div>
+                        </div>
+                        <div class="row mt-1 pl-1">
+                            <div class="picking_header_1 p-2 col-12">
+                                <span t-esc="o.destination_addresses_id.get_full_picking_address()"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-12">
+                        <h6>Information on transferred goods</h6>
+                    </div>
+                </div>
+                <div class="row mt-2">
+                    <table id="customers" class="table table-sm o_main_table" name="picking_line_table"
+                           style="border-top: 0px !important">
+                        <thead>
+                            <tr>
+                                <th name="th_description" class="text-center"
+                                    style="border-top-left-radius: 10px; border-bottom-left-radius: 10px;">
+                                    <span>Description</span>
+                                </th>
+                                <th name="th_code" class="text-center">
+                                    <span>Code</span>
+                                </th>
+                                <th name="th_uom" class="text-center">
+                                    <span>U. Of Measurement</span>
+                                </th>
+                                <th name="th_quantity" class="text-center"
+                                    style="border-top-right-radius: 10px; border-bottom-right-radius: 10px;">
+                                    <span>Quantity</span>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody class="picking_tbody">
+                            <t t-set="tableindex" t-value="0"/>
+                            <t t-foreach="o.referral_lines" t-as="line">
+                                <t t-set="tableindex" t-value="tableindex+1"/>
+                                <tr style="background-color: transparent !important">
+                                    <td name="td_description" class="text-left">
+                                        <span t-field="line.name"/>
+                                    </td>
+                                    <td name="td_code" class="text-center">
+                                        <span t-field="line.product_code"/>
+                                    </td>
+                                    <td name="td_uom" class="text-center">
+                                        <span>
+                                            <t t-esc="line.unit_of_measurement.l10n_pe_edi_measure_unit_code"/>-
+                                            <t t-esc="line.unit_of_measurement.sunat_unit_measure.name"/>
+                                        </span>
+                                    </td>
+                                    <td name="td_quantity" class="text-center">
+                                        <span t-field="line.quantity"/>
+                                    </td>
+                                </tr>
+                            </t>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="row mt-3" t-if="o.observation">
+                    <div class="col-12">
+                        <h6>Observations</h6>
+                    </div>
+                </div>
+                <div class="row mt-3" t-if="o.observation">
+                    <div class="col-12 p-2">
+                        <span t-field="o.observation"/>
+                    </div>
+                </div>
+                <div class="row mt-2">
+                    <div class="container text-center">
+                        <span>Printed Representation of the
+                            <strong>
+                                <t t-esc="o.type_document.report_name"/>
+                            </strong>
+                        </span>
+                    </div>
+                </div>
+                <div class="row mt-1">
+                    <div class="container text-center">
+                        <span>check this document in:
+                            <strong style="color: #0d47a1 !important">
+                                https://ww1.sunat.gob.pe/ol-ti-itconsvalicpe/ConsValiCpe.htm
+                            </strong>
+                        </span>
+                    </div>
+                </div>
+                <t t-if="tableindex >=5">
+                    <p style="page-break-before:always;"></p>
+                </t>
+                <div class="row mt-2">
+                    <div class="container text-center">
+                        <img t-if="o.string_qr" class="border border-dark rounded"
+                             t-att-src="'/report/barcode/?type=%s&amp;value=%s&amp;width=%s&amp;height=%s' % ('QR', o.string_qr, 150, 150)"/>
+                    </div>
+                </div>
+                <div class="row mt-2">
+                    <div class="container text-center" style="font-size: 10px">
+                        <strong t-if="o.string_hash">Code Hash:</strong>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="container text-center">
+                        <span t-if="o.string_hash" style="font-size: 10px">
+                            <t t-esc="o.string_hash"/>
+                        </span>
+                    </div>
+                </div>
+                <div class="row mt-3" t-if="o.who_received">
+                    <h6>Receiver Data</h6>
+                </div>
+                <div class="row mt-1" t-if="o.who_received">
+                    <div class="col-3">
+                        <span class="text-left">
+                            Name and Lastname
+                        </span>
+                    </div>
+                    <div class="col-9 text-left">
+                        : ____________________________________________
+                    </div>
+                </div>
+                <div class="row mt-1" t-if="o.who_received">
+                    <div class="col-3">
+                        <span class="text-left">
+                            Nro Document
+                        </span>
+                    </div>
+                    <div class="col-9 text-left">
+                        : ____________________________________________
+                    </div>
+                </div>
+            </div>
+        </t>
+    </template>
+    <template id="external_layout_referral_fe">
+        <t t-if="not o" t-set="o" t-value="doc"/>
+        <t t-if="not company">
+            <t t-if="company_id">
+                <t t-set="company" t-value="company_id"/>
+            </t>
+            <t t-elif="o and 'company_id' in o and o.company_id.sudo()">
+                <t t-set="company" t-value="o.company_id.sudo()"/>
+            </t>
+            <t t-else="else">
+                <t t-set="company" t-value="res_company"/>
+            </t>
+        </t>
+        <t t-call="l10n_pe_edi_picking.custom_external_referral_invoice_fe">
+            <t t-raw="0"/>
+        </t>
+    </template>
+    <template id="custom_external_referral_invoice_fe">
+        <div t-attf-class="o_company_#{company.id}_layout article o_report_layout_background"
+             t-att-data-oe-model="o and o._name" t-att-data-oe-id="o and o.id"
+             t-att-data-oe-lang="o and o.env.context.get('lang')">
+            <t t-call="web.address_layout"/>
+            <t t-raw="0"/>
+        </div>
+        <div t-attf-class="o_company_#{company.id}_layout footer o_background_footer">
+            <div class="text-center">
+                <div t-if="report_type == 'pdf'" class="text-muted">
+                    Page:
+                    <span class="page"/>
+                    of
+                    <span class="topage"/>
+                </div>
+            </div>
+        </div>
+    </template>
+</odoo>

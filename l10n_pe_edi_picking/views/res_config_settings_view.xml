@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<odoo>
+    <record id="edi_picking_config_settings" model="ir.ui.view">
+        <field name="name">res.config.settings.view.form.edi.picking</field>
+        <field name="model">res.config.settings</field>
+        <field name="inherit_id" ref="stock.res_config_settings_view_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//div[@name='barcode_setting_container']" position="after">
+                <h2>Referral Guide Electronic Configurations</h2>
+                <div class="row mt16 o_settings_container" id="edi_picking_settings">
+                    <div class="col-12 col-lg-6 o_setting_box">
+                        <div class="o_setting_left_pane"/>
+                        <div class="o_setting_right_pane">
+                            <span class="o_form_label mt16">EDI Picking Environment</span>
+                            <div class="content-group">
+                                <div class="row mt16">
+                                    <label for="picking_edi_environment" string="" class="ml16 o_light_label"/>
+                                    <field name="picking_edi_environment"/>
+                                </div>
+                            </div>
+                            <span class="o_form_label mt16">SOL Credentials</span>
+                            <div class="text-muted">
+                                This login and password is given by the SUNAT it means by its spanish acronym
+                                <b>"SUNAT Operaciones en Línea - SOL"</b><br/>
+                                Official definition is: <a href="https://www.sunat.gob.pe/menu/ayuda/claveSOL.htm">here</a><br/>
+                                How do you get it?: <a href="http://www.sunat.gob.pe/operacLinea/comoObtener.htm">here</a><br/>
+                            </div>
+                            <div class="content-group">
+                                <div class="row mt32">                                 
+                                    <label for="edi_sol_username" class="col-md-5 o_light_label"/>
+                                    <field name="edi_sol_username"/>
+                                    <label for="edi_sol_password" class="col-md-5 o_light_label"/>
+                                    <field name="edi_sol_password" password="True"/>                               
+                                </div>
+                            </div>
+                        </div>
+                    </div>  
+                    <div class="col-12 col-lg-6 o_setting_box">
+                        <div class="o_setting_left_pane"/>
+                        <div class="o_setting_right_pane">
+                            <span class="o_form_label mt16">Digital certificate</span>
+                            <div class="text-muted">
+                                Enter the digital certificate of production.<br/>
+                                Check if you qualify to get your free digital certificate through your SOL portal.<br/>
+                                You can find companies authorized to buy your digital certificate through: <a target="_blank" href="https://www.indecopi.gob.pe/web/firmas-digitales/lista-de-Servicios-de-confianza-trusted-services-list-tsl-">Indecopi</a> 
+                           </div>
+                            <div class="content-group">
+                                <div class="row mt32">
+                                    <label for="edi_cert_content" class="col-md-5 o_light_label"/>
+                                    <field name="edi_cert_content"/>
+                                    <label for="edi_cert_password" class="col-md-5 o_light_label"/>
+                                    <field name="edi_cert_password" password="True"/>
+                                    <label for="edi_cert_startdate" class="col-md-5 o_light_label"/>
+                                    <field name="edi_cert_startdate"  readonly="1"/>
+                                    <label for="edi_cert_enddate" class="col-md-5 o_light_label"/>
+                                    <field name="edi_cert_enddate"  readonly="1"/> 
+                                    <label for="edi_cert_serial_number" class="col-md-5 o_light_label"/>
+                                    <field name="edi_cert_serial_number" readonly="1"/> 
+                                    <label for="button_process_edi_picking" string="Process Certificate" class="col-md-5 o_light_label"/>
+                                    <button name="button_process_edi_picking" type="object" string="Run" attrs="{'invisible': [('edi_cert_password', '=', False)]}"/>                          
+                                </div>
+                            </div>
+                        </div>
+                    </div>                                     
+                </div>
+            </xpath>
+        </field>
+    </record>
+</odoo>

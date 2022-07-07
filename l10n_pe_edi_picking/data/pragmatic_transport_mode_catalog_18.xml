@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="pragmatic_catalog_18_01" model="pragmatic.transport.mode.catalog.18">
+            <field name="code">01</field>
+            <field name="name">Transporte público</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="pragmatic_catalog_18_02" model="pragmatic.transport.mode.catalog.18">
+            <field name="code">02</field>
+            <field name="name">Transporte privado</field>
+            <field name="active" eval="True"/>
+        </record>
+    </data>
+</odoo>
