@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="pragmatic_transport_mode_catalog_18_tree" model="ir.ui.view">
+        <field name="name">pragmatic.transport.mode.catalog.18.tree</field>
+        <field name="model">pragmatic.transport.mode.catalog.18</field>
+        <field name="arch" type="xml">
+            <tree string="Sunat catalog 18 - Transport Mode">
+                <field name="name"/>
+                <field name="code"/>
+                <field name="active" widget="boolean_toggle"/>
+            </tree>
+        </field>
+    </record>
+    <record id="pragmatic_transport_mode_catalog_18_form" model="ir.ui.view">
+        <field name="name">pragmatic.transport.mode.catalog.18.form</field>
+        <field name="model">pragmatic.transport.mode.catalog.18</field>
+        <field name="arch" type="xml">
+            <form string="Sunat catalog 18 - Transport Mode">
+                <sheet>
+                    <div class="oe_button_box" name="button_box">
+                    </div>
+                    <group>
+                        <group>
+                            <field name="name"/>
+                            <field name="code"/>
+                        </group>
+                        <group>
+                            <field name="active" widget="boolean_toggle"/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+    <record id="pragmatic_transport_mode_catalog_18_search" model="ir.ui.view">
+        <field name="name">pragmatic.transport.mode.catalog.18.search</field>
+        <field name="model">pragmatic.transport.mode.catalog.18</field>
+        <field name="type">search</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="name"/>
+                <filter name="active" string="Active" domain="[('active','=',True)]"
+                        help="Show active"/>
+                <filter name="inactive" string="Archived" domain="[('active','=',False)]"
+                        help="Show archived"/>
+            </search>
+        </field>
+    </record>
+    <record id="pragmatic_transport_mode_catalog_18_action" model="ir.actions.act_window">
+        <field name="name">Sunat catalog 18 - Transport Mode</field>
+        <field name="res_model">pragmatic.transport.mode.catalog.18</field>
+        <field name="view_mode">tree,form</field>
+        <field name="search_view_id" ref="pragmatic_transport_mode_catalog_18_search"/>
+        <field name="domain"></field>
+    </record>
+</odoo>

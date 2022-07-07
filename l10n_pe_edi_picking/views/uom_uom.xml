@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="pg_edi_product_uom" model="ir.ui.view">
+        <field name="name">uom.uom.inherit</field>
+        <field name="model">uom.uom</field>
+        <field name="inherit_id" ref="uom.product_uom_form_view"/>
+        <field name="arch" type="xml">
+            <xpath expr="//group[@name='active_rounding']" position="inside">
+                <field name="sunat_unit_measure"
+                       options="{'no_create': True, 'no_create_edit':True,'no_open': True}"/>
+                <field name="l10n_pe_edi_measure_unit_code" invisible="1"/>
+            </xpath>
+        </field>
+    </record>
+</odoo>

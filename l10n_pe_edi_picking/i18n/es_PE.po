@@ -1,0 +1,1652 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* l10n_pe_edi_picking
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0+e-20220217\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-02-23 20:40+0000\n"
+"PO-Revision-Date: 2022-02-23 20:40+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.actions.report,print_report_name:l10n_pe_edi_picking.action_report_l10n_picking_referral_guide
+msgid "(object.get_name_sunat())"
+msgstr ""
+
+#. module: l10n_pe_edi_picking
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.template_account_referral_document_fe
+msgid ""
+"-\n"
+"                                            <span style=\"color: #ff1744\">Cancelled</span>"
+msgstr ""
+"-\n"
+"                                            <span style=\"color: #ff1744\">Cancelado</span>"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.actions.server,name:l10n_pe_edi_picking.ir_cron_load_sii_xsd_files_picking_ir_actions_server
+#: model:ir.cron,cron_name:l10n_pe_edi_picking.ir_cron_load_sii_xsd_files_picking
+#: model:ir.cron,name:l10n_pe_edi_picking.ir_cron_load_sii_xsd_files_picking
+msgid "0. Cron Job - Load XSD Files (Peruvian for EDI Picking)"
+msgstr "0. Cargar archivos XSD para la Guia de Remision Electronica"
+
+#. module: l10n_pe_edi_picking
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.pe_ubl_2_1_edi_picking_edi
+msgid "1.0"
+msgstr ""
+
+#. module: l10n_pe_edi_picking
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.pe_ubl_2_1_edi_picking_edi
+msgid "2.1"
+msgstr ""
+
+#. module: l10n_pe_edi_picking
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.template_account_referral_document_fe
+msgid ": ____________________________________________"
+msgstr ""
+
+#. module: l10n_pe_edi_picking
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.edi_picking_config_settings
+msgid ""
+"<br/>\n"
+"                                How do you get it?:"
+msgstr ""
+"<br/>\n"
+"                                Como conseguirlo?:"
+
+#. module: l10n_pe_edi_picking
+#: model:mail.template,body_html:l10n_pe_edi_picking.mail_template_referral_guide
+msgid ""
+"<div class=\"center\" style=\"font-size:13px;font-family:&quot;Lucida Grande&quot;, Helvetica, Verdana, Arial, sans-serif;\">\n"
+"                    <h2 style=\"margin:0px 0 0.5rem 0;font-size:1.625rem;color:rgb(33, 37, 41);line-height:1.2;font-weight:400;\">Adjuntamos tu Guia de Remision Electronica</h2>\n"
+"                </div>\n"
+"                <div class=\"center\" style=\"font-size:13px;font-family:&quot;Lucida Grande&quot;, Helvetica, Verdana, Arial, sans-serif;color:#000;font-weight: bold\">\n"
+"                    <p style=\"margin:0px;font-size:13px;font-family:&quot;Lucida Grande&quot;, Helvetica, Verdana, Arial, sans-serif;\">Este es un mensaje automatico, por favor no responda.</p>\n"
+"                </div>\n"
+"            "
+msgstr ""
+
+#. module: l10n_pe_edi_picking
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.edi_picking_config_settings
+msgid "<span class=\"o_form_label mt16\">Digital certificate</span>"
+msgstr "<span class=\"o_form_label mt16\">Certificado Digital</span>"
+
+#. module: l10n_pe_edi_picking
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.edi_picking_config_settings
+msgid "<span class=\"o_form_label mt16\">EDI Picking Environment</span>"
+msgstr ""
+"<span class=\"o_form_label mt16\">Entorno de Guia de Remision "
+"Electronica</span>"
+
+#. module: l10n_pe_edi_picking
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.edi_picking_config_settings
+msgid "<span class=\"o_form_label mt16\">SOL Credentials</span>"
+msgstr "<span class=\"o_form_label mt16\">Credenciales SOL</span>"
+
+#. module: l10n_pe_edi_picking
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.template_account_referral_document_fe
+msgid ""
+"<span class=\"text-left\">\n"
+"                                Name and Lastname\n"
+"                            </span>"
+msgstr ""
+"<span class=\"text-left\">\n"
+"                                Nombres y Apellidos\n"
+"                            </span>"
+
+#. module: l10n_pe_edi_picking
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.template_account_referral_document_fe
+msgid ""
+"<span class=\"text-left\">\n"
+"                                Nro Document\n"
+"                            </span>"
+msgstr ""
+"<span class=\"text-left\">\n"
+"                                Nro. Documento\n"
+"                            </span>"
+
+#. module: l10n_pe_edi_picking
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.template_account_referral_document_fe
+msgid "<span>Code</span>"
+msgstr "<span>Codigo</span>"
+
+#. module: l10n_pe_edi_picking
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.template_account_referral_document_fe
+msgid "<span>Description</span>"
+msgstr "<span>Descripcion</span>"
+
+#. module: l10n_pe_edi_picking
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.template_account_referral_document_fe
+msgid "<span>Quantity</span>"
+msgstr "<span>Canitidad</span>"
+
+#. module: l10n_pe_edi_picking
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.template_account_referral_document_fe
+msgid "<span>U. Of Measurement</span>"
+msgstr "<span>U. de Medida</span>"
+
+#. module: l10n_pe_edi_picking
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.template_account_referral_document_fe
+msgid ""
+"<span>check this document in:\n"
+"                                <strong style=\"color: #0d47a1 !important\">\n"
+"                                    https://ww1.sunat.gob.pe/ol-ti-itconsvalicpe/ConsValiCpe.htm\n"
+"                                </strong>\n"
+"                            </span>"
+msgstr ""
+"<span>Revisa el documento en:\n"
+"                                <strong style=\"color: #0d47a1 !important\">\n"
+"                                    https://ww1.sunat.gob.pe/ol-ti-itconsvalicpe/ConsValiCpe.html\n"
+"                                </strong>\n"
+"                            </span>"
+
+#. module: l10n_pe_edi_picking
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.template_account_referral_document_fe
+msgid ""
+"<strong class=\"to_left\">Address</strong>\n"
+"                                            <strong class=\"to_right\">:</strong>"
+msgstr ""
+"<strong class=\"to_left\">Direccion</strong>\n"
+"                                            <strong class=\"to_right\">:</strong>"
+
+#. module: l10n_pe_edi_picking
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.template_account_referral_document_fe
+msgid ""
+"<strong class=\"to_left\">Client</strong>\n"
+"                                            <strong class=\"to_right\">:</strong>"
+msgstr ""
+"<strong class=\"to_left\">Cliente</strong>\n"
+"                                            <strong class=\"to_right\">:</strong>"
+
+#. module: l10n_pe_edi_picking
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.template_account_referral_document_fe
+msgid ""
+"<strong class=\"to_left\">Date of issue</strong>\n"
+"                                            <strong class=\"to_right\">:</strong>"
+msgstr ""
+"<strong class=\"to_left\">Fecha de Emision</strong>\n"
+"                                            <strong class=\"to_right\">:</strong>"
+
+#. module: l10n_pe_edi_picking
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.template_account_referral_document_fe
+msgid ""
+"<strong class=\"to_left\">Type Document</strong>\n"
+"                                            <strong class=\"to_right\">:</strong>"
+msgstr ""
+"<strong class=\"to_left\">Tipo de documento</strong>\n"
+"                                            <strong class=\"to_right\">:</strong>"
+
+#. module: l10n_pe_edi_picking
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.template_account_referral_document_fe
+msgid ""
+"<strong>Carrier Company Name:</strong>\n"
+"                                    <br/>"
+msgstr ""
+"<strong>Nombre del Transportista:</strong>\n"
+"                                    <br/>"
+
+#. module: l10n_pe_edi_picking
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.template_account_referral_document_fe
+msgid ""
+"<strong>Carrier Type:</strong>\n"
+"                                    <br/>"
+msgstr ""
+"<strong>Tipo de Transportista:</strong>\n"
+"                                    <br/>"
+
+#. module: l10n_pe_edi_picking
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.template_account_referral_document_fe
+msgid ""
+"<strong>Description:</strong>\n"
+"                                    <br/>"
+msgstr ""
+"<strong>Descripcion:</strong>\n"
+"                                    <br/>"
+
+#. module: l10n_pe_edi_picking
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.template_account_referral_document_fe
+msgid ""
+"<strong>Driver's License No:</strong>\n"
+"                                    <br/>"
+msgstr ""
+"<strong>Licencia del Conductor:</strong>\n"
+"                                    <br/>"
+
+#. module: l10n_pe_edi_picking
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.template_account_referral_document_fe
+msgid ""
+"<strong>Driver's Name:</strong>\n"
+"                                    <br/>"
+msgstr ""
+"<strong>Nombre del Conductor:</strong>\n"
+"                                    <br/>"
+
+#. module: l10n_pe_edi_picking
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.template_account_referral_document_fe
+msgid ""
+"<strong>Reason:</strong>\n"
+"                                    <br/>"
+msgstr ""
+"<strong>Motivo:</strong>\n"
+"                                    <br/>"
+
+#. module: l10n_pe_edi_picking
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.template_account_referral_document_fe
+msgid ""
+"<strong>Total Weight:</strong>\n"
+"                                    <br/>"
+msgstr ""
+"<strong>Peso Total:</strong>\n"
+"                                    <br/>"
+
+#. module: l10n_pe_edi_picking
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.template_account_referral_document_fe
+msgid ""
+"<strong>Transfer Start:</strong>\n"
+"                                    <br/>"
+msgstr ""
+"<strong>Inicio de Traslado:</strong>\n"
+"                                    <br/>"
+
+#. module: l10n_pe_edi_picking
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.template_account_referral_document_fe
+msgid ""
+"<strong>Unit Measurement:</strong>\n"
+"                                    <br/>"
+msgstr ""
+"<strong>Unidad de Medida:</strong>\n"
+"                                    <br/>"
+
+#. module: l10n_pe_edi_picking
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.template_account_referral_document_fe
+msgid ""
+"<strong>Vehicle plate:</strong>\n"
+"                                    <br/>"
+msgstr ""
+"<strong>Placa de Vehiculo:</strong>\n"
+"                                    <br/>"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_picking_referral_guide__message_needaction
+msgid "Action Needed"
+msgstr "Accion necesaria"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_pragmatic_transport_mode_catalog_18__active
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_pragmatic_transportation_reason_catalog_20__active
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_pragmatic_unit_measurement_table_6__active
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_res_driver__driver_active
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_transport_unit__unit_active
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.pragmatic_table_6_search
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.pragmatic_transport_mode_catalog_18_search
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.pragmatic_transportation_reason_catalog_20_search
+msgid "Active"
+msgstr "Activo"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_picking_referral_guide__activity_ids
+msgid "Activities"
+msgstr "Actividades"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_picking_referral_guide__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr "Decoracion de la acitividad de excepcion"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_picking_referral_guide__activity_state
+msgid "Activity State"
+msgstr "Estado de Actividad"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_picking_referral_guide__activity_type_icon
+msgid "Activity Type Icon"
+msgstr "Icono de Tipo de Actividad"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_picking_referral_guide__addressee_id
+msgid "Addressee"
+msgstr "Destinatario"
+
+#. module: l10n_pe_edi_picking
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.view_referral_guide_form
+msgid "Addressee details"
+msgstr "Detalle de Destinatario"
+
+#. module: l10n_pe_edi_picking
+#: code:addons/l10n_pe_edi_picking/models/picking_referral_guide.py:0
+#, python-format
+msgid "An error occurred: %s"
+msgstr "Ocurrio un error: %s"
+
+#. module: l10n_pe_edi_picking
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.pragmatic_table_6_search
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.pragmatic_transport_mode_catalog_18_search
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.pragmatic_transportation_reason_catalog_20_search
+msgid "Archived"
+msgstr "Archivado"
+
+#. module: l10n_pe_edi_picking
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.template_account_referral_document_fe
+msgid "Arrival point"
+msgstr "Punto de Destino"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model,name:l10n_pe_edi_picking.model_ir_attachment
+msgid "Attachment"
+msgstr "Adjunto"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_picking_referral_guide__message_attachment_count
+msgid "Attachment Count"
+msgstr "Contador de Adjuntos"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields.selection,name:l10n_pe_edi_picking.selection__picking_referral_guide__state__cancel
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.view_referral_guide_wizard
+msgid "Cancel"
+msgstr "Canelar"
+
+#. module: l10n_pe_edi_picking
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.view_referral_guide_form
+msgid "Cancel GRE"
+msgstr "Cancelar GRE"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_picking_referral_guide__carrier_id
+msgid "Carrier"
+msgstr "Transportista"
+
+#. module: l10n_pe_edi_picking
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.template_account_referral_document_fe
+msgid "Carrier data"
+msgstr "Informaciond e Transportista"
+
+#. module: l10n_pe_edi_picking
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.view_referral_guide_form
+msgid "Carrier information"
+msgstr "Informacion de Transportista"
+
+#. module: l10n_pe_edi_picking
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.template_account_referral_document_fe
+msgid "Carrier's"
+msgstr "Transportista"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_picking_referral_guide__reason_for_transfer_code
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_picking_referral_guide__transport_mode_code
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_pragmatic_transport_mode_catalog_18__code
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_pragmatic_transportation_reason_catalog_20__code
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_pragmatic_unit_measurement_table_6__code
+msgid "Code"
+msgstr "Codigo"
+
+#. module: l10n_pe_edi_picking
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.template_account_referral_document_fe
+msgid "Code Hash:"
+msgstr "Codigo Hash"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model,name:l10n_pe_edi_picking.model_res_company
+msgid "Companies"
+msgstr "Compañias"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_picking_referral_guide__company_id
+msgid "Company"
+msgstr "Compañia"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model,name:l10n_pe_edi_picking.model_res_config_settings
+msgid "Config Settings"
+msgstr "Opciones de configuración"
+
+#. module: l10n_pe_edi_picking
+#: code:addons/l10n_pe_edi_picking/models/picking_referral_guide.py:0
+#, python-format
+msgid "Connection Error"
+msgstr "Error de conexion"
+
+#. module: l10n_pe_edi_picking
+#: code:addons/l10n_pe_edi_picking/models/picking_referral_guide.py:0
+#, python-format
+msgid "Connection Error HTTP"
+msgstr "Error de conexion"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model,name:l10n_pe_edi_picking.model_res_partner
+msgid "Contact"
+msgstr "Contacto"
+
+#. module: l10n_pe_edi_picking
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.view_referral_guide_form
+msgid "Convert to Draft"
+msgstr "Convertir a Borrador"
+
+#. module: l10n_pe_edi_picking
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.gre_stock_picking
+msgid "Create Referral Guide"
+msgstr "Crear Guia de Remision"
+
+#. module: l10n_pe_edi_picking
+#: model_terms:ir.actions.act_window,help:l10n_pe_edi_picking.action_referral_guide_view
+msgid "Create a new referral guide"
+msgstr "Crear Nueva Guia de Remision"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_picking_referral_guide__create_uid
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_picking_referral_guide_line__create_uid
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_picking_referral_guide_wizard__create_uid
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_pragmatic_transport_mode_catalog_18__create_uid
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_pragmatic_transportation_reason_catalog_20__create_uid
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_pragmatic_unit_measurement_table_6__create_uid
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_res_driver__create_uid
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_transport_unit__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_picking_referral_guide__create_date
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_picking_referral_guide_line__create_date
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_picking_referral_guide_wizard__create_date
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_pragmatic_transport_mode_catalog_18__create_date
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_pragmatic_transportation_reason_catalog_20__create_date
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_pragmatic_unit_measurement_table_6__create_date
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_res_driver__create_date
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_transport_unit__create_date
+msgid "Created on"
+msgstr "Creado en"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_stock_picking_type__reason_for_transfer
+msgid "Default Reason for transfer"
+msgstr "Motivo de Traslado Defecto"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_stock_picking_type__transport_mode
+msgid "Default Transport mode"
+msgstr "Modo de Traslado Defecto."
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_picking_referral_guide__delivery_date
+msgid "Delivery date"
+msgstr "Fecha de Envio"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_picking_referral_guide__description
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_picking_referral_guide_line__name
+msgid "Description"
+msgstr "Descripcion"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_picking_referral_guide__destination_filter
+msgid "Destination Filter"
+msgstr "Filtro de Direccion de destino"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_picking_referral_guide__destination_addresses_id
+msgid "Destination addresses"
+msgstr "Direccion de destino"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_ir_attachment__display_name
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_picking_referral_guide__display_name
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_picking_referral_guide_line__display_name
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_picking_referral_guide_wizard__display_name
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_pragmatic_transport_mode_catalog_18__display_name
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_pragmatic_transportation_reason_catalog_20__display_name
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_pragmatic_unit_measurement_table_6__display_name
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_res_company__display_name
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_res_config_settings__display_name
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_res_driver__display_name
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_res_partner__display_name
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_stock_move__display_name
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_stock_picking__display_name
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_stock_picking_type__display_name
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_transport_unit__display_name
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_uom_uom__display_name
+msgid "Display Name"
+msgstr "Nombre a Mostrar"
+
+#. module: l10n_pe_edi_picking
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.view_referral_guide_form
+msgid "Document Low"
+msgstr "Documento de baja"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_picking_referral_guide__addressee_document_number
+msgid "Document Number"
+msgstr "Numero de documento"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_picking_referral_guide__addressee_type_document_id
+msgid "Document Type"
+msgstr "Tipo de documento"
+
+#. module: l10n_pe_edi_picking
+#: code:addons/l10n_pe_edi_picking/models/picking_referral_guide.py:0
+#: model:ir.model.fields.selection,name:l10n_pe_edi_picking.selection__picking_referral_guide__state__draft
+#, python-format
+msgid "Draft"
+msgstr "Borrador"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_picking_referral_guide__driver_id
+msgid "Driver"
+msgstr "Conductor"
+
+#. module: l10n_pe_edi_picking
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.template_account_referral_document_fe
+msgid "Driver's"
+msgstr "Conductores"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model,name:l10n_pe_edi_picking.model_res_driver
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_res_partner__drivers
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_res_users__drivers
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.gre_res_partner_view
+msgid "Drivers"
+msgstr "Conductores"
+
+#. module: l10n_pe_edi_picking
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.gre_res_partner_view
+msgid "Drivers - Transport Units"
+msgstr "Conductores - Unidades de Transporte"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_res_company__picking_edi_environment
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_res_config_settings__picking_edi_environment
+msgid "EDI Picking Environment"
+msgstr "Entorno de la Guia de Remision"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_picking_referral_guide__edit_origin
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_pragmatic_transportation_reason_catalog_20__edit_origin
+msgid "Edit Origin Partner"
+msgstr "Editar Emisor"
+
+#. module: l10n_pe_edi_picking
+#: model:mail.template,subject:l10n_pe_edi_picking.mail_template_referral_guide
+msgid "Electronic referral guide: ${object.company_id.name}"
+msgstr "Guia de Remision Electronica: ${object.company_id.name}"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_res_company__edi_cert_enddate
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_res_config_settings__edi_cert_enddate
+msgid "End Date"
+msgstr "Fecha Fin"
+
+#. module: l10n_pe_edi_picking
+#: code:addons/l10n_pe_edi_picking/models/picking_referral_guide.py:0
+#, python-format
+msgid "Enter a measure code"
+msgstr "Ingresa el codigo de unidad de medida"
+
+#. module: l10n_pe_edi_picking
+#: code:addons/l10n_pe_edi_picking/models/picking_referral_guide.py:0
+#, python-format
+msgid "Enter a measure code in the detail. (%s)"
+msgstr "Ingresa la unidad de medida en el detalle: (%s)"
+
+#. module: l10n_pe_edi_picking
+#: code:addons/l10n_pe_edi_picking/models/picking_referral_guide.py:0
+#, python-format
+msgid "Enter a product code in the detail. (%s)"
+msgstr "Ingresa el codigo de producto en el detalle: (%s)"
+
+#. module: l10n_pe_edi_picking
+#: code:addons/l10n_pe_edi_picking/models/picking_referral_guide.py:0
+#, python-format
+msgid "Enter quantity in the detail. (%s)"
+msgstr "Ingresa la Cantidad en el detalle: (%s)"
+
+#. module: l10n_pe_edi_picking
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.edi_picking_config_settings
+msgid ""
+"Enter the digital certificate of production.<br/>\n"
+"                                Check if you qualify to get your free digital certificate through your SOL portal.<br/>\n"
+"                                You can find companies authorized to buy your digital certificate through:"
+msgstr ""
+"Ingrese el certificado digital de producción. <br/> \\ nVerifique si "
+"califica para obtener su certificado digital gratuito a través de su portal "
+"SOL. <br/> \\ nPuede encontrar empresas autorizadas para comprar su "
+"certificado digital a través de:"
+
+#. module: l10n_pe_edi_picking
+#: code:addons/l10n_pe_edi_picking/models/picking_referral_guide.py:0
+#, python-format
+msgid "Enter the source address correctly"
+msgstr "Ingresa la direccion de origen correctamente"
+
+#. module: l10n_pe_edi_picking
+#: code:addons/l10n_pe_edi_picking/models/picking_referral_guide.py:0
+#, python-format
+msgid "Enter the third party's document number"
+msgstr "Ingresa el numero de documento del tercero"
+
+#. module: l10n_pe_edi_picking
+#: code:addons/l10n_pe_edi_picking/models/picking_referral_guide.py:0
+#, python-format
+msgid "Enter total weight in the detail. (%s)"
+msgstr "Ingresa peso total en el detalle: (%s)"
+
+#. module: l10n_pe_edi_picking
+#: code:addons/l10n_pe_edi_picking/models/picking_referral_guide.py:0
+#, python-format
+msgid "Enter type of third party document"
+msgstr "Ingresa tipo de documento del tercero"
+
+#. module: l10n_pe_edi_picking
+#: code:addons/l10n_pe_edi_picking/models/picking_referral_guide.py:0
+#, python-format
+msgid "Enter weight in the detail. (%s)"
+msgstr "Ingresa el peso en el detalle: (%s)"
+
+#. module: l10n_pe_edi_picking
+#: code:addons/l10n_pe_edi_picking/models/res_company.py:0
+#, python-format
+msgid "Environment url not configured %s"
+msgstr "URL del entorno no configurado"
+
+#. module: l10n_pe_edi_picking
+#: code:addons/l10n_pe_edi_picking/models/picking_referral_guide.py:0
+#, python-format
+msgid "Error"
+msgstr ""
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_picking_referral_guide__establishment
+msgid "Establisment"
+msgstr "Establecimiento"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_picking_referral_guide__message_follower_ids
+msgid "Followers"
+msgstr "Seguidores"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_picking_referral_guide__message_channel_ids
+msgid "Followers (Channels)"
+msgstr "Seguidores (Canales)"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_picking_referral_guide__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "Seguidores (Contactos)"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,help:l10n_pe_edi_picking.field_picking_referral_guide__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr ""
+
+#. module: l10n_pe_edi_picking
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.view_referral_guide_wizard
+msgid ""
+"For the Sender Remission Guides there is no option to\n"
+"                            communicate unsubscription and they only have a specific useful use for merchandise\n"
+"                            shipments, after the shipment has been committed or made they no longer have any use for\n"
+"                            SUNAT, for that reason the SUNAT has not implemented a guidance override. If the issuing\n"
+"                            customer makes a guide and makes a mistake, they will simply have to make another guide and\n"
+"                            use the correct guide."
+msgstr ""
+"Para las guías de remisión de remitentes, no hay opción para \\ ncomunican "
+"la cancelación de la suscripción y solo tienen un uso útil específico para "
+"la mercancía \\ nenvíos, después de que el envío se ha cometido o realizado,"
+" ya no tienen ningún uso para \\ nSUNAT, por esa razón la SUNAT no ha "
+"implementado una anulación de orientación. Si la emisión \\ nel cliente hace"
+" una guía y se equivoca, simplemente tendrá que hacer otra guía y \\ nuse la"
+" guía correcta"
+
+#. module: l10n_pe_edi_picking
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.template_account_referral_document_fe
+msgid "Guide detail"
+msgstr "Detalle de la Guia de Remision"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_picking_referral_guide__third
+msgid "Has third"
+msgstr "Tiene un Tercero"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_ir_attachment__id
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_picking_referral_guide__id
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_picking_referral_guide_line__id
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_picking_referral_guide_wizard__id
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_pragmatic_transport_mode_catalog_18__id
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_pragmatic_transportation_reason_catalog_20__id
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_pragmatic_unit_measurement_table_6__id
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_res_company__id
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_res_config_settings__id
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_res_driver__id
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_res_partner__id
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_stock_move__id
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_stock_picking__id
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_stock_picking_type__id
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_transport_unit__id
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_uom_uom__id
+msgid "ID"
+msgstr ""
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_picking_referral_guide__container
+msgid "ID of Container"
+msgstr "ID del contenedor"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_picking_referral_guide__activity_exception_icon
+msgid "Icon"
+msgstr "Icono"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,help:l10n_pe_edi_picking.field_picking_referral_guide__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr "Icono para indicar una actividad de excepcion"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,help:l10n_pe_edi_picking.field_picking_referral_guide__addressee_document_number
+msgid "Identification Number for selected type"
+msgstr "Selecciona el tipo de documento de indentificacion"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,help:l10n_pe_edi_picking.field_picking_referral_guide__message_needaction
+#: model:ir.model.fields,help:l10n_pe_edi_picking.field_picking_referral_guide__message_unread
+msgid "If checked, new messages require your attention."
+msgstr "Si esta marcado, nuevos mensajes requieren tu atencion."
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,help:l10n_pe_edi_picking.field_picking_referral_guide__message_has_error
+#: model:ir.model.fields,help:l10n_pe_edi_picking.field_picking_referral_guide__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr "Si esta marcado, algunos mensajes tienen error."
+
+#. module: l10n_pe_edi_picking
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.edi_picking_config_settings
+msgid "Indecopi"
+msgstr ""
+
+#. module: l10n_pe_edi_picking
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.template_account_referral_document_fe
+msgid "Information on transferred goods"
+msgstr "Informacion de los Bienes de Traslado"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_stock_picking_type__is_electronic
+msgid "Is Electronic"
+msgstr "Es Electronico"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_picking_referral_guide__message_is_follower
+msgid "Is Follower"
+msgstr "Es seguidor"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_res_partner__compute_is_transport
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_res_users__compute_is_transport
+msgid "Is Transport"
+msgstr "Es Transporte"
+
+#. module: l10n_pe_edi_picking
+#: code:addons/l10n_pe_edi_picking/models/stock_picking.py:0
+#, python-format
+msgid "Issuer not found"
+msgstr "Emisor no encontrado"
+
+#. module: l10n_pe_edi_picking
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.view_referral_guide_form
+msgid "Issuing company"
+msgstr "Empresa Emisor"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_picking_referral_guide__issuing_date
+msgid "Issuing date"
+msgstr "Fecha de Emision"
+
+#. module: l10n_pe_edi_picking
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.template_account_referral_document_fe
+msgid "It has no legal validity"
+msgstr "Esto no tiene validez legal"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_ir_attachment____last_update
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_picking_referral_guide____last_update
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_picking_referral_guide_line____last_update
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_picking_referral_guide_wizard____last_update
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_pragmatic_transport_mode_catalog_18____last_update
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_pragmatic_transportation_reason_catalog_20____last_update
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_pragmatic_unit_measurement_table_6____last_update
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_res_company____last_update
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_res_config_settings____last_update
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_res_driver____last_update
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_res_partner____last_update
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_stock_move____last_update
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_stock_picking____last_update
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_stock_picking_type____last_update
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_transport_unit____last_update
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_uom_uom____last_update
+msgid "Last Modified on"
+msgstr "Ultima Modificación en"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_picking_referral_guide__write_uid
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_picking_referral_guide_line__write_uid
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_picking_referral_guide_wizard__write_uid
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_pragmatic_transport_mode_catalog_18__write_uid
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_pragmatic_transportation_reason_catalog_20__write_uid
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_pragmatic_unit_measurement_table_6__write_uid
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_res_driver__write_uid
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_transport_unit__write_uid
+msgid "Last Updated by"
+msgstr "Ultima actualizacion por"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_picking_referral_guide__write_date
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_picking_referral_guide_line__write_date
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_picking_referral_guide_wizard__write_date
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_pragmatic_transport_mode_catalog_18__write_date
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_pragmatic_transportation_reason_catalog_20__write_date
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_pragmatic_unit_measurement_table_6__write_date
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_res_driver__write_date
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_transport_unit__write_date
+msgid "Last Updated on"
+msgstr "Ultima Actualizacion en"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_res_driver__license
+msgid "License"
+msgstr "Licencia"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_picking_referral_guide__license_plate
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_transport_unit__license_plate
+msgid "License Plate"
+msgstr "Placa"
+
+#. module: l10n_pe_edi_picking
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.template_account_referral_document_fe
+msgid "Logo"
+msgstr ""
+
+#. module: l10n_pe_edi_picking
+#: model:ir.actions.act_window,name:l10n_pe_edi_picking.l10n_pe_edi_picking
+msgid "Low Referral"
+msgstr "Dar de Baja Guia de Remision"
+
+#. module: l10n_pe_edi_picking
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.view_referral_guide_wizard
+msgid "Low Referral Guide"
+msgstr "Dar de Baja Guia de Remision"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_picking_referral_guide__message_main_attachment_id
+msgid "Main Attachment"
+msgstr "Ajunto Principal"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_uom_uom__l10n_pe_edi_measure_unit_code
+msgid "Measure unit code"
+msgstr "Código de unidad de medida"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_picking_referral_guide__message_has_error
+msgid "Message Delivery error"
+msgstr "Mensaje de error de envio"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_picking_referral_guide__message_ids
+msgid "Messages"
+msgstr "Mensajes"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_transport_unit__model
+msgid "Model"
+msgstr "Modelo"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_picking_referral_guide__my_activity_date_deadline
+msgid "My Activity Deadline"
+msgstr "Mis actividades vencidas"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_pragmatic_transport_mode_catalog_18__name
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_pragmatic_transportation_reason_catalog_20__name
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_pragmatic_unit_measurement_table_6__name
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_res_driver__name
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_transport_unit__name
+msgid "Name"
+msgstr "Nombre"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_picking_referral_guide__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr "Siguientes actividades por vencer"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_picking_referral_guide__activity_summary
+msgid "Next Activity Summary"
+msgstr "Resumen de actividad siguiente"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_picking_referral_guide__activity_type_id
+msgid "Next Activity Type"
+msgstr "Tipo de actividad siguiente"
+
+#. module: l10n_pe_edi_picking
+#: code:addons/l10n_pe_edi_picking/models/picking_referral_guide.py:0
+#, python-format
+msgid "No valid certificate found for %s company."
+msgstr "Certificado digital no valido para esta compañía %s"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_picking_referral_guide_wizard__name
+msgid "Note to Cancel"
+msgstr "Nota para Cancelar"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_res_driver__number_document
+msgid "Number Document"
+msgstr "Numero de documento"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_picking_referral_guide__message_needaction_counter
+msgid "Number of Actions"
+msgstr "Numero de Acciones"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_picking_referral_guide__message_has_error_counter
+msgid "Number of errors"
+msgstr "Numero de errores"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,help:l10n_pe_edi_picking.field_picking_referral_guide__message_needaction_counter
+msgid "Number of messages which requires an action"
+msgstr "Numero de mensajes que requieren accion"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,help:l10n_pe_edi_picking.field_picking_referral_guide__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "Numero de mensajes con error de envio"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,help:l10n_pe_edi_picking.field_picking_referral_guide__message_unread_counter
+msgid "Number of unread messages"
+msgstr "Numero de mensajes no leidos"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_picking_referral_guide__observation
+msgid "Observation"
+msgstr "Observacion"
+
+#. module: l10n_pe_edi_picking
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.template_account_referral_document_fe
+msgid "Observations"
+msgstr "Observaciones"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_picking_referral_guide__origin_id
+msgid "Origin"
+msgstr "Origen"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_picking_referral_guide__origin_filter
+msgid "Origin Filter"
+msgstr "Filtro Direccion de Origen"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_picking_referral_guide__origin_addresses_id
+msgid "Origin addresses"
+msgstr "Direccion de Origen"
+
+#. module: l10n_pe_edi_picking
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.view_referral_guide_form
+msgid "Origin and destination addresses"
+msgstr "Direccion de Origen y Destino"
+
+#. module: l10n_pe_edi_picking
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.view_referral_guide_form
+msgid "Other information"
+msgstr "Otra Informacion"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_res_company__edi_cert_content
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_res_config_settings__edi_cert_content
+msgid "PFX Certificate"
+msgstr "Certificado PFX"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_picking_referral_guide__package
+msgid "Package"
+msgstr "Paquete"
+
+#. module: l10n_pe_edi_picking
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.custom_external_referral_invoice_fe
+msgid ""
+"Page:\n"
+"                        <span class=\"page\"/>\n"
+"                        of\n"
+"                        <span class=\"topage\"/>"
+msgstr ""
+"Pagina:\n"
+"                        <span class=\"page\"/>\n"
+"                        de\n"
+"                        <span class=\"topage\"/>"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_res_company__edi_cert_password
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_res_config_settings__edi_cert_password
+msgid "Passphrase for the PFX certificate"
+msgstr "Clave del certificado PFX digital."
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model,name:l10n_pe_edi_picking.model_stock_picking_type
+msgid "Picking Type"
+msgstr "Tipo de Picking"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_stock_picking_type__who_received
+msgid "Print PDF Who received?"
+msgstr "Imprimir quien recibe?"
+
+#. module: l10n_pe_edi_picking
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.template_account_referral_document_fe
+msgid "Printed Representation of the"
+msgstr "Representacion Impresa de la"
+
+#. module: l10n_pe_edi_picking
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.edi_picking_config_settings
+msgid "Process Certificate"
+msgstr "Proceso de Certificado"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_picking_referral_guide_line__product_id
+msgid "Product"
+msgstr "Producto"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_picking_referral_guide_line__product_code
+msgid "Product Code"
+msgstr "Codigo de Producto"
+
+#. module: l10n_pe_edi_picking
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.view_referral_guide_form
+msgid "Product Properties"
+msgstr "Propiedades del producto"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model,name:l10n_pe_edi_picking.model_uom_uom
+msgid "Product Unit of Measure"
+msgstr "Unidad de Medida del Producto"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields.selection,name:l10n_pe_edi_picking.selection__res_company__picking_edi_environment__edi_picking
+msgid "Production"
+msgstr "Produccion"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_picking_referral_guide_line__quantity
+msgid "Quantity"
+msgstr "Cantidad"
+
+#. module: l10n_pe_edi_picking
+#: code:addons/l10n_pe_edi_picking/models/picking_referral_guide.py:0
+#, python-format
+msgid "Read Timeout"
+msgstr "Sobretiempo de lectura"
+
+#. module: l10n_pe_edi_picking
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.view_referral_guide_form
+msgid "Reason by this document is Low"
+msgstr "Motivo de Baja."
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_picking_referral_guide__referral_note_low
+msgid "Reason for Low"
+msgstr "Motivo de Baja"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.ui.menu,name:l10n_pe_edi_picking.pragmatic_sp_edi_catalog20
+msgid "Reason for Transfer"
+msgstr "Motivo de Traslado"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_picking_referral_guide__reason_for_transfer
+msgid "Reason for transfer"
+msgstr "Motivo de Traslado"
+
+#. module: l10n_pe_edi_picking
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.template_account_referral_document_fe
+msgid "Receiver Data"
+msgstr "Datos del Receptor"
+
+#. module: l10n_pe_edi_picking
+#: code:addons/l10n_pe_edi_picking/models/stock_picking.py:0
+#, python-format
+msgid "Recipient not found"
+msgstr "Recipiente no encontrado"
+
+#. module: l10n_pe_edi_picking
+#: code:addons/l10n_pe_edi_picking/wizard/picking_referral_guide_wizard.py:0
+#: model:ir.model,name:l10n_pe_edi_picking.model_picking_referral_guide
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_picking_referral_guide_line__referral_guide_id
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_stock_picking__picking_referrals
+#: model:ir.ui.menu,name:l10n_pe_edi_picking.pragmatic_referral_guide_menu
+#: model:ir.ui.menu,name:l10n_pe_edi_picking.pragmatic_stock_picking_edi
+#, python-format
+msgid "Referral Guide"
+msgstr "Guia de Remision"
+
+#. module: l10n_pe_edi_picking
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.gre_stock_picking_type
+msgid "Referral Guide Electronic"
+msgstr "Guia de Remision Electronica"
+
+#. module: l10n_pe_edi_picking
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.edi_picking_config_settings
+msgid "Referral Guide Electronic Configurations"
+msgstr "Configuraciones de Guia de Remision Electronica"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model,name:l10n_pe_edi_picking.model_picking_referral_guide_line
+msgid "Referral Guide Line"
+msgstr "Linea de Guia de remision"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_picking_referral_guide__referral_lines
+msgid "Referral Guide Lines"
+msgstr "Detalle de guia de remision"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_picking_referral_guide__referral_guide_low
+msgid "Referral Guide Low"
+msgstr "Guia de remision Baja"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_picking_referral_guide__name
+msgid "Referral Guide Sequence"
+msgstr "Secuencia de Guia de Remision"
+
+#. module: l10n_pe_edi_picking
+#: code:addons/l10n_pe_edi_picking/models/stock_picking.py:0
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.gre_stock_picking
+#, python-format
+msgid "Referral Guides"
+msgstr "Guias de Remision"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_stock_picking__referral_count
+msgid "Referral Guides Count"
+msgstr "Numero de Guia de Remision"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.actions.act_window,name:l10n_pe_edi_picking.action_referral_guide_view
+#: model:ir.actions.report,name:l10n_pe_edi_picking.action_report_l10n_picking_referral_guide
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.view_referral_guide_form
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.view_referral_guide_tree
+msgid "Referral guide"
+msgstr "Guia de Remision"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_picking_referral_guide_wizard__referral_slow
+msgid "Referral to Slow"
+msgstr "Guia de remision para dar de baja."
+
+#. module: l10n_pe_edi_picking
+#: code:addons/l10n_pe_edi_picking/models/picking_referral_guide.py:0
+#, python-format
+msgid "Register referral guide detail"
+msgstr "Registrar detalle del documento"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_picking_referral_guide__activity_user_id
+msgid "Responsible User"
+msgstr "Usuario responsable"
+
+#. module: l10n_pe_edi_picking
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.edi_picking_config_settings
+msgid "Run"
+msgstr "Ejecutar Validacion"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_picking_referral_guide__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr "Error al enviar SMS"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_res_company__edi_sol_password
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_res_config_settings__edi_sol_password
+msgid "SOL Password"
+msgstr "Clave SOL"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_res_company__edi_sol_username
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_res_config_settings__edi_sol_username
+msgid "SOL User"
+msgstr "Usuario SOL"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_transport_unit__second_license_plate
+msgid "Second License Plate"
+msgstr "Placa Secundaria"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_stock_picking_type__gre_sequence_id
+msgid "Secuence for Referral Guide"
+msgstr "Secuencia para la Guia de Remision"
+
+#. module: l10n_pe_edi_picking
+#: code:addons/l10n_pe_edi_picking/models/picking_referral_guide.py:0
+#, python-format
+msgid "Select a product in the detail."
+msgstr "Seleccione un producto en el detalle"
+
+#. module: l10n_pe_edi_picking
+#: code:addons/l10n_pe_edi_picking/models/res_company.py:0
+#, python-format
+msgid ""
+"Select an environment in the inventory configuration: Referral Guide "
+"Configurations."
+msgstr ""
+"Seleccione un entorno en la configuración del inventario: Guía de "
+"remisionConfiguraciones"
+
+#. module: l10n_pe_edi_picking
+#: code:addons/l10n_pe_edi_picking/models/picking_referral_guide.py:0
+#, python-format
+msgid "Send Referral Guide Electronic"
+msgstr "Enviar Guia de Remision Electronica"
+
+#. module: l10n_pe_edi_picking
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.view_referral_guide_form
+msgid "Send SUNAT"
+msgstr "Enviar a Sunat"
+
+#. module: l10n_pe_edi_picking
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.view_referral_guide_form
+msgid "Send by Email"
+msgstr "Enviar por Correo"
+
+#. module: l10n_pe_edi_picking
+#: code:addons/l10n_pe_edi_picking/models/picking_referral_guide.py:0
+#, python-format
+msgid "Sequence not found"
+msgstr "Secuencia no encontrado"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_res_company__edi_cert_serial_number
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_res_config_settings__edi_cert_serial_number
+msgid "Serial Number"
+msgstr "Numero de Serie"
+
+#. module: l10n_pe_edi_picking
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.pragmatic_table_6_search
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.pragmatic_transport_mode_catalog_18_search
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.pragmatic_transportation_reason_catalog_20_search
+msgid "Show active"
+msgstr "Mostrar Activos"
+
+#. module: l10n_pe_edi_picking
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.pragmatic_table_6_search
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.pragmatic_transport_mode_catalog_18_search
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.pragmatic_transportation_reason_catalog_20_search
+msgid "Show archived"
+msgstr "Mostrar Archivados"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_res_company__edi_cert_startdate
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_res_config_settings__edi_cert_startdate
+msgid "Start Date"
+msgstr "Fecha de Inicio"
+
+#. module: l10n_pe_edi_picking
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.template_account_referral_document_fe
+msgid "Starting point"
+msgstr "Punto de Partida"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_picking_referral_guide__state
+msgid "State"
+msgstr "Estado"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,help:l10n_pe_edi_picking.field_picking_referral_guide__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+"Estado basado en actividades \\ nVencido: la fecha de vencimiento ya pasó \\"
+" nHoy: la fecha de actividad es hoy \\ nPlanificado: actividades futuras"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model,name:l10n_pe_edi_picking.model_stock_move
+msgid "Stock Move"
+msgstr "Movimiento de Stock"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_picking_referral_guide__picking_id
+msgid "Stock Picking"
+msgstr "Operacion de Inventario"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_picking_referral_guide__string_hash
+msgid "String Hash"
+msgstr "Cadena del codigo Hash"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_picking_referral_guide__string_qr
+msgid "String QR"
+msgstr "Cadena del QR"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields.selection,name:l10n_pe_edi_picking.selection__picking_referral_guide__state__sunat_send
+msgid "Sunat Send"
+msgstr "Enviar a Sunat"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model,name:l10n_pe_edi_picking.model_pragmatic_unit_measurement_table_6
+msgid "Sunat Table 6 - Unit Measurement"
+msgstr "Sunat Tabla 6 - Unidades de medida"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.actions.act_window,name:l10n_pe_edi_picking.pragmatic_table_6_action
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.pragmatic_table_6_form
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.pragmatic_table_6_tree
+msgid "Sunat Table 6 - Unit of measurement"
+msgstr "Sunat Tabla 6 - Unidad de Medida"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_uom_uom__sunat_unit_measure
+msgid "Sunat Unit of Measure"
+msgstr "Sunat Unidad de Medida"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.actions.act_window,name:l10n_pe_edi_picking.pragmatic_transport_mode_catalog_18_action
+#: model:ir.model,name:l10n_pe_edi_picking.model_pragmatic_transport_mode_catalog_18
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.pragmatic_transport_mode_catalog_18_form
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.pragmatic_transport_mode_catalog_18_tree
+msgid "Sunat catalog 18 - Transport Mode"
+msgstr "Sunat Catalogo 18 - Modo de Transporte"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.actions.act_window,name:l10n_pe_edi_picking.pragmatic_transportation_reason_catalog_20_action
+#: model:ir.model,name:l10n_pe_edi_picking.model_pragmatic_transportation_reason_catalog_20
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.pragmatic_transportation_reason_catalog_20_form
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.pragmatic_transportation_reason_catalog_20_tree
+msgid "Sunat catalog 20 - Reason for transfer"
+msgstr "Sunat Catalogo 20 - Motivo de Transferencia"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_picking_referral_guide__sunat_port_code
+msgid "Sunat: Port code"
+msgstr "Sunat: Codigo de Puerto"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields.selection,name:l10n_pe_edi_picking.selection__res_company__picking_edi_environment__edi_picking_beta
+msgid "Test"
+msgstr "Prueba"
+
+#. module: l10n_pe_edi_picking
+#: code:addons/l10n_pe_edi_picking/models/picking_referral_guide.py:0
+#, python-format
+msgid ""
+"The EDI document was successfully created and signed by the government. %s"
+msgstr "El documento EDI fue creado y firmado con éxito por el gobierno. %s"
+
+#. module: l10n_pe_edi_picking
+#: code:addons/l10n_pe_edi_picking/models/res_company.py:0
+#, python-format
+msgid "The certificate is expired since %s"
+msgstr "El certificado esta expirado %s"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,help:l10n_pe_edi_picking.field_picking_referral_guide__addressee_type_document_id
+msgid "The type of identification"
+msgstr "El tipo de identificacion"
+
+#. module: l10n_pe_edi_picking
+#: code:addons/l10n_pe_edi_picking/models/res_company.py:0
+#, python-format
+msgid ""
+"There has been a problem with the certificate, some usual problems can be:\n"
+"- The password given or the certificate are not valid.\n"
+"- The certificate content is invalid."
+msgstr ""
+"Ha habido un problema con el certificado, algunos problemas habituales pueden ser:n"
+"- La contraseña dada o el certificado no son válidos.n"
+"- El contenido del certificado no es válido."
+
+#. module: l10n_pe_edi_picking
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.view_referral_guide_form
+msgid "Third Information"
+msgstr "Informacion del Tercero"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_picking_referral_guide__third_document_number
+msgid "Third document number"
+msgstr "Numero de documento del Tercero"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_picking_referral_guide__third_document_type
+msgid "Third document type"
+msgstr "Tipo de documento del Tercero"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_picking_referral_guide__third_name
+msgid "Third name"
+msgstr "Nombre del Tercero"
+
+#. module: l10n_pe_edi_picking
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.edi_picking_config_settings
+msgid ""
+"This login and password is given by the SUNAT it means by its spanish acronym\n"
+"                                <b>\"SUNAT Operaciones en Línea - SOL\"</b><br/>\n"
+"                                Official definition is:"
+msgstr ""
+"Este nombre de usuario y contraseña es proporcionado por la SUNAT, es decir, por sus siglas en español.\n"
+"                                <b>\"SUNAT Operaciones en Línea - SOL\"</b><br/>\n"
+"                                La definición oficial es:"
+
+#. module: l10n_pe_edi_picking
+#: model_terms:ir.actions.act_window,help:l10n_pe_edi_picking.action_referral_guide_view
+msgid "To add a referral guide you must ..."
+msgstr "Para agregar una Guia de Remision debe ..."
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_picking_referral_guide__total_weight
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_picking_referral_guide_line__total_weight
+msgid "Total weight"
+msgstr "Peso Total"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model,name:l10n_pe_edi_picking.model_stock_picking
+msgid "Transfer"
+msgstr "Transferir"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_picking_referral_guide__transfer_date
+msgid "Transfer date"
+msgstr "Fecha de Traslado"
+
+#. module: l10n_pe_edi_picking
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.view_referral_guide_form
+msgid "Transfer information"
+msgstr "Informacion de Transporte"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_res_driver__partner_id
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_transport_unit__partner_id
+msgid "Transport"
+msgstr "Transporte"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.ui.menu,name:l10n_pe_edi_picking.pragmatic_sp_edi_catalog18
+msgid "Transport Mode"
+msgstr "Modo de Transporte"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_res_partner__transport_units
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_res_users__transport_units
+msgid "Transport Unit"
+msgstr "Unidad de Transporte"
+
+#. module: l10n_pe_edi_picking
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.gre_res_partner_view
+msgid "Transport Units"
+msgstr "Unidades de Transporte"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_picking_referral_guide__transport_mode
+msgid "Transport mode"
+msgstr "Modo de Transporte"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_picking_referral_guide__transport_unit_id
+msgid "Transport unit"
+msgstr "Unidad de Transporte"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model,name:l10n_pe_edi_picking.model_transport_unit
+msgid "Transport units"
+msgstr "Unidades de Transporte"
+
+#. module: l10n_pe_edi_picking
+#: model:res.partner.category,name:l10n_pe_edi_picking.picking_edi_transport
+msgid "Transportista"
+msgstr ""
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,help:l10n_pe_edi_picking.field_picking_referral_guide__edit_origin
+#: model:ir.model.fields,help:l10n_pe_edi_picking.field_pragmatic_transportation_reason_catalog_20__edit_origin
+msgid "True if change Origin Partner"
+msgstr "Verdadero si cambia el issuer"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_picking_referral_guide__type_document
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_res_driver__type_document
+msgid "Type Document"
+msgstr "Tipo de documento"
+
+#. module: l10n_pe_edi_picking
+#: code:addons/l10n_pe_edi_picking/models/picking_referral_guide.py:0
+#, python-format
+msgid "Type Error"
+msgstr "Tipo de Error"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,help:l10n_pe_edi_picking.field_picking_referral_guide__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr "Tipo de excepcion de la actividad"
+
+#. module: l10n_pe_edi_picking
+#: code:addons/l10n_pe_edi_picking/models/picking_referral_guide.py:0
+#, python-format
+msgid "Ubigeous code not found for destination address"
+msgstr "Codigo de Ubigeo no encontrado en la direccion de destino"
+
+#. module: l10n_pe_edi_picking
+#: code:addons/l10n_pe_edi_picking/models/picking_referral_guide.py:0
+#, python-format
+msgid "Ubigeous code not found for source address"
+msgstr "Codigo de Ubigeo no encontrado en la direccion de origen"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,help:l10n_pe_edi_picking.field_uom_uom__l10n_pe_edi_measure_unit_code
+msgid ""
+"Unit code that relates to a product in order to identify what measure unit "
+"it uses, the possible values that you can use here can be found in this URL"
+msgstr ""
+"Código de unidad que se relaciona con un producto para identificar qué "
+"unidad de medida utiliza, los posibles valores que puede utilizar aquí se "
+"pueden encontrar en esta URL"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_picking_referral_guide__unit_of_measurement
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_picking_referral_guide_line__unit_of_measurement
+#: model:ir.ui.menu,name:l10n_pe_edi_picking.pragmatic_sp_edi_table06
+msgid "Unit of measurement"
+msgstr "Unidad de Medida"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_picking_referral_guide__message_unread
+msgid "Unread Messages"
+msgstr "Mensajes no leidos"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_picking_referral_guide__message_unread_counter
+msgid "Unread Messages Counter"
+msgstr "Contador de mensajes no leidos"
+
+#. module: l10n_pe_edi_picking
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.view_referral_guide_form
+msgid "Validate GRE"
+msgstr "Validar GRE"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields.selection,name:l10n_pe_edi_picking.selection__picking_referral_guide__state__validated
+msgid "Validated"
+msgstr "Validado"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_picking_referral_guide__website_message_ids
+msgid "Website Messages"
+msgstr "Mensajes por pagina web"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,help:l10n_pe_edi_picking.field_picking_referral_guide__website_message_ids
+msgid "Website communication history"
+msgstr "Historial de comunicacion por pagina web"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_picking_referral_guide_line__weight
+msgid "Weight"
+msgstr "Peso"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_picking_referral_guide__who_received
+msgid "Who Received"
+msgstr "Quien Recibe?"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model,name:l10n_pe_edi_picking.model_picking_referral_guide_wizard
+msgid "Wizard to low Referral Guide"
+msgstr "Ventana para dar de Baja a la Guia de Remision"
+
+#. module: l10n_pe_edi_picking
+#: code:addons/l10n_pe_edi_picking/models/picking_referral_guide.py:0
+#, python-format
+msgid "XSD validation failed: %s"
+msgstr "XSD Ocurrio un error: %s"
+
+#. module: l10n_pe_edi_picking
+#: code:addons/l10n_pe_edi_picking/models/picking_referral_guide.py:0
+#, python-format
+msgid "You cannot delete once a correlative is assigned: (%s)"
+msgstr "No puedes eliminar un registro con un correlativo asignado: (%s)"
+
+#. module: l10n_pe_edi_picking
+#: code:addons/l10n_pe_edi_picking/models/res_company.py:0
+#, python-format
+msgid "certificate not found"
+msgstr "Certificado no encontrado"
+
+#. module: l10n_pe_edi_picking
+#: code:addons/l10n_pe_edi_picking/models/picking_referral_guide.py:0
+#, python-format
+msgid "enter the destination address correctly"
+msgstr "Ingresa la direccion de destino correctamente"
+
+#. module: l10n_pe_edi_picking
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.pe_ubl_2_1_edi_picking_edi
+msgid "false"
+msgstr ""
+
+#. module: l10n_pe_edi_picking
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.edi_picking_config_settings
+msgid "here"
+msgstr "Aqui"

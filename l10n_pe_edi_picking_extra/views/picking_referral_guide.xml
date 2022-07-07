@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="picking_referral_guide_extra" model="ir.ui.view">
+            <field name="name">picking.referral.guide.inherit</field>
+            <field name="model">picking.referral.guide</field>
+            <field name="inherit_id" ref="l10n_pe_edi_picking.view_referral_guide_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//page[@name='other_information']" position="inside">
+                    <group string="Associated Invoice">
+                        <group>
+                            <field name="invoice_filters" invisible="1"/>
+                            <field name="invoice_id" nolabel="1"
+                                   attrs="{'readonly': [('state', 'not in', ['draft'])]}"
+                                   options="{'no_create': True, 'no_create_edit':True,'no_open': True}"
+                                   domain="[('id','in',invoice_filters)]"/>
+                        </group>
+                    </group>
+                </xpath>
+            </field>
+        </record>
+    </data>
+</odoo>

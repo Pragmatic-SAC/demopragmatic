@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="picking_edi_transport" model="res.partner.category">
+            <field name="name">Transportista</field>
+            <field name="active" eval="True"/>
+        </record>
+    </data>
+</odoo>

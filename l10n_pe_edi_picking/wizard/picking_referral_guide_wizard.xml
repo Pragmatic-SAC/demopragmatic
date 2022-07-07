@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="view_referral_guide_wizard" model="ir.ui.view">
+            <field name="name">picking.referral.guide.wizard</field>
+            <field name="model">picking.referral.guide.wizard</field>
+            <field name="mode">primary</field>
+            <field name="arch" type="xml">
+                <form>
+                    <group>
+                        <div class="alert alert-warning h6">For the Sender Remission Guides there is no option to
+                            communicate unsubscription and they only have a specific useful use for merchandise
+                            shipments, after the shipment has been committed or made they no longer have any use for
+                            SUNAT, for that reason the SUNAT has not implemented a guidance override. If the issuing
+                            customer makes a guide and makes a mistake, they will simply have to make another guide and
+                            use the correct guide.
+                        </div>
+                    </group>
+                    <group>
+                        <field name="referral_slow" readonly="1"/>
+                    </group>
+                    <group>
+                        <field name="name"/>
+                    </group>
+                    <footer>
+                        <button name="action_slow" type="object" string="Low Referral Guide" class="btn-primary"/>
+                        <button string="Cancel" class="btn-secondary" special="cancel"/>
+                    </footer>
+                </form>
+            </field>
+        </record>
+
+        <record id="l10n_pe_edi_picking" model="ir.actions.act_window">
+            <field name="name">Low Referral</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">picking.referral.guide.wizard</field>
+            <field name="view_mode">form</field>
+            <field name="target">new</field>
+            <field name="context">{'default_referral_slow': active_id}</field>
+        </record>
+
+    </data>
+</odoo>

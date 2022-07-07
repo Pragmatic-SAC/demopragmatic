@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+        <menuitem
+            id="pragmatic_stock_picking_edi"
+            name="Referral Guide"
+            parent="l10n_pe_conf.pragmatic_root"
+            sequence="2"/>
+
+        <menuitem id="pragmatic_sp_edi_catalog18"
+              sequence="1"
+              action="pragmatic_transport_mode_catalog_18_action"
+              name="Transport Mode"
+              parent="pragmatic_stock_picking_edi"/>
+
+        <menuitem id="pragmatic_sp_edi_catalog20"
+              sequence="2"
+              action="pragmatic_transportation_reason_catalog_20_action"
+              name="Reason for Transfer"
+              parent="pragmatic_stock_picking_edi"/>
+
+         <menuitem id="pragmatic_sp_edi_table06"
+              sequence="3"
+              action="pragmatic_table_6_action"
+              name="Unit of measurement"
+              parent="pragmatic_stock_picking_edi"/>
+</odoo>

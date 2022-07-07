@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <template id="template_account_referral_document_fe_extra"
+                  inherit_id="l10n_pe_edi_picking.template_account_referral_document_fe">
+            <xpath expr="//div[hasclass('picking_header_1')]/div[@class='row mt-2']/div[@class='col-6'][2]"
+                   position="inside">
+                <div class="row mt-1" t-if="o.addressee_id.vat">
+                    <div class="col-4">
+                        <strong class="to_left">Invoice Related</strong>
+                        <strong class="to_right">:</strong>
+                    </div>
+                    <div class="col-8 pl-0">
+                        <span t-field="o.invoice_id"/>
+                    </div>
+                </div>
+            </xpath>
+        </template>
+    </data>
+</odoo>
